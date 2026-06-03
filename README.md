@@ -1,3 +1,3 @@
-Introduction to AI
+# Gym Assistant Chatbot
 
-# Project 2 - Chatbot Gym Assistant
+Đồ án Giới thiệu ngành AI
