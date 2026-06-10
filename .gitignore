@@ -1,0 +1,48 @@
+# Tệp cấu hình phím tắt và khóa API (Không bao giờ đưa lên git)
+api_keys.json
+credentials.yml
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Môi trường ảo (Virtual Environment)
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# Cấu hình IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Cấu hình và bộ nhớ đệm của Rasa
+.rasa/
+models/*.tar.gz
+results/
+train_test_split/

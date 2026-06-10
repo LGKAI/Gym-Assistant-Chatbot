@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Chatbot</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: radial-gradient(circle at top, #0f2027, #203a43, #2c5364);
+            overflow: hidden;
+        }
+
+        #chat-container {
+            width: 450px;
+            height: 650px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        #chat-header {
+            padding: 20px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #ffffff;
+            text-align: center;
+            background: linear-gradient(135deg, #16a085, #27ae60);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        #chat-box {
+            flex-grow: 1;
+            padding: 15px;
+            overflow-y: auto;
+            color: #ffffff;
+            scrollbar-width: thin;
+            scrollbar-color: #27ae60 rgba(255, 255, 255, 0.2);
+        }
+
+        #chat-box::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        #chat-box::-webkit-scrollbar-thumb {
+            background: linear-gradient(135deg, #1abc9c, #2ecc71);
+            border-radius: 5px;
+        }
+
+        .message {
+            margin: 10px 0;
+            padding: 12px 15px;
+            border-radius: 20px;
+            animation: fadeIn 0.5s ease-in-out;
+            max-width: 70%;
+            word-wrap: break-word;
+            font-size: 1rem;
+        }
+
+        .user {
+            margin-left: auto;
+            background: linear-gradient(135deg, #16a085, #27ae60);
+            color: #ffffff;
+        }
+
+        .bot {
+            margin-right: auto;
+            background: linear-gradient(135deg, #3498db, #2ecc71);
+            color: #ffffff;
+        }
+
+        /* Input Section */
+        #input-container {
+            display: flex;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        #chat-input {
+            flex-grow: 1;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 25px;
+            background: rgba(255, 255, 255, 0.2);
+            color: #fff;
+            font-size: 1rem;
+            outline: none;
+            transition: background-color 0.3s;
+        }
+
+        #chat-input::placeholder {
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        #send-btn {
+            margin-left: 15px;
+            width: 50px;
+            height: 50px;
+            border: none;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #16a085, #27ae60);
+            color: #ffffff;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        #send-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="chat-container">
+        <div id="chat-header">Gym Chatbot</div>
+        <div id="chat-box"></div>
+        <div id="input-container">
+            <input id="chat-input" type="text" placeholder="Type your message..." autocomplete="off">
+            <button id="send-btn">➤</button>
+        </div>
+    </div>
+
+    <script>
+        const chatBox = document.getElementById('chat-box');
+        const chatInput = document.getElementById('chat-input');
+        const sendBtn = document.getElementById('send-btn');
+
+        function appendMessage(sender, message) {
+            const msgDiv = document.createElement('div');
+            msgDiv.classList.add('message', sender);
+            msgDiv.textContent = message;
+            chatBox.appendChild(msgDiv);
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+
+        sendBtn.addEventListener('click', async () => {
+            const userMessage = chatInput.value.trim();
+            if (!userMessage) return;
+
+            appendMessage('user', userMessage);
+            chatInput.value = '';
+
+            try {
+                const response = await fetch('/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message: userMessage }),
+                });
+
+                const data = await response.json();
+                if (data.messages) {
+                    data.messages.forEach(msg => appendMessage('bot', msg));
+                } else {
+                    appendMessage('bot', 'No response from server.');
+                }
+            } catch (error) {
+                appendMessage('bot', 'Error: Could not connect to server.');
+            }
+        });
+
+        chatInput.addEventListener('keypress', (event) => {
+            if (event.key === 'Enter') sendBtn.click();
+        });
+    </script>
+</body>
+</html>

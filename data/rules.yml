@@ -1,0 +1,763 @@
+version: "3.1"
+
+rules:
+
+- rule: response to recommend_muscle_group_exercise
+  steps:
+  - intent: recommend_muscle_group_exercise
+  - action: action_recommend_exercise
+  
+- rule: response to intensity_vs_recovery
+  steps:
+  - intent: intensity_vs_recovery
+  - action: utter_ans_intensity_vs_recovery
+
+- rule: response to rest_days_when_tired
+  steps:
+  - intent: rest_days_when_tired
+  - action: utter_ans_rest_days_when_tired
+
+- rule: response to signs_of_overtraining
+  steps:
+  - intent: signs_of_overtraining
+  - action: utter_ans_signs_of_overtraining
+
+- rule: response to avoid_overtraining
+  steps:
+  - intent: avoid_overtraining
+  - action: utter_ans_avoid_overtraining
+
+- rule: response to achievable_fitness_targets
+  steps:
+  - intent: achievable_fitness_targets
+  - action: utter_ans_achievable_fitness_targets
+
+- rule: response to create_gym_milestones
+  steps:
+  - intent: create_gym_milestones
+  - action: utter_ans_create_gym_milestones
+
+- rule: response to short_term_vs_long_term_goals
+  steps:
+  - intent: short_term_vs_long_term_goals
+  - action: utter_ans_short_term_vs_long_term_goals
+
+- rule: response to set_fitness_goals
+  steps:
+  - intent: set_fitness_goals
+  - action: utter_ans_set_fitness_goals
+
+- rule: response to change_workout_routine
+  steps:
+  - intent: change_workout_routine
+  - action: utter_ans_change_workout_routine
+
+- rule: response to mix_exercises_session
+  steps:
+  - intent: mix_exercises_session
+  - action: utter_ans_mix_exercises_session
+
+- rule: response to avoid_workout_boredom
+  steps:
+  - intent: avoid_workout_boredom
+  - action: utter_ans_avoid_workout_boredom
+
+- rule: response to add_spin_to_cardio
+  steps:
+  - intent: add_spin_to_cardio
+  - action: utter_ans_add_spin_to_cardio
+
+- rule: response to spin_class_calorie_burn
+  steps:
+  - intent: spin_class_calorie_burn
+  - action: utter_ans_spin_class_calorie_burn
+
+- rule: response to cycling_vs_running
+  steps:
+  - intent: cycling_vs_running
+  - action: utter_ans_cycling_vs_running
+
+- rule: response to spin_classes_weight_loss
+  steps:
+  - intent: spin_classes_weight_loss
+  - action: utter_ans_spin_classes_weight_loss
+
+- rule: response to first_fitness_class
+  steps:
+  - intent: first_fitness_class
+  - action: utter_ans_first_fitness_class
+
+- rule: response to zumba_vs_yoga
+  steps:
+  - intent: zumba_vs_yoga
+  - action: utter_ans_zumba_vs_yoga
+
+- rule: response to group_classes_beginners
+  steps:
+  - intent: group_classes_beginners
+  - action: utter_ans_group_classes_beginners
+
+- rule: response to body_composition_tracking
+  steps:
+  - intent: body_composition_tracking
+  - action: utter_ans_body_composition_tracking
+
+- rule: response to prioritize_fat_over_weight
+  steps:
+  - intent: prioritize_fat_over_weight
+  - action: utter_ans_prioritize_fat_over_weight
+
+- rule: response to measure_body_fat
+  steps:
+  - intent: measure_body_fat
+  - action: utter_ans_measure_body_fat
+
+- rule: response to check_body_fat
+  steps:
+  - intent: check_body_fat
+  - action: utter_ans_check_body_fat
+
+- rule: response to record_progress
+  steps:
+  - intent: record_progress
+  - action: utter_ans_record_progress
+
+- rule: response to apps_for_exercises
+  steps:
+  - intent: apps_for_exercises
+  - action: utter_ans_apps_for_exercises
+
+- rule: response to log_workouts
+  steps:
+  - intent: log_workouts
+  - action: utter_ans_log_workouts
+
+- rule: response to measure_muscle_gain
+  steps:
+  - intent: measure_muscle_gain
+  - action: utter_ans_measure_muscle_gain
+
+- rule: response to track_weight_changes
+  steps:
+  - intent: track_weight_changes
+  - action: utter_ans_track_weight_changes
+
+- rule: response to progress_assessment
+  steps:
+  - intent: progress_assessment
+  - action: utter_ans_progress_assessment
+
+- rule: response to weightlifting_belt_purpose
+  steps:
+  - intent: weightlifting_belt_purpose
+  - action: utter_ans_weightlifting_belt_purpose
+
+- rule: response to dumbbell_gloves
+  steps:
+  - intent: dumbbell_gloves
+  - action: utter_ans_dumbbell_gloves
+
+- rule: response to lifting_gloves
+  steps:
+  - intent: lifting_gloves
+  - action: utter_ans_lifting_gloves
+
+- rule: response to weightlifting_shoes
+  steps:
+  - intent: weightlifting_shoes
+  - action: utter_ans_weightlifting_shoes
+
+- rule: response to gym_shoes
+  steps:
+  - intent: gym_shoes
+  - action: utter_ans_gym_shoes
+
+- rule: response to cutting_bulking
+  steps:
+  - intent: cutting_bulking
+  - action: utter_ans_cutting_bulking
+
+- rule: response to tone_or_bulk
+  steps:
+  - intent: tone_or_bulk
+  - action: utter_ans_tone_or_bulk
+
+- rule: response to toning_vs_bulking
+  steps:
+  - intent: toning_vs_bulking
+  - action: utter_ans_toning_vs_bulking
+
+- rule: response to core_exercises
+  steps:
+  - intent: core_exercises
+  - action: utter_ans_core_exercises
+
+- rule: response to abs_through_diet
+  steps:
+  - intent: abs_through_diet
+  - action: utter_ans_abs_through_diet
+
+- rule: response to six_pack_abs
+  steps:
+  - intent: six_pack_abs
+  - action: utter_ans_six_pack_abs
+
+- rule: response to target_weaker_muscles
+  steps:
+  - intent: target_weaker_muscles
+  - action: utter_ans_target_weaker_muscles
+
+- rule: response to unilateral_exercises
+  steps:
+  - intent: unilateral_exercises
+  - action: utter_ans_unilateral_exercises
+
+- rule: response to even_out_strength
+  steps:
+  - intent: even_out_strength
+  - action: utter_ans_even_out_strength
+
+- rule: response to fix_muscle_imbalance
+  steps:
+  - intent: fix_muscle_imbalance
+  - action: utter_ans_fix_muscle_imbalance
+
+- rule: response to resistance_exercise_weight_loss
+  steps:
+  - intent: resistance_exercise_weight_loss
+  - action: utter_ans_resistance_exercise_weight_loss
+
+- rule: response to weight_stuck
+  steps:
+  - intent: weight_stuck
+  - action: utter_ans_weight_stuck
+
+- rule: response to overcome_weight_loss_plateau
+  steps:
+  - intent: overcome_weight_loss_plateau
+  - action: utter_ans_overcome_weight_loss_plateau
+
+- rule: response to stop_weight_loss
+  steps:
+  - intent: stop_weight_loss
+  - action: utter_ans_stop_weight_loss
+
+- rule: response to fats_in_fitness_diet
+  steps:
+  - intent: fats_in_fitness_diet
+  - action: utter_ans_fats_in_fitness_diet
+
+- rule: response to carbs_for_workout
+  steps:
+  - intent: carbs_for_workout
+  - action: utter_ans_carbs_for_workout
+
+- rule: response to high_protein_diet
+  steps:
+  - intent: high_protein_diet
+  - action: utter_ans_high_protein_diet
+
+- rule: response to gym_goers_diet
+  steps:
+  - intent: gym_goers_diet
+  - action: utter_ans_gym_goers_diet
+
+- rule: response to calories_muscle_building
+  steps:
+  - intent: calories_muscle_building
+  - action: utter_ans_calories_muscle_building
+
+- rule: response to calorie_tracking
+  steps:
+  - intent: calorie_tracking
+  - action: utter_ans_calorie_tracking
+
+- rule: response to calculate_calories
+  steps:
+  - intent: calculate_calories
+  - action: utter_ans_calculate_calories
+
+- rule: response to refuel_after_gym
+  steps:
+  - intent: refuel_after_gym
+  - action: utter_ans_refuel_after_gym
+
+- rule: response to post_workout_protein
+  steps:
+  - intent: post_workout_protein
+  - action: utter_ans_post_workout_protein
+
+- rule: response to post_workout_food
+  steps:
+  - intent: post_workout_food
+  - action: utter_ans_post_workout_food
+
+- rule: response to runner_training_plan
+  steps:
+  - intent: runner_training_plan
+  - action: utter_ans_runner_training_plan
+
+- rule: response to running_strength_training
+  steps:
+  - intent: running_strength_training
+  - action: utter_ans_running_strength_training
+
+- rule: response to marathon_training
+  steps:
+  - intent: marathon_training
+  - action: utter_ans_marathon_training
+
+- rule: response to endurance_training
+  steps:
+  - intent: endurance_training
+  - action: utter_ans_endurance_training
+
+- rule: response to combine_strength_hypertrophy
+  steps:
+  - intent: combine_strength_hypertrophy
+  - action: utter_ans_combine_strength_hypertrophy
+
+- rule: response to strength_vs_hypertrophy
+  steps:
+  - intent: strength_vs_hypertrophy
+  - action: utter_ans_strength_vs_hypertrophy
+
+- rule: response to strength_low_reps
+  steps:
+  - intent: strength_low_reps
+  - action: utter_ans_strength_low_reps
+
+- rule: response to strength_training
+  steps:
+  - intent: strength_training
+  - action: utter_ans_strength_training
+
+- rule: response to naps_recovery
+  steps:
+  - intent: naps_recovery
+  - action: utter_ans_naps_recovery
+
+- rule: response to sleep_muscle_recovery
+  steps:
+  - intent: sleep_muscle_recovery
+  - action: utter_ans_sleep_muscle_recovery
+
+- rule: response to stop_exercise_pain
+  steps:
+  - intent: stop_exercise_pain
+  - action: utter_ans_stop_exercise_pain
+
+- rule: response to poor_form_injuries
+  steps:
+  - intent: poor_form_injuries
+  - action: utter_ans_poor_form_injuries
+
+- rule: response to post_workout_rest
+  steps:
+  - intent: post_workout_rest
+  - action: utter_ans_post_workout_rest
+
+- rule: response to sore_muscles_treatment
+  steps:
+  - intent: sore_muscles_treatment
+  - action: utter_ans_sore_muscles_treatment
+
+- rule: response to back_arch_bench_press
+  steps:
+  - intent: back_arch_bench_press
+  - action: utter_ans_back_arch_bench_press
+
+- rule: response to bench_press_shoulder_pain
+  steps:
+  - intent: bench_press_shoulder_pain
+  - action: utter_ans_bench_press_shoulder_pain
+
+- rule: response to bench_press_strength
+  steps:
+  - intent: bench_press_strength
+  - action: utter_ans_bench_press_strength
+
+- rule: response to deadlift_belt
+  steps:
+  - intent: deadlift_belt
+  - action: utter_ans_deadlift_belt
+
+- rule: response to proper_deadlift
+  steps:
+  - intent: proper_deadlift
+  - action: utter_ans_proper_deadlift
+
+- rule: response to squat_mistakes
+  steps:
+  - intent: squat_mistakes
+  - action: utter_ans_squat_mistakes
+
+- rule: response to proper_squat
+  steps:
+  - intent: proper_squat
+  - action: utter_ans_proper_squat
+
+- rule: response to correct_slouching
+  steps:
+  - intent: correct_slouching
+  - action: utter_ans_correct_slouching
+
+- rule: response to improve_posture
+  steps:
+  - intent: improve_posture
+  - action: utter_ans_improve_posture
+
+- rule: response to yoga_recovery
+  steps:
+  - intent: yoga_recovery
+  - action: utter_ans_yoga_recovery
+
+- rule: response to yoga_benefits
+  steps:
+  - intent: yoga_benefits
+  - action: utter_ans_yoga_benefits
+
+- rule: response to improve_flexibility
+  steps:
+  - intent: improve_flexibility
+  - action: utter_ans_improve_flexibility
+
+- rule: response to mental_health_fitness_balance
+  steps:
+  - intent: mental_health_fitness_balance
+  - action: utter_ans_mental_health_fitness_balance
+
+- rule: response to tired_to_workout
+  steps:
+  - intent: tired_to_workout
+  - action: utter_ans_tired_to_workout
+
+- rule: response to exercise_while_down
+  steps:
+  - intent: exercise_while_down
+  - action: utter_ans_exercise_while_down
+
+- rule: response to motivation_during_struggles
+  steps:
+  - intent: motivation_during_struggles
+  - action: utter_ans_motivation_during_struggles
+
+- rule: response to anxiety_relief_workouts
+  steps:
+  - intent: anxiety_relief_workouts
+  - action: utter_ans_anxiety_relief_workouts
+
+- rule: response to exercise_mood_boost
+  steps:
+  - intent: exercise_mood_boost
+  - action: utter_ans_exercise_mood_boost
+
+- rule: response to fitness_mental_wellbeing
+  steps:
+  - intent: fitness_mental_wellbeing
+  - action: utter_ans_fitness_mental_wellbeing
+
+- rule: response to exercise_mental_health
+  steps:
+  - intent: exercise_mental_health
+  - action: utter_ans_exercise_mental_health
+
+- rule: response to importance_reracking
+  steps:
+  - intent: importance_reracking
+  - action: utter_ans_importance_reracking
+
+- rule: response to reracking_etiquette
+  steps:
+  - intent: reracking_etiquette
+  - action: utter_ans_reracking_etiquette
+
+- rule: response to weights_on_bar
+  steps:
+  - intent: weights_on_bar
+  - action: utter_ans_weights_on_bar
+
+- rule: response to rerack_weights
+  steps:
+  - intent: rerack_weights
+  - action: utter_ans_rerack_weights
+
+- rule: response to share_gym_equipment
+  steps:
+  - intent: share_gym_equipment
+  - action: utter_ans_share_gym_equipment
+
+- rule: response to work_in_equipment
+  steps:
+  - intent: work_in_equipment
+  - action: utter_ans_work_in_equipment
+
+- rule: response to share_equipment
+  steps:
+  - intent: share_equipment
+  - action: utter_ans_share_equipment
+
+- rule: response to wipe_down_machines
+  steps:
+  - intent: wipe_down_machines
+  - action: utter_ans_wipe_down_machines
+
+- rule: response to clean_gym_equipment
+  steps:
+  - intent: clean_gym_equipment
+  - action: utter_ans_clean_gym_equipment
+
+- rule: response to overcome_gym_anxiety
+  steps:
+  - intent: overcome_gym_anxiety
+  - action: utter_ans_overcome_gym_anxiety
+
+- rule: response to fitness_apps_tracking
+  steps:
+  - intent: fitness_apps_tracking
+  - action: utter_ans_fitness_apps_tracking
+
+- rule: response to workout_journal
+  steps:
+  - intent: workout_journal
+  - action: utter_ans_workout_journal
+
+- rule: response to fitness_improvement
+  steps:
+  - intent: fitness_improvement
+  - action: utter_ans_fitness_improvement
+
+- rule: response to track_progress
+  steps:
+  - intent: track_progress
+  - action: utter_ans_track_progress
+
+- rule: response to workout_motivation
+  steps:
+  - intent: workout_motivation
+  - action: utter_ans_workout_motivation
+
+- rule: response to improve_running_pace
+  steps:
+  - intent: improve_running_pace
+  - action: utter_ans_improve_running_pace
+
+- rule: response to running_speed
+  steps:
+  - intent: running_speed
+  - action: utter_ans_running_speed
+
+- rule: response to cardio_fat_burning
+  steps:
+  - intent: cardio_fat_burning
+  - action: utter_ans_cardio_fat_burning
+
+- rule: response to hiit_pros_cons
+  steps:
+  - intent: hiit_pros_cons
+  - action: utter_ans_hiit_pros_cons
+
+- rule: response to hiit_vs_steady_state
+  steps:
+  - intent: hiit_vs_steady_state
+  - action: utter_ans_hiit_vs_steady_state
+
+- rule: response to cardio_alternatives
+  steps:
+  - intent: cardio_alternatives
+  - action: utter_ans_cardio_alternatives
+
+- rule: response to enjoyable_cardio
+  steps:
+  - intent: enjoyable_cardio
+  - action: utter_ans_enjoyable_cardio
+
+- rule: response to supersets
+  steps:
+  - intent: supersets
+  - action: utter_ans_supersets
+
+- rule: response to drop_sets
+  steps:
+  - intent: drop_sets
+  - action: utter_ans_drop_sets
+
+- rule: response to increase_strength
+  steps:
+  - intent: increase_strength
+  - action: utter_ans_increase_strength
+
+- rule: response to importance_rest_days
+  steps:
+  - intent: importance_rest_days
+  - action: utter_ans_importance_rest_days
+
+- rule: response to injury_prevention
+  steps:
+  - intent: injury_prevention
+  - action: utter_ans_injury_prevention
+
+- rule: response to workout_recovery
+  steps:
+  - intent: workout_recovery
+  - action: utter_ans_workout_recovery
+
+- rule: response to progressive_overload
+  steps:
+  - intent: progressive_overload
+  - action: utter_ans_progressive_overload
+
+- rule: response to train_to_failure
+  steps:
+  - intent: train_to_failure
+  - action: utter_ans_train_to_failure
+
+- rule: response to reps_vs_weights
+  steps:
+  - intent: reps_vs_weights
+  - action: utter_ans_reps_vs_weights
+
+- rule: response to hypertrophy_reps_sets
+  steps:
+  - intent: hypertrophy_reps_sets
+  - action: utter_ans_hypertrophy_reps_sets
+
+- rule: response to build_muscle
+  steps:
+  - intent: build_muscle
+  - action: utter_ans_build_muscle
+
+- rule: response to fat_loss_weightlifting
+  steps:
+  - intent: fat_loss_weightlifting
+  - action: utter_ans_fat_loss_weightlifting
+
+- rule: response to cardio_duration_weight_loss
+  steps:
+  - intent: cardio_duration_weight_loss
+  - action: utter_ans_cardio_duration_weight_loss
+
+- rule: response to lose_midsection_fat
+  steps:
+  - intent: lose_midsection_fat
+  - action: utter_ans_lose_midsection_fat
+
+- rule: response to cardio_vs_weights
+  steps:
+  - intent: cardio_vs_weights
+  - action: utter_ans_cardio_vs_weights
+
+- rule: response to burn_belly_fat
+  steps:
+  - intent: burn_belly_fat
+  - action: utter_ans_burn_belly_fat
+
+- rule: response to water_timing
+  steps:
+  - intent: water_timing
+  - action: utter_ans_water_timing
+
+- rule: response to water_intake_workout
+  steps:
+  - intent: water_intake_workout
+  - action: utter_ans_water_intake_workout
+
+- rule: response to protein_powder
+  steps:
+  - intent: protein_powder
+  - action: utter_ans_protein_powder
+
+- rule: response to protein_shakes
+  steps:
+  - intent: protein_shakes
+  - action: utter_ans_protein_shakes
+
+- rule: response to pre_workout_food
+  steps:
+  - intent: pre_workout_food
+  - action: utter_ans_pre_workout_food
+
+- rule: response to improve_stamina
+  steps:
+  - intent: improve_stamina
+  - action: utter_ans_improve_stamina
+
+- rule: response to beginner_gym_plan
+  steps:
+  - intent: beginner_gym_plan
+  - action: utter_ans_beginner_gym_plan
+
+- rule: response to create_workout_plan
+  steps:
+  - intent: create_workout_plan
+  - action: utter_ans_create_workout_plan
+
+- rule: response to kettlebell_usage
+  steps:
+  - intent: kettlebell_usage
+  - action: utter_ans_kettlebell_usage
+
+- rule: response to dumbbell_usage
+  steps:
+  - intent: dumbbell_usage
+  - action: utter_ans_dumbbell_usage
+
+- rule: response to adjust_weights
+  steps:
+  - intent: adjust_weights
+  - action: utter_ans_adjust_weights
+
+- rule: response to treadmill_usage
+  steps:
+  - intent: treadmill_usage
+  - action: utter_ans_treadmill_usage
+
+- rule: response to warm_up
+  steps:
+  - intent: warm_up
+  - action: utter_ans_warm_up
+
+- rule: response to personal_trainer
+  steps:
+  - intent: personal_trainer
+  - action: utter_ans_personal_trainer
+
+- rule: response to workout_time
+  steps:
+  - intent: workout_time
+  - action: utter_ans_workout_time
+
+- rule: response to workout_frequency
+  steps:
+  - intent: workout_frequency
+  - action: utter_ans_workout_frequency
+
+- rule: response to gym_frequency
+  steps:
+  - intent: gym_frequency
+  - action: utter_ans_gym_frequency
+
+- rule: response to gym_essentials
+  steps:
+  - intent: gym_essentials
+  - action: utter_ans_gym_essentials
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Handle low confidence fallback
+  steps:
+    - intent: nlu_fallback
+    - action: action_low_confidence_fallback
+
+- rule: Say hi to anytime the user greet
+  steps:
+    - intent: greet
+    - action: utter_greet

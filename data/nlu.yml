@@ -1,0 +1,840 @@
+version: "3.1"
+
+nlu:
+
+- intent: intensity_vs_recovery
+  examples: |
+    - How do I balance workout intensity and recovery?
+
+- intent: rest_days_when_tired
+  examples: |
+    - Should I take more rest days if I feel tired?
+
+- intent: signs_of_overtraining
+  examples: |
+    - What are the signs that I'm working out too much?
+
+- intent: avoid_overtraining
+  examples: |
+    - How do I avoid overtraining?
+
+- intent: achievable_fitness_targets
+  examples: |
+    - Can you help me set achievable fitness targets?
+
+- intent: create_gym_milestones
+  examples: |
+    - How do I create realistic gym milestones?
+
+- intent: short_term_vs_long_term_goals
+  examples: |
+    - Should I aim for short-term or long-term goals?
+
+- intent: set_fitness_goals
+  examples: |
+    - What's the best way to set fitness goals?
+
+- intent: change_workout_routine
+  examples: |
+    - How often should I change my routine?
+
+- intent: mix_exercises_session
+  examples: |
+    - Can I mix different exercises in one session?
+
+- intent: avoid_workout_boredom
+  examples: |
+    - What's the best way to avoid workout boredom?
+    - How do I keep my workouts exciting?
+
+- intent: add_spin_to_cardio
+  examples: |
+    - Should I add spin classes to my cardio routine?
+
+- intent: spin_class_calorie_burn
+  examples: |
+    - What's the calorie burn potential of spin classes?
+
+- intent: cycling_vs_running
+  examples: |
+    - Is cycling better than running for losing weight?
+    
+
+- intent: spin_classes_weight_loss
+  examples: |
+    - Are spin classes effective for fat loss?
+
+- intent: first_fitness_class
+  examples: |
+    - How do I join my first fitness class?
+
+- intent: zumba_vs_yoga
+  examples: |
+    - Should I try Zumba or yoga as a beginner?
+
+- intent: group_classes_beginners
+  examples: |
+    - What's the best group class for beginners?
+
+- intent: body_composition_tracking
+  examples: |
+    - How do I track changes in body composition?
+
+- intent: prioritize_fat_over_weight
+  examples: |
+    - Should I prioritize body fat over weight?
+
+- intent: measure_body_fat
+  examples: |
+    - What's the most accurate way to measure body fat?
+
+- intent: check_body_fat
+  examples: |
+    - How often should I check my body fat percentage?
+
+- intent: record_progress
+  examples: |
+    - How do I record my progress over time?
+
+- intent: apps_for_exercises
+  examples: |
+    - Are digital apps better for tracking exercises?
+
+- intent: log_workouts
+  examples: |
+    - What's the best way to log my workouts?
+
+- intent: measure_muscle_gain
+  examples: |
+    - How do I measure muscle gain?
+
+- intent: track_weight_changes
+  examples: |
+    - Should I track my weight changes weekly?
+
+- intent: progress_assessment
+  examples: |
+    - How do I know if I'm making progress?
+
+- intent: weightlifting_belt_purpose
+  examples: |
+    - What's the purpose of a weightlifting belt?
+
+- intent: dumbbell_gloves
+  examples: |
+    - Should I wear gloves while using dumbbells?
+
+- intent: lifting_gloves
+  examples: |
+    - What are alternatives to lifting gloves?
+    - Are lifting gloves helpful for grip?
+    - Do I need gloves for weightlifting?
+
+- intent: weightlifting_shoes
+  examples: |
+    - What's the best footwear for cardio exercises?
+    - Are there specific shoes for weightlifting?
+
+- intent: gym_shoes
+  examples: |
+    - How do I choose gym-appropriate shoes?
+    - What shoes should I wear to the gym?
+
+- intent: cutting_bulking
+  examples: |
+    - Can you explain the concept of cutting and bulking?
+
+- intent: tone_or_bulk
+  examples: |
+    - How do I know if I need to tone or bulk?
+    - Should I focus on toning or bulking first?
+
+- intent: toning_vs_bulking
+  examples: |
+    - What's the difference between toning and bulking?
+
+- intent: core_exercises
+  examples: |
+    - What are the most effective core exercises?
+
+- intent: abs_through_diet
+  examples: |
+    - Can I achieve visible abs through diet alone?
+
+- intent: six_pack_abs
+  examples: |
+    - How do I train my abs effectively?
+    - What's the best way to get a six-pack?
+
+- intent: target_weaker_muscles
+  examples: |
+    - How do I target weaker muscles?
+
+- intent: unilateral_exercises
+  examples: |
+    - Can unilateral exercises help with asymmetry?
+
+- intent: even_out_strength
+  examples: |
+    - What's the best way to even out strength on both sides?
+
+- intent: fix_muscle_imbalance
+  examples: |
+    - How do I fix muscle imbalances?
+
+- intent: resistance_exercise_weight_loss
+  examples: |
+    - What's the role of resistance exercises in losing weight?
+
+- intent: weight_stuck
+  examples: |
+    - Why is my weight stuck even with exercise?
+
+- intent: overcome_weight_loss_plateau
+  examples: |
+    - What changes can I make to keep losing fat?
+    - How do I overcome a weight-loss plateau?
+
+- intent: stop_weight_loss
+  examples: |
+    - Why have I stopped losing weight?
+
+- intent: fats_in_fitness_diet
+  examples: |
+    - What's the role of fats in a fitness diet?
+
+- intent: carbs_for_workout
+  examples: |
+    - Are carbs necessary for working out?
+
+- intent: high_protein_diet
+  examples: |
+    - Should I follow a high-protein diet for fitness?
+
+- intent: gym_goers_diet
+  examples: |
+    - What's the best diet for gym-goers?
+
+- intent: calories_muscle_building
+  examples: |
+    - Should I eat more calories when building muscle?
+
+- intent: calorie_tracking
+  examples: |
+    - What's the best way to track calories for fitness goals?
+
+- intent: calculate_calories
+  examples: |
+    - Can you guide me on calorie counting?
+    - How do I calculate my calorie needs?
+
+- intent: refuel_after_gym
+  examples: |
+    - How do I refuel after the gym?
+
+- intent: post_workout_protein
+  examples: |
+    - Is protein necessary right after a workout?
+
+- intent: post_workout_food
+  examples: |
+    - Can you recommend good post-exercise meals?
+    - What should I eat after a workout?
+
+- intent: runner_training_plan
+  examples: |
+    - What's the ideal training plan for runners?
+
+- intent: running_strength_training
+  examples: |
+    - Should I combine running with strength training?
+
+- intent: marathon_training
+  examples: |
+    - How do I prepare for a long-distance race?
+    - What's the best way to train for a marathon?
+
+- intent: endurance_training
+  examples: |
+    - Can lifting weights help with endurance?
+    - How do I last longer during cardio sessions?
+    - How do I build endurance for long workouts?
+
+- intent: combine_strength_hypertrophy
+  examples: |
+    - Can I combine strength and hypertrophy in one routine?
+
+- intent: strength_vs_hypertrophy
+  examples: |
+    - Should I prioritize strength or size?
+    - How does strength training compare to muscle growth workouts?
+    - What's the difference between strength and hypertrophy training?
+
+- intent: strength_low_reps
+  examples: |
+    - Should I focus on low reps for strength training?
+
+- intent: strength_training
+  examples: |
+    - What are the best exercises for building strength?
+
+- intent: naps_recovery
+  examples: |
+    - Can naps help with post-workout recovery?
+
+- intent: sleep_muscle_recovery
+  examples: |
+    - How many hours of sleep do I need for recovery?
+    - Does lack of sleep affect gym performance?
+    - How important is sleep for muscle recovery?
+
+- intent: stop_exercise_pain
+  examples: |
+    - Should I stop exercising if something hurts?
+
+- intent: poor_form_injuries
+  examples: |
+    - Can poor form lead to injuries?
+
+- intent: post_workout_rest
+  examples: |
+    - Can stretching reduce soreness?
+    - How long should I rest after a tough session?
+
+- intent: sore_muscles_treatment
+  examples: |
+    - Should I use ice or heat for sore muscles?
+
+- intent: back_arch_bench_press
+  examples: |
+    - Should I arch my back during bench presses?
+
+- intent: bench_press_shoulder_pain
+  examples: |
+    - How do I avoid shoulder pain while bench pressing?
+
+- intent: bench_press_strength
+  examples: |
+    - What are tips for improving my bench press?
+    - How do I increase my bench press strength?
+
+- intent: deadlift_belt
+  examples: |
+    - Is a belt necessary for deadlifts?
+    - How do I properly wear a lifting belt?
+    - Should I use a belt for heavy lifting?
+    - Should I use a belt for deadlifts?
+
+- intent: proper_deadlift
+  examples: |
+    - How do I prevent back pain while deadlifting?
+    - Can you guide me on deadlift technique?
+    - What's the right way to deadlift?
+
+- intent: squat_mistakes
+  examples: |
+    - How do I squat without hurting my knees?
+    - What are common mistakes when squatting?
+
+- intent: proper_squat
+  examples: |
+    - Can you explain the correct squat form?
+    - How do I perform a proper squat?
+
+- intent: correct_slouching
+  examples: |
+    - How do I correct slouching through workouts?
+
+- intent: improve_posture
+  examples: |
+    - Can poor posture affect my gym performance?
+    - What exercises help with better posture?
+    - How do I improve my posture?
+
+- intent: yoga_recovery
+  examples: |
+    - Is yoga good for recovery days?
+
+- intent: yoga_benefits
+  examples: |
+    - Can yoga improve my lifting performance?
+    - What are the benefits of yoga for gym-goers?
+    - Should I include yoga in my workout routine?
+
+- intent: improve_flexibility
+  examples: |
+    - How do I get more flexible?
+    - Can you recommend stretches for tight muscles?
+    - How do I improve my range of motion?
+    - What are the best stretches for flexibility?
+
+- intent: mental_health_fitness_balance
+  examples: |
+    - How do I balance mental health and fitness goals?
+
+- intent: tired_to_workout
+  examples: |
+    - What should I do if I'm too tired to work out?
+
+- intent: exercise_while_down
+  examples: |
+    - Can exercise help when I feel down?
+
+- intent: motivation_during_struggles
+  examples: |
+    - How do I stay motivated during mental health struggles?
+
+- intent: anxiety_relief_workouts
+  examples: |
+    - What's the best way to use fitness to manage anxiety?
+    - Are there specific exercises to calm the mind?
+    - What are good workouts for anxiety relief?
+
+- intent: exercise_mood_boost
+  examples: |
+    - Does regular exercise boost mood?
+
+- intent: fitness_mental_wellbeing
+  examples: |
+    - What's the connection between fitness and mental well-being?
+
+- intent: exercise_mental_health
+  examples: |
+    - Can working out help reduce stress?
+    - How does exercise improve mental health?
+
+- intent: importance_reracking
+  examples: |
+    - Why is re-racking important in gyms?
+
+- intent: reracking_etiquette
+  examples: |
+    - What's the proper etiquette for re-racking weights?
+
+- intent: weights_on_bar
+  examples: |
+    - Is it rude to leave weights on the bar?
+
+- intent: rerack_weights
+  examples: |
+    - Should I re-rack weights after use?
+
+- intent: share_gym_equipment
+  examples: |
+    - What's the best way to share gym equipment?
+
+- intent: work_in_equipment
+  examples: |
+    - Can I work in with someone on the same machine?
+
+- intent: share_equipment
+  examples: |
+    - How do I politely request to use a machine someone's using?
+    - Is it okay to ask someone to share equipment?
+
+- intent: wipe_down_machines
+  examples: |
+    - Should I wipe down machines after using them?
+
+- intent: clean_gym_equipment
+  examples: |
+    - How do I sanitize equipment in the gym?
+    - Is cleaning gym equipment necessary?
+    - What's the proper way to clean gym equipment?
+
+- intent: overcome_gym_anxiety
+  examples: |
+    - Can you help me feel more comfortable at the gym?
+    - How do I deal with self-consciousness while working out?
+    - What should I do if I feel intimidated at the gym?
+    - How do I overcome gym anxiety?
+
+- intent: fitness_apps_tracking
+  examples: |
+    - Can fitness apps help with tracking results?
+    - Are fitness apps useful for tracking progress?
+
+- intent: workout_journal
+  examples: |
+    - Should I keep a journal of my gym sessions?
+    - Should I keep a workout journal?
+
+- intent: fitness_improvement
+  examples: |
+    - How do I measure my fitness improvement?
+
+- intent: track_progress
+  examples: |
+    - What's the best way to track my progress?
+
+- intent: workout_motivation
+  examples: |
+    - Can you give me tips to stay consistent?
+    - How do I keep pushing myself to exercise?
+    - What should I do if I lose motivation to go to the gym?
+    - How do I stay motivated to work out?
+
+- intent: improve_running_pace
+  examples: |
+    - Can you suggest tips to boost running speed?
+    - How do I increase my pace for long-distance runs?
+
+- intent: running_speed
+  examples: |
+    - What exercises can help me run faster?
+    - How do I improve my running speed?
+
+- intent: cardio_fat_burning
+  examples: |
+    - Which cardio method burns more fat?
+
+- intent: hiit_pros_cons
+  examples: |
+    - What are the pros and cons of HIIT vs. steady-state?
+
+- intent: hiit_vs_steady_state
+  examples: |
+    - Should I do HIIT or long cardio sessions?
+    - What's the difference between HIIT and steady-state cardio?
+
+- intent: cardio_alternatives
+  examples: |
+    - Can you suggest alternatives to running for cardio?
+
+- intent: enjoyable_cardio
+  examples: |
+    - What are fun ways to do cardio?
+    - How do I keep cardio interesting?
+    - How do I make cardio more enjoyable?
+
+- intent: supersets
+  examples: |
+    - Should I try supersets for muscle definition?
+    - How do I pair exercises for supersets?
+    - Can supersets help me save time at the gym?
+    - What are supersets, and how do I perform them?
+
+- intent: drop_sets
+  examples: |
+    - Should I add drop sets to my routine?
+    - How do drop sets work in strength training?
+    - Are drop sets effective for building muscle?
+    - Should I use drop sets for muscle growth?
+
+- intent: increase_strength
+  examples: |
+    - How can I lift heavier weights over time?
+    - How do I gradually lift heavier weights?
+    - How do I increase my strength?
+    - How can I increase strength over time?
+
+- intent: importance_rest_days
+  examples: |
+    - What happens if I skip rest days?
+    - Can I work out without taking breaks?
+    - How important are rest days for progress?
+
+- intent: injury_prevention
+  examples: |
+    - Can you suggest injury prevention strategies?
+    - How do I avoid hurting myself during exercise?
+    - What are the best tips for safe workouts?
+    - What are the most common gym injuries and how to avoid them?
+    - How do I prevent gym injuries?
+    - How do I prevent injuries at the gym?
+
+- intent: workout_recovery
+  examples: |
+    - Should I take supplements for recovery?
+    - How do I speed up recovery after exercise?
+    - What's the best way to deal with muscle soreness?
+    - What's the best way to recover after a workout?
+    - How do I recover from a tough workout?
+
+- intent: progressive_overload
+  examples: |
+    - What's the principle of progressive overload?
+    - What is progressive overload, and how do I apply it?
+    - What's the best approach for progressive overload?
+
+- intent: train_to_failure
+  examples: |
+    - How often should I push myself to my limits?
+    - Is training to failure necessary for muscle growth?
+    - Should I train to failure every set?
+
+- intent: reps_vs_weights
+  examples: |
+    - Should I focus on high reps or heavy weights?
+
+- intent: hypertrophy_reps_sets
+  examples: |
+    - How many sets are ideal for gaining mass?
+    - What's the optimal range of reps for muscle building?
+    - How many reps and sets should I do for hypertrophy?
+
+- intent: build_muscle
+  examples: |
+    - Can you recommend exercises for gaining muscle?
+    - How do I bulk up efficiently?
+    - What are the best tips for fast muscle growth?
+    - How do I build muscle quickly?
+
+- intent: fat_loss_weightlifting
+  examples: |
+    - Can I lose fat with just weightlifting?
+
+- intent: cardio_duration_weight_loss
+  examples: |
+    - What's more effective for burning fat?
+    - How much cardio should I do to lose weight?
+
+- intent: lose_midsection_fat
+  examples: |
+    - How can I lose weight around my midsection?
+
+- intent: cardio_vs_weights
+  examples: |
+    - Is lifting weights better than cardio for losing fat?
+    - Should I include strength training for fat loss?
+    - Can weight training help with weight loss?
+    - Should I prioritize cardio over weights for fat loss?
+    - What's better for fat loss: cardio or strength training?
+    - What's the ideal duration of cardio for weight loss?
+    - How long should my cardio sessions be for fat loss?
+    - Is cardio enough for weight loss?
+
+- intent: burn_belly_fat
+  examples: |
+    - What are the best exercises to reduce belly fat?
+    - Can you suggest workouts for fat loss?
+    - How do I burn belly fat?
+
+- intent: water_timing
+  examples: |
+    - Should I drink water before, during, or after exercise?
+
+- intent: water_intake_workout
+  examples: |
+    - How do I stay hydrated while working out?
+    - What's the recommended water intake for exercising?
+    - How much water should I drink during a workout?
+
+- intent: protein_powder
+  examples: |
+    - Should I include protein powder in my diet?
+
+- intent: protein_shakes
+  examples: |
+    - Are protein shakes worth it for gym-goers?
+    - Are protein shakes necessary for muscle growth?
+    - Do I need protein shakes?
+
+- intent: pre_workout_food
+  examples: |
+    - What foods are ideal before exercising?
+    - Can you recommend a good pre-workout food?
+    - Should I eat before going to the gym?
+    - What should I eat before the gym?
+
+- intent: improve_stamina
+  examples: |
+    - Can you recommend tips to increase my energy levels?
+    - What exercises can help boost endurance?
+    - What are good exercises to improve stamina?
+    - How do I train for better stamina?
+    - How do I improve my stamina?
+
+- intent: beginner_gym_plan
+  examples: |
+    - How should a newbie structure their workout?
+    - What exercises should a beginner do?
+    - Can you recommend a beginner-friendly gym class?
+    - Can you suggest a beginner-friendly gym plan?
+
+- intent: create_workout_plan
+  examples: |
+    - What's the best workout routine for beginners?
+    - What's the best way to organize my gym sessions?
+    - How should I plan my weekly workouts?
+    - Can you help me design a workout routine?
+    - How do I create a workout plan?
+
+- intent: kettlebell_usage
+  examples: |
+    - Can you show me kettlebell exercises?
+    - How do I lift kettlebells properly?
+    - What's the best way to work out with kettlebells?
+    - How do I use kettlebells?
+
+- intent: dumbbell_usage
+  examples: |
+    - Can you explain proper dumbbell usage?
+    - How do I lift dumbbells correctly?
+    - What's the right technique for dumbbell exercises?
+    - What's the proper way to use dumbbells?
+
+- intent: adjust_weights
+  examples: |
+    - Can you guide me on adjusting gym machines?
+    - How can I set the weight on gym equipment?
+    - How do I change the weights on a workout machine?
+    - How do I adjust weights on a machine?
+
+- intent: treadmill_usage
+  examples: |
+    - How do I safely use the treadmill?
+    - Can you explain how to run on a treadmill?
+    - What's the correct way to use a treadmill?
+    - How do I use the treadmill?
+
+- intent: warm_up
+  examples: |
+    - What's the proper way to warm up?
+    - How do I prepare my body for a workout?
+    - What are the best warm-up exercises?
+    - How do I warm up before exercising?
+
+- intent: personal_trainer
+  examples: |
+    - Should I consider a gym coach?
+    - Can I work out without a trainer?
+    - Is it worth hiring a personal trainer?
+    - Do I need a personal trainer?
+
+- intent: workout_time
+  examples: |
+    - Is there an ideal time for workouts?
+    - Should I exercise in the morning or evening?
+
+- intent: workout_frequency
+  examples: |
+    - How often should I work out in a week?
+    - What's the recommended frequency for gym workouts?
+
+- intent: gym_frequency
+  examples: |
+    - What's the best time to work out?
+    - When is the best time to go to the gym?
+    - How many times a week should I go to the gym?
+
+- intent: gym_essentials
+  examples: |
+    - How should I start my gym journey?
+    - What's the first thing to do at the gym as a beginner?
+    - I'm new to the gym, where should I begin?
+    - How do I get started at the gym?
+    - What should I carry when I go to the gym?
+    - What essentials should I pack for the gym?
+    - What do I need for a gym session?
+    - What should I bring to the gym?
+
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: recommend_muscle_group_exercise
+  examples: |
+    - I want to train my [chest](muscle_group)
+    - I want to train my [core](muscle_group)
+    - I want to train my [abs](muscle_group)
+    - I want to train my [leg](muscle_group)
+    - I want to train my [back](muscle_group)
+    - I want to train my [shoulder](muscle_group)
+    - Which exercise should I do to train my [chest](muscle_group)
+    - Which exercise should I do to train my [core](muscle_group)
+    - Which exercise should I do to train my [abs](muscle_group)
+    - Which exercise should I do to train my [leg](muscle_group)
+    - Which exercise should I do to train my [back](muscle_group)
+    - Which exercise should I do to train my [shoulder](muscle_group)
+    - What can I do to train my [chest](muscle_group)
+    - What can I do to train my [core](muscle_group)
+    - What can I do to train my [abs](muscle_group)
+    - What can I do to train my [leg](muscle_group)
+    - What can I do to train my [back](muscle_group)
+    - What can I do to train my [shoulder](muscle_group)
+    - What's a good exercise for my [chest](muscle_group)?
+    - What's a good exercise for my [core](muscle_group)?
+    - What's a good exercise for my [core](muscle_group)?
+    - What's a good exercise for my [abs](muscle_group)?
+    - What's a good exercise for my [leg](muscle_group)?
+    - What's a good exercise for my [back](muscle_group)?
+    - What's a good exercise for my [shoulder](muscle_group)?

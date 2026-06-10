@@ -1,0 +1,589 @@
+{
+    "gym_essentials": [
+        "What should I bring to the gym?",
+        "What do I need for a gym session?",
+        "What essentials should I pack for the gym?",
+        "What should I carry when I go to the gym?",
+        "How do I get started at the gym?",
+        "I'm new to the gym, where should I begin?",
+        "What's the first thing to do at the gym as a beginner?",
+        "How should I start my gym journey?",
+        "How do I begin at the gym?",
+        "What should beginners bring to the gym?"
+    ],
+    "gym_frequency": [
+        "How many times a week should I go to the gym?",
+        "When is the best time to go to the gym?",
+        "What's the best time to work out?",
+        "What time should I go to the gym in order to workout effectively?"
+    ],
+    "workout_frequency": [
+        "What's the recommended frequency for gym workouts?",
+        "How often should I work out in a week?",
+        "How frequent should I go to the gym?",
+        "How often should I go to the gym?",
+        "What times should I go to the gym?",
+        "Do I need to go to the gym frequently?",
+        "When should I go to the gym"
+    ],
+    "workout_time": [
+        "Should I exercise in the morning or evening?",
+        "Is there an ideal time for workouts?"
+    ],
+    "personal_trainer": [
+        "Do I need a personal trainer?",
+        "Is it worth hiring a personal trainer?",
+        "Can I work out without a trainer?",
+        "Should I consider a gym coach?"
+    ],
+    "warm_up": [
+        "How do I warm up before exercising?",
+        "What are the best warm-up exercises?",
+        "How do I prepare my body for a workout?",
+        "What's the proper way to warm up?"
+    ],
+    "treadmill_usage": [
+        "How do I use the treadmill?",
+        "What's the correct way to use a treadmill?",
+        "Can you explain how to run on a treadmill?",
+        "How do I safely use the treadmill?"
+    ],
+    "adjust_weights": [
+        "How do I adjust weights on a machine?",
+        "How do I change the weights on a workout machine?",
+        "How can I set the weight on gym equipment?",
+        "Can you guide me on adjusting gym machines?"
+    ],
+    "dumbbell_usage": [
+        "What's the proper way to use dumbbells?",
+        "What's the right technique for dumbbell exercises?",
+        "How do I lift dumbbells correctly?",
+        "Can you explain proper dumbbell usage?"
+    ],
+    "kettlebell_usage": [
+        "How do I use kettlebells?",
+        "What's the best way to work out with kettlebells?",
+        "How do I lift kettlebells properly?",
+        "Can you show me kettlebell exercises?"
+    ],
+    "create_workout_plan": [
+        "How do I create a workout plan?",
+        "Can you help me design a workout routine?",
+        "How should I plan my weekly workouts?",
+        "What's the best way to organize my gym sessions?",
+        "What's the best workout routine for beginners?"
+    ],
+    "beginner_gym_plan": [
+        "Can you suggest a beginner-friendly gym plan?",
+        "Can you recommend a beginner-friendly gym class?",
+        "What exercises should a beginner do?",
+        "How should a newbie structure their workout?"
+    ],
+    "improve_stamina": [
+        "How do I improve my stamina?",
+        "How do I train for better stamina?",
+        "What are good exercises to improve stamina?",
+        "What exercises can help boost endurance?",
+        "Can you recommend tips to increase my energy levels?"
+    ],
+    "pre_workout_food": [
+        "What should I eat before the gym?",
+        "Should I eat before going to the gym?",
+        "Can you recommend a good pre-workout food?",
+        "What foods are ideal before exercising?"
+    ],
+    "protein_shakes": [
+        "Do I need protein shakes?",
+        "Are protein shakes necessary for muscle growth?",
+        "Are protein shakes worth it for gym-goers?"
+    ],
+    "protein_powder": [
+        "Should I include protein powder in my diet?"
+    ],
+    "water_intake_workout": [
+        "How much water should I drink during a workout?",
+        "What's the recommended water intake for exercising?",
+        "How do I stay hydrated while working out?"
+    ],
+    "water_timing": [
+        "Should I drink water before, during, or after exercise?"
+    ],
+    "burn_belly_fat": [
+        "How do I burn belly fat?",
+        "Can you suggest workouts for fat loss?",
+        "What are the best exercises to reduce belly fat?"
+    ],
+    "cardio_vs_weights": [
+        "Is cardio enough for weight loss?",
+        "How long should my cardio sessions be for fat loss?",
+        "What's the ideal duration of cardio for weight loss?",
+        "What's better for fat loss: cardio or strength training?",
+        "Should I prioritize cardio over weights for fat loss?",
+        "Can weight training help with weight loss?",
+        "Should I include strength training for fat loss?",
+        "Is lifting weights better than cardio for losing fat?"
+    ],
+    "lose_midsection_fat": [
+        "How can I lose weight around my midsection?"
+    ],
+    "cardio_duration_weight_loss": [
+        "How much cardio should I do to lose weight?",
+        "What's more effective for burning fat?"
+    ],
+    "fat_loss_weightlifting": [
+        "Can I lose fat with just weightlifting?"
+    ],
+    "build_muscle": [
+        "How do I build muscle quickly?",
+        "What are the best tips for fast muscle growth?",
+        "How do I bulk up efficiently?",
+        "Can you recommend exercises for gaining muscle?"
+    ],
+    "hypertrophy_reps_sets": [
+        "How many reps and sets should I do for hypertrophy?",
+        "What's the optimal range of reps for muscle building?",
+        "How many sets are ideal for gaining mass?"
+    ],
+    "reps_vs_weights": [
+        "Should I focus on high reps or heavy weights?"
+    ],
+    "train_to_failure": [
+        "Should I train to failure every set?",
+        "Is training to failure necessary for muscle growth?",
+        "How often should I push myself to my limits?"
+    ],
+    "progressive_overload": [
+        "What's the best approach for progressive overload?",
+        "What is progressive overload, and how do I apply it?",
+        "What's the principle of progressive overload?"
+    ],
+    "workout_recovery": [
+        "How do I recover from a tough workout?",
+        "What's the best way to recover after a workout?",
+        "What's the best way to deal with muscle soreness?",
+        "How do I speed up recovery after exercise?",
+        "Should I take supplements for recovery?"
+    ],
+    "injury_prevention": [
+        "How do I prevent injuries at the gym?",
+        "How do I prevent gym injuries?",
+        "What are the most common gym injuries and how to avoid them?",
+        "What are the best tips for safe workouts?",
+        "How do I avoid hurting myself during exercise?",
+        "Can you suggest injury prevention strategies?"
+    ],
+    "importance_rest_days": [
+        "How important are rest days for progress?",
+        "Can I work out without taking breaks?",
+        "What happens if I skip rest days?"
+    ],
+    "increase_strength": [
+        "How can I increase strength over time?",
+        "How do I increase my strength?",
+        "How do I gradually lift heavier weights?",
+        "How can I lift heavier weights over time?"
+    ],
+    "drop_sets": [
+        "Should I use drop sets for muscle growth?",
+        "Are drop sets effective for building muscle?",
+        "How do drop sets work in strength training?",
+        "Should I add drop sets to my routine?"
+    ],
+    "supersets": [
+        "What are supersets, and how do I perform them?",
+        "Can supersets help me save time at the gym?",
+        "How do I pair exercises for supersets?",
+        "Should I try supersets for muscle definition?"
+    ],
+    "enjoyable_cardio": [
+        "How do I make cardio more enjoyable?",
+        "How do I keep cardio interesting?",
+        "What are fun ways to do cardio?"
+    ],
+    "cardio_alternatives": [
+        "Can you suggest alternatives to running for cardio?"
+    ],
+    "hiit_vs_steady_state": [
+        "What's the difference between HIIT and steady-state cardio?",
+        "Should I do HIIT or long cardio sessions?"
+    ],
+    "hiit_pros_cons": [
+        "What are the pros and cons of HIIT vs. steady-state?"
+    ],
+    "cardio_fat_burning": [
+        "Which cardio method burns more fat?"
+    ],
+    "running_speed": [
+        "How do I improve my running speed?",
+        "What exercises can help me run faster?"
+    ],
+    "improve_running_pace": [
+        "How do I increase my pace for long-distance runs?",
+        "Can you suggest tips to boost running speed?"
+    ],
+    "workout_motivation": [
+        "How do I stay motivated to work out?",
+        "What should I do if I lose motivation to go to the gym?",
+        "How do I keep pushing myself to exercise?",
+        "Can you give me tips to stay consistent?"
+    ],
+    "track_progress": [
+        "What's the best way to track my progress?"
+    ],
+    "fitness_improvement": [
+        "How do I measure my fitness improvement?"
+    ],
+    "workout_journal": [
+        "Should I keep a workout journal?",
+        "Should I keep a journal of my gym sessions?"
+    ],
+    "fitness_apps_tracking": [
+        "Are fitness apps useful for tracking progress?",
+        "Can fitness apps help with tracking results?"
+    ],
+    "overcome_gym_anxiety": [
+        "How do I overcome gym anxiety?",
+        "What should I do if I feel intimidated at the gym?",
+        "How do I deal with self-consciousness while working out?",
+        "Can you help me feel more comfortable at the gym?"
+    ],
+    "clean_gym_equipment": [
+        "What's the proper way to clean gym equipment?",
+        "Is cleaning gym equipment necessary?",
+        "How do I sanitize equipment in the gym?"
+    ],
+    "wipe_down_machines": [
+        "Should I wipe down machines after using them?"
+    ],
+    "share_equipment": [
+        "Is it okay to ask someone to share equipment?",
+        "How do I politely request to use a machine someone's using?"
+    ],
+    "work_in_equipment": [
+        "Can I work in with someone on the same machine?"
+    ],
+    "share_gym_equipment": [
+        "What's the best way to share gym equipment?"
+    ],
+    "rerack_weights": [
+        "Should I re-rack weights after use?"
+    ],
+    "weights_on_bar": [
+        "Is it rude to leave weights on the bar?"
+    ],
+    "reracking_etiquette": [
+        "What's the proper etiquette for re-racking weights?"
+    ],
+    "importance_reracking": [
+        "Why is re-racking important in gyms?"
+    ],
+    "exercise_mental_health": [
+        "How does exercise improve mental health?",
+        "Can working out help reduce stress?"
+    ],
+    "fitness_mental_wellbeing": [
+        "What's the connection between fitness and mental well-being?"
+    ],
+    "exercise_mood_boost": [
+        "Does regular exercise boost mood?"
+    ],
+    "anxiety_relief_workouts": [
+        "What are good workouts for anxiety relief?",
+        "Are there specific exercises to calm the mind?",
+        "What's the best way to use fitness to manage anxiety?"
+    ],
+    "motivation_during_struggles": [
+        "How do I stay motivated during mental health struggles?"
+    ],
+    "exercise_while_down": [
+        "Can exercise help when I feel down?"
+    ],
+    "tired_to_workout": [
+        "What should I do if I'm too tired to work out?"
+    ],
+    "mental_health_fitness_balance": [
+        "How do I balance mental health and fitness goals?"
+    ],
+    "improve_flexibility": [
+        "What are the best stretches for flexibility?",
+        "How do I improve my range of motion?",
+        "Can you recommend stretches for tight muscles?",
+        "How do I get more flexible?"
+    ],
+    "yoga_benefits": [
+        "Should I include yoga in my workout routine?",
+        "What are the benefits of yoga for gym-goers?",
+        "Can yoga improve my lifting performance?"
+    ],
+    "yoga_recovery": [
+        "Is yoga good for recovery days?"
+    ],
+    "improve_posture": [
+        "How do I improve my posture?",
+        "What exercises help with better posture?",
+        "Can poor posture affect my gym performance?"
+    ],
+    "correct_slouching": [
+        "How do I correct slouching through workouts?"
+    ],
+    "proper_squat": [
+        "How do I perform a proper squat?",
+        "Can you explain the correct squat form?"
+    ],
+    "squat_mistakes": [
+        "What are common mistakes when squatting?",
+        "How do I squat without hurting my knees?"
+    ],
+    "proper_deadlift": [
+        "What's the right way to deadlift?",
+        "Can you guide me on deadlift technique?",
+        "How do I prevent back pain while deadlifting?"
+    ],
+    "deadlift_belt": [
+        "Should I use a belt for deadlifts?",
+        "Should I use a belt for heavy lifting?",
+        "How do I properly wear a lifting belt?",
+        "Is a belt necessary for deadlifts?"
+    ],
+    "bench_press_strength": [
+        "How do I increase my bench press strength?",
+        "What are tips for improving my bench press?"
+    ],
+    "bench_press_shoulder_pain": [
+        "How do I avoid shoulder pain while bench pressing?"
+    ],
+    "back_arch_bench_press": [
+        "Should I arch my back during bench presses?"
+    ],
+    "sore_muscles_treatment": [
+        "Should I use ice or heat for sore muscles?"
+    ],
+    "post_workout_rest": [
+        "How long should I rest after a tough session?",
+        "Can stretching reduce soreness?"
+    ],
+    "poor_form_injuries": [
+        "Can poor form lead to injuries?"
+    ],
+    "stop_exercise_pain": [
+        "Should I stop exercising if something hurts?"
+    ],
+    "sleep_muscle_recovery": [
+        "How important is sleep for muscle recovery?",
+        "Does lack of sleep affect gym performance?",
+        "How many hours of sleep do I need for recovery?"
+    ],
+    "naps_recovery": [
+        "Can naps help with post-workout recovery?"
+    ],
+    "strength_training": [
+        "What are the best exercises for building strength?"
+    ],
+    "strength_low_reps": [
+        "Should I focus on low reps for strength training?"
+    ],
+    "strength_vs_hypertrophy": [
+        "What's the difference between strength and hypertrophy training?",
+        "How does strength training compare to muscle growth workouts?",
+        "Should I prioritize strength or size?"
+    ],
+    "combine_strength_hypertrophy": [
+        "Can I combine strength and hypertrophy in one routine?"
+    ],
+    "endurance_training": [
+        "How do I build endurance for long workouts?",
+        "How do I last longer during cardio sessions?",
+        "Can lifting weights help with endurance?"
+    ],
+    "marathon_training": [
+        "What's the best way to train for a marathon?",
+        "How do I prepare for a long-distance race?"
+    ],
+    "running_strength_training": [
+        "Should I combine running with strength training?"
+    ],
+    "runner_training_plan": [
+        "What's the ideal training plan for runners?"
+    ],
+    "post_workout_food": [
+        "What should I eat after a workout?",
+        "Can you recommend good post-exercise meals?"
+    ],
+    "post_workout_protein": [
+        "Is protein necessary right after a workout?"
+    ],
+    "refuel_after_gym": [
+        "How do I refuel after the gym?"
+    ],
+    "calculate_calories": [
+        "How do I calculate my calorie needs?",
+        "Can you guide me on calorie counting?"
+    ],
+    "calorie_tracking": [
+        "What's the best way to track calories for fitness goals?"
+    ],
+    "calories_muscle_building": [
+        "Should I eat more calories when building muscle?"
+    ],
+    "gym_goers_diet": [
+        "What's the best diet for gym-goers?"
+    ],
+    "high_protein_diet": [
+        "Should I follow a high-protein diet for fitness?"
+    ],
+    "carbs_for_workout": [
+        "Are carbs necessary for working out?"
+    ],
+    "fats_in_fitness_diet": [
+        "What's the role of fats in a fitness diet?"
+    ],
+    "stop_weight_loss": [
+        "Why have I stopped losing weight?"
+    ],
+    "overcome_weight_loss_plateau": [
+        "How do I overcome a weight-loss plateau?",
+        "What changes can I make to keep losing fat?"
+    ],
+    "weight_stuck": [
+        "Why is my weight stuck even with exercise?"
+    ],
+    "resistance_exercise_weight_loss": [
+        "What's the role of resistance exercises in losing weight?"
+    ],
+    "fix_muscle_imbalance": [
+        "How do I fix muscle imbalances?"
+    ],
+    "even_out_strength": [
+        "What's the best way to even out strength on both sides?"
+    ],
+    "unilateral_exercises": [
+        "Can unilateral exercises help with asymmetry?"
+    ],
+    "target_weaker_muscles": [
+        "How do I target weaker muscles?"
+    ],
+    "six_pack_abs": [
+        "What's the best way to get a six-pack?",
+        "How do I train my abs effectively?"
+    ],
+    "abs_through_diet": [
+        "Can I achieve visible abs through diet alone?"
+    ],
+    "core_exercises": [
+        "What are the most effective core exercises?"
+    ],
+    "toning_vs_bulking": [
+        "What's the difference between toning and bulking?"
+    ],
+    "tone_or_bulk": [
+        "Should I focus on toning or bulking first?",
+        "How do I know if I need to tone or bulk?"
+    ],
+    "cutting_bulking": [
+        "Can you explain the concept of cutting and bulking?"
+    ],
+    "gym_shoes": [
+        "What shoes should I wear to the gym?",
+        "How do I choose gym-appropriate shoes?"
+    ],
+    "weightlifting_shoes": [
+        "Are there specific shoes for weightlifting?",
+        "What's the best footwear for cardio exercises?"
+    ],
+    "lifting_gloves": [
+        "Do I need gloves for weightlifting?",
+        "Are lifting gloves helpful for grip?",
+        "What are alternatives to lifting gloves?"
+    ],
+    "dumbbell_gloves": [
+        "Should I wear gloves while using dumbbells?"
+    ],
+    "weightlifting_belt_purpose": [
+        "What's the purpose of a weightlifting belt?"
+    ],
+    "progress_assessment": [
+        "How do I know if I'm making progress?"
+    ],
+    "track_weight_changes": [
+        "Should I track my weight changes weekly?"
+    ],
+    "measure_muscle_gain": [
+        "How do I measure muscle gain?"
+    ],
+    "log_workouts": [
+        "What's the best way to log my workouts?"
+    ],
+    "apps_for_exercises": [
+        "Are digital apps better for tracking exercises?"
+    ],
+    "record_progress": [
+        "How do I record my progress over time?"
+    ],
+    "check_body_fat": [
+        "How often should I check my body fat percentage?"
+    ],
+    "measure_body_fat": [
+        "What's the most accurate way to measure body fat?"
+    ],
+    "prioritize_fat_over_weight": [
+        "Should I prioritize body fat over weight?"
+    ],
+    "body_composition_tracking": [
+        "How do I track changes in body composition?"
+    ],
+    "group_classes_beginners": [
+        "What's the best group class for beginners?"
+    ],
+    "zumba_vs_yoga": [
+        "Should I try Zumba or yoga as a beginner?"
+    ],
+    "first_fitness_class": [
+        "How do I join my first fitness class?"
+    ],
+    "spin_classes_weight_loss": [
+        "Are spin classes effective for fat loss?"
+    ],
+    "cycling_vs_running": [
+        "Is cycling better than running for losing weight?"
+    ],
+    "spin_class_calorie_burn": [
+        "What's the calorie burn potential of spin classes?"
+    ],
+    "add_spin_to_cardio": [
+        "Should I add spin classes to my cardio routine?"
+    ],
+    "avoid_workout_boredom": [
+        "How do I keep my workouts exciting?",
+        "What's the best way to avoid workout boredom?"
+    ],
+    "mix_exercises_session": [
+        "Can I mix different exercises in one session?"
+    ],
+    "change_workout_routine": [
+        "How often should I change my routine?"
+    ],
+    "set_fitness_goals": [
+        "What's the best way to set fitness goals?"
+    ],
+    "short_term_vs_long_term_goals": [
+        "Should I aim for short-term or long-term goals?"
+    ],
+    "create_gym_milestones": [
+        "How do I create realistic gym milestones?"
+    ],
+    "achievable_fitness_targets": [
+        "Can you help me set achievable fitness targets?"
+    ],
+    "avoid_overtraining": [
+        "How do I avoid overtraining?"
+    ],
+    "signs_of_overtraining": [
+        "What are the signs that I'm working out too much?"
+    ],
+    "rest_days_when_tired": [
+        "Should I take more rest days if I feel tired?"
+    ],
+    "intensity_vs_recovery": [
+        "How do I balance workout intensity and recovery?"
+    ]
+}
