@@ -1,6 +1,8 @@
 # Gym Assistant Chatbot
 
-Đây là sản phẩm Chatbot hỗ trợ tư vấn Gym, được xây dựng bằng Rasa cho backend và Flask cho giao diện người dùng.
+Đồ án Giới thiệu ngành AI
+
+Đây là đồ án Chatbot hỗ trợ tư vấn Gym, được xây dựng bằng Rasa cho backend và Flask cho giao diện người dùng.
 
 ## Cấu trúc thư mục
 - `actions/`: Chứa mã nguồn cho các Custom Actions của Rasa.
