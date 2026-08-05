@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Assistant Chatbot</title>
+    <!-- Thêm Favicon (inline SVG) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏋️</text></svg>">
+    
+    <!-- Google Fonts & FontAwesome cho Icon -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --chat-bg: #161b22;
+            --user-msg: linear-gradient(135deg, #00C9FF 0%, #92FE9D 100%);
+            --bot-msg: #21262d;
+            --text-main: #c9d1d9;
+            --text-light: #ffffff;
+            --border-color: #30363d;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: radial-gradient(circle at top right, #1a2332, #0d1117);
+            color: var(--text-main);
+            overflow: hidden;
+        }
+
+        #chat-container {
+            width: 450px;
+            height: 680px;
+            background: var(--chat-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Hiệu ứng ánh sáng trang trí phía sau */
+        #chat-container::before {
+            content: '';
+            position: absolute;
+            top: -50px;
+            left: -50px;
+            width: 150px;
+            height: 150px;
+            background: rgba(146, 254, 157, 0.15);
+            filter: blur(50px);
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        #chat-header {
+            padding: 24px;
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--text-light);
+            text-align: center;
+            background: rgba(22, 27, 34, 0.85);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-color);
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            letter-spacing: 0.5px;
+        }
+
+        #chat-header i {
+            color: #92FE9D;
+            font-size: 1.5rem;
+            filter: drop-shadow(0 0 5px rgba(146, 254, 157, 0.4));
+        }
+
+        #chat-box {
+            flex-grow: 1;
+            padding: 20px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            z-index: 1;
+            scrollbar-width: thin;
+            scrollbar-color: #4b5563 transparent;
+        }
+
+        #chat-box::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        #chat-box::-webkit-scrollbar-thumb {
+            background: #4b5563;
+            border-radius: 10px;
+        }
+
+        .message {
+            padding: 14px 18px;
+            border-radius: 20px;
+            animation: slideIn 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+            max-width: 78%;
+            word-wrap: break-word;
+            font-size: 1.05rem;
+            line-height: 1.45;
+            opacity: 0;
+            transform: translateY(15px);
+            position: relative;
+        }
+
+        /* Tin nhắn của Người dùng - Gradient nổi bật */
+        .message.user {
+            margin-left: auto;
+            background: var(--user-msg);
+            color: #0d1117;
+            font-weight: 500;
+            border-bottom-right-radius: 4px;
+            box-shadow: 0 5px 15px rgba(0, 201, 255, 0.15);
+        }
+
+        /* Tin nhắn của Bot - Nền tối, chữ sáng, có viền */
+        .message.bot {
+            margin-right: auto;
+            background: var(--bot-msg);
+            color: var(--text-light);
+            border-bottom-left-radius: 4px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+        
+        .message.bot i {
+            margin-right: 8px;
+            color: #92FE9D;
+            font-size: 0.9rem;
+        }
+
+        /* Phần nhập tin nhắn */
+        #input-container {
+            display: flex;
+            padding: 20px;
+            background: rgba(22, 27, 34, 0.95);
+            border-top: 1px solid var(--border-color);
+            z-index: 1;
+            align-items: center;
+            gap: 15px;
+        }
+
+        #chat-input {
+            flex-grow: 1;
+            padding: 14px 22px;
+            border: 1px solid var(--border-color);
+            border-radius: 30px;
+            background: #0d1117;
+            color: var(--text-light);
+            font-size: 1rem;
+            outline: none;
+            transition: all 0.3s ease;
+            font-family: inherit;
+        }
+
+        #chat-input:focus {
+            border-color: #92FE9D;
+            box-shadow: 0 0 0 3px rgba(146, 254, 157, 0.15);
+        }
+
+        #chat-input::placeholder {
+            color: #8b949e;
+        }
+
+        #send-btn {
+            width: 52px;
+            height: 52px;
+            border: none;
+            border-radius: 50%;
+            background: var(--user-msg);
+            color: #0d1117;
+            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0, 201, 255, 0.25);
+            flex-shrink: 0;
+        }
+
+        #send-btn:hover {
+            transform: scale(1.08) rotate(10deg);
+            box-shadow: 0 6px 18px rgba(0, 201, 255, 0.4);
+        }
+
+        #send-btn:active {
+            transform: scale(0.95);
+        }
+
+        /* Hiệu ứng đang gõ chữ (Typing Indicator) */
+        .typing-indicator {
+            display: flex;
+            gap: 5px;
+            padding: 14px 20px;
+            background: var(--bot-msg);
+            border-radius: 20px;
+            border-bottom-left-radius: 4px;
+            width: fit-content;
+            border: 1px solid var(--border-color);
+            align-items: center;
+            display: none;
+            animation: slideIn 0.3s forwards;
+        }
+        
+        .typing-indicator span {
+            width: 7px;
+            height: 7px;
+            background: #8b949e;
+            border-radius: 50%;
+            animation: bounce 1.4s infinite ease-in-out both;
+        }
+        
+        .typing-indicator span:nth-child(1) { animation-delay: -0.32s; }
+        .typing-indicator span:nth-child(2) { animation-delay: -0.16s; }
+
+        @keyframes slideIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes bounce {
+            0%, 80%, 100% { transform: scale(0); }
+            40% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div id="chat-container">
+        <!-- Header với Icon -->
+        <div id="chat-header">
+            <i class="fa-solid fa-dumbbell"></i>
+            Gym Assistant Chatbot
+            <i class="fa-solid fa-heart-pulse"></i>
+        </div>
+        
+        <div id="chat-box">
+            <!-- Tin nhắn chào mừng mặc định -->
+            <div class="message bot" style="animation-delay: 0.1s; opacity: 1; transform: translateY(0);">
+                <i class="fa-solid fa-robot"></i> Hello! How can I help you with your fitness journey today?
+            </div>
+            
+            <!-- Indicator khi bot đang rep -->
+            <div class="typing-indicator" id="typing-indicator">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        
+        <!-- Phần nhập liệu -->
+        <div id="input-container">
+            <input id="chat-input" type="text" placeholder="Ask about exercises, diets..." autocomplete="off">
+            <button id="send-btn"><i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <script>
+        const chatBox = document.getElementById('chat-box');
+        const chatInput = document.getElementById('chat-input');
+        const sendBtn = document.getElementById('send-btn');
+        const typingIndicator = document.getElementById('typing-indicator');
+
+        function appendMessage(sender, message) {
+            const msgDiv = document.createElement('div');
+            msgDiv.classList.add('message', sender);
+            
+            // Thêm icon robot cho tin nhắn của bot
+            if (sender === 'bot') {
+                msgDiv.innerHTML = `<i class="fa-solid fa-robot"></i> ${message}`;
+            } else {
+                msgDiv.textContent = message;
+            }
+            
+            // Đưa tin nhắn vào trước hiệu ứng typing
+            chatBox.insertBefore(msgDiv, typingIndicator);
+            scrollToBottom();
+        }
+        
+        function showTyping() {
+            chatBox.appendChild(typingIndicator); // Chuyển typing indicator xuống cuối
+            typingIndicator.style.display = 'flex';
+            scrollToBottom();
+        }
+        
+        function hideTyping() {
+            typingIndicator.style.display = 'none';
+        }
+        
+        function scrollToBottom() {
+            setTimeout(() => {
+                chatBox.scrollTop = chatBox.scrollHeight;
+            }, 10);
+        }
+
+        sendBtn.addEventListener('click', async () => {
+            const userMessage = chatInput.value.trim();
+            if (!userMessage) return;
+
+            // Hiển thị tin nhắn user
+            appendMessage('user', userMessage);
+            chatInput.value = '';
+            
+            // Hiện hiệu ứng đang gõ
+            showTyping();
+
+            try {
+                const response = await fetch('/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message: userMessage }),
+                });
+
+                const data = await response.json();
+                
+                // Ẩn hiệu ứng đang gõ
+                hideTyping();
+                
+                if (data.messages && data.messages.length > 0) {
+                    data.messages.forEach(msg => appendMessage('bot', msg));
+                } else {
+                    appendMessage('bot', 'No response from server.');
+                }
+            } catch (error) {
+                hideTyping();
+                appendMessage('bot', 'Error: Could not connect to server.');
+            }
+        });
+
+        chatInput.addEventListener('keypress', (event) => {
+            if (event.key === 'Enter') sendBtn.click();
+        });
+    </script>
+</body>
+</html>

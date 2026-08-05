@@ -747,7 +747,7 @@ rules:
   - intent: goodbye
   - action: utter_goodbye
 
-- rule: Say 'I am a bot' anytime the user challenges
+- rule: response to bot_challenge
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
@@ -761,3 +761,7 @@ rules:
   steps:
     - intent: greet
     - action: utter_greet
+- rule: Trả lời về lợi ích tập tạ
+  steps:
+  - intent: weightlifting_benefits
+  - action: utter_weightlifting_benefits

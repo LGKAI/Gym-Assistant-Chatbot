@@ -1,15 +1,15 @@
-# Tệp cấu hình phím tắt và khóa API (Không bao giờ đưa lên git)
-api_keys.json
+# Tệp chứa khóa API và thông tin xác thực (KHÔNG BAO GIỜ đưa lên git)
+config/api_keys.json
 credentials.yml
 *.env
+.env
 
-# Python
+# ── Python ───────────────────────────────────────────────────
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-env/
 build/
 develop-eggs/
 dist/
@@ -28,21 +28,26 @@ share/python-wheels/
 *.egg
 MANIFEST
 
-# Môi trường ảo (Virtual Environment)
+# ── Môi trường ảo (Virtual Environment) ─────────────────────
 venv/
 .venv/
 env/
 .env/
 ENV/
 
-# Cấu hình IDE
+# ── Cấu hình IDE ─────────────────────────────────────────────
 .idea/
 .vscode/
 *.swp
 *.swo
 
-# Cấu hình và bộ nhớ đệm của Rasa
+# ── Output của Rasa (tạo ra lúc train/test, không phải source) ──
 .rasa/
 models/*.tar.gz
 results/
 train_test_split/
+
+# ── File tạm của workflow (generated at runtime) ─────────────
+New_questions.txt
+unlableled_intents.json
+responses.json

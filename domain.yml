@@ -2,638 +2,1030 @@ version: "3.1"
 
 
 intents:
-  - intensity_vs_recovery
-  - rest_days_when_tired
-  - signs_of_overtraining
-  - avoid_overtraining
-  - achievable_fitness_targets
-  - create_gym_milestones
-  - short_term_vs_long_term_goals
-  - set_fitness_goals
-  - change_workout_routine
-  - mix_exercises_session
-  - avoid_workout_boredom
-  - add_spin_to_cardio
-  - spin_class_calorie_burn
-  - cycling_vs_running
-  - spin_classes_weight_loss
-  - first_fitness_class
-  - zumba_vs_yoga
-  - group_classes_beginners
-  - body_composition_tracking
-  - prioritize_fat_over_weight
-  - measure_body_fat
-  - check_body_fat
-  - record_progress
-  - apps_for_exercises
-  - log_workouts
-  - measure_muscle_gain
-  - track_weight_changes
-  - progress_assessment
-  - weightlifting_belt_purpose
-  - dumbbell_gloves
-  - lifting_gloves
-  - weightlifting_shoes
-  - gym_shoes
-  - cutting_bulking
-  - tone_or_bulk
-  - toning_vs_bulking
-  - core_exercises
-  - abs_through_diet
-  - six_pack_abs
-  - target_weaker_muscles
-  - unilateral_exercises
-  - even_out_strength
-  - fix_muscle_imbalance
-  - resistance_exercise_weight_loss
-  - weight_stuck
-  - overcome_weight_loss_plateau
-  - stop_weight_loss
-  - fats_in_fitness_diet
-  - carbs_for_workout
-  - high_protein_diet
-  - gym_goers_diet
-  - calories_muscle_building
-  - calorie_tracking
-  - calculate_calories
-  - refuel_after_gym
-  - post_workout_protein
-  - post_workout_food
-  - runner_training_plan
-  - running_strength_training
-  - marathon_training
-  - endurance_training
-  - combine_strength_hypertrophy
-  - strength_vs_hypertrophy
-  - strength_low_reps
-  - strength_training
-  - naps_recovery
-  - sleep_muscle_recovery
-  - stop_exercise_pain
-  - poor_form_injuries
-  - post_workout_rest
-  - sore_muscles_treatment
-  - back_arch_bench_press
-  - bench_press_shoulder_pain
-  - bench_press_strength
-  - deadlift_belt
-  - proper_deadlift
-  - squat_mistakes
-  - proper_squat
-  - correct_slouching
-  - improve_posture
-  - yoga_recovery
-  - yoga_benefits
-  - improve_flexibility
-  - mental_health_fitness_balance
-  - tired_to_workout
-  - exercise_while_down
-  - motivation_during_struggles
-  - anxiety_relief_workouts
-  - exercise_mood_boost
-  - fitness_mental_wellbeing
-  - exercise_mental_health
-  - importance_reracking
-  - reracking_etiquette
-  - weights_on_bar
-  - rerack_weights
-  - share_gym_equipment
-  - work_in_equipment
-  - share_equipment
-  - wipe_down_machines
-  - clean_gym_equipment
-  - overcome_gym_anxiety
-  - fitness_apps_tracking
-  - workout_journal
-  - fitness_improvement
-  - track_progress
-  - workout_motivation
-  - improve_running_pace
-  - running_speed
-  - cardio_fat_burning
-  - hiit_pros_cons
-  - hiit_vs_steady_state
-  - cardio_alternatives
-  - enjoyable_cardio
-  - supersets
-  - drop_sets
-  - increase_strength
-  - importance_rest_days
-  - injury_prevention
-  - workout_recovery
-  - progressive_overload
-  - train_to_failure
-  - reps_vs_weights
-  - hypertrophy_reps_sets
-  - build_muscle
-  - fat_loss_weightlifting
-  - cardio_duration_weight_loss
-  - lose_midsection_fat
-  - cardio_vs_weights
-  - burn_belly_fat
-  - water_timing
-  - water_intake_workout
-  - protein_powder
-  - protein_shakes
-  - pre_workout_food
-  - improve_stamina
-  - beginner_gym_plan
-  - create_workout_plan
-  - kettlebell_usage
-  - dumbbell_usage
-  - adjust_weights
-  - treadmill_usage
-  - warm_up
-  - personal_trainer
-  - workout_time
-  - workout_frequency
-  - gym_frequency
-  - gym_essentials
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-  - nlu_fallback
-  - recommend_muscle_group_exercise
+- intensity_vs_recovery
+- rest_days_when_tired
+- signs_of_overtraining
+- avoid_overtraining
+- achievable_fitness_targets
+- create_gym_milestones
+- short_term_vs_long_term_goals
+- set_fitness_goals
+- change_workout_routine
+- mix_exercises_session
+- avoid_workout_boredom
+- add_spin_to_cardio
+- spin_class_calorie_burn
+- cycling_vs_running
+- spin_classes_weight_loss
+- first_fitness_class
+- zumba_vs_yoga
+- group_classes_beginners
+- body_composition_tracking
+- prioritize_fat_over_weight
+- measure_body_fat
+- check_body_fat
+- record_progress
+- apps_for_exercises
+- log_workouts
+- measure_muscle_gain
+- track_weight_changes
+- progress_assessment
+- weightlifting_belt_purpose
+- dumbbell_gloves
+- lifting_gloves
+- weightlifting_shoes
+- gym_shoes
+- cutting_bulking
+- tone_or_bulk
+- toning_vs_bulking
+- core_exercises
+- abs_through_diet
+- six_pack_abs
+- target_weaker_muscles
+- unilateral_exercises
+- even_out_strength
+- fix_muscle_imbalance
+- resistance_exercise_weight_loss
+- weight_stuck
+- overcome_weight_loss_plateau
+- stop_weight_loss
+- fats_in_fitness_diet
+- carbs_for_workout
+- high_protein_diet
+- gym_goers_diet
+- calories_muscle_building
+- calorie_tracking
+- calculate_calories
+- refuel_after_gym
+- post_workout_protein
+- post_workout_food
+- runner_training_plan
+- running_strength_training
+- marathon_training
+- endurance_training
+- combine_strength_hypertrophy
+- strength_vs_hypertrophy
+- strength_low_reps
+- strength_training
+- naps_recovery
+- sleep_muscle_recovery
+- stop_exercise_pain
+- poor_form_injuries
+- post_workout_rest
+- sore_muscles_treatment
+- back_arch_bench_press
+- bench_press_shoulder_pain
+- bench_press_strength
+- deadlift_belt
+- proper_deadlift
+- squat_mistakes
+- proper_squat
+- correct_slouching
+- improve_posture
+- yoga_recovery
+- yoga_benefits
+- improve_flexibility
+- mental_health_fitness_balance
+- tired_to_workout
+- exercise_while_down
+- motivation_during_struggles
+- anxiety_relief_workouts
+- exercise_mood_boost
+- fitness_mental_wellbeing
+- exercise_mental_health
+- importance_reracking
+- reracking_etiquette
+- weights_on_bar
+- rerack_weights
+- share_gym_equipment
+- work_in_equipment
+- share_equipment
+- wipe_down_machines
+- clean_gym_equipment
+- overcome_gym_anxiety
+- fitness_apps_tracking
+- workout_journal
+- fitness_improvement
+- track_progress
+- workout_motivation
+- improve_running_pace
+- running_speed
+- cardio_fat_burning
+- hiit_pros_cons
+- hiit_vs_steady_state
+- cardio_alternatives
+- enjoyable_cardio
+- supersets
+- drop_sets
+- increase_strength
+- importance_rest_days
+- injury_prevention
+- workout_recovery
+- progressive_overload
+- train_to_failure
+- reps_vs_weights
+- hypertrophy_reps_sets
+- build_muscle
+- fat_loss_weightlifting
+- cardio_duration_weight_loss
+- lose_midsection_fat
+- cardio_vs_weights
+- burn_belly_fat
+- water_timing
+- water_intake_workout
+- protein_powder
+- protein_shakes
+- pre_workout_food
+- improve_stamina
+- beginner_gym_plan
+- create_workout_plan
+- kettlebell_usage
+- dumbbell_usage
+- adjust_weights
+- treadmill_usage
+- warm_up
+- personal_trainer
+- workout_time
+- workout_frequency
+- gym_frequency
+- gym_essentials
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- nlu_fallback
+- recommend_muscle_group_exercise
+- weightlifting_benefits
 
 responses:
+  utter_weightlifting_benefits:
+  - text: "Tập tạ mang lại rất nhiều lợi ích: giúp tăng cường sức mạnh, phát triển cơ bắp, đốt cháy mỡ thừa hiệu quả hơn, cải thiện tư thế, tăng mật độ xương và giảm nguy cơ chấn thương. Hơn nữa, nó còn giúp bạn cải thiện sức khỏe tinh thần và sự tự tin."
+
   utter_ans_intensity_vs_recovery:
-  - text: "To balance workout intensity and recovery.\n 1) Vary your workouts: Alternate between high-intensity and lower-intensity sessions to give muscles time to recover.\n 2) Schedule rest days: Include at least 1-2 rest days per week to prevent overtraining.\n 3) Focus on active recovery: Engage in light activities like walking, yoga, or stretching on rest days.\n 4) Listen to your body: Adjust intensity if you feel excessive fatigue or soreness.\n 5) Prioritize sleep and nutrition: Adequate rest and proper fueling support recovery and muscle repair."
+  - text: |-
+      Để cân bằng cường độ tập luyện và phục hồi.
+       1) Thay đổi các bài tập của bạn: Luân phiên giữa các buổi tập cường độ cao và cường độ thấp hơn để cơ có thời gian phục hồi.
+       2) Lên lịch ngày nghỉ ngơi: Bao gồm ít nhất 1-2 ngày nghỉ mỗi tuần để tránh tập luyện quá sức.
+       3) Tập trung vào việc phục hồi tích cực: Tham gia các hoạt động nhẹ nhàng như đi bộ, yoga hoặc giãn cơ vào những ngày nghỉ ngơi.
+       4) Lắng nghe cơ thể: Điều chỉnh cường độ nếu bạn cảm thấy mệt mỏi hoặc đau nhức quá mức.
+       5) Ưu tiên giấc ngủ và dinh dưỡng: Nghỉ ngơi đầy đủ và nạp năng lượng hợp lý sẽ hỗ trợ phục hồi và phục hồi cơ bắp.
+
 
   utter_ans_rest_days_when_tired:
-  - text: "Yes, if you're feeling tired, it's important to take more rest days to allow your body to recover. Rest is crucial for muscle repair, preventing injury, and maintaining overall performance. If fatigue persists, consider adjusting your workout intensity or frequency and ensure you're getting enough sleep, hydration, and nutrition. Listening to your body and taking rest days when needed can help you avoid overtraining and improve long-term fitness progress."
+  - text: |-
+      Có, nếu bạn cảm thấy mệt mỏi, điều quan trọng là bạn phải nghỉ ngơi nhiều hơn để cơ thể phục hồi. Nghỉ ngơi rất quan trọng để sửa chữa cơ bắp, ngăn ngừa chấn thương và duy trì hiệu suất tổng thể. Nếu tình trạng mệt mỏi kéo dài, hãy cân nhắc điều chỉnh cường độ hoặc tần suất tập luyện và đảm bảo bạn ngủ đủ giấc, đủ nước và dinh dưỡng. Lắng nghe cơ thể và dành những ngày nghỉ ngơi khi cần thiết có thể giúp bạn tránh tập luyện quá sức và cải thiện tiến độ tập luyện lâu dài.
+
 
   utter_ans_signs_of_overtraining:
-  - text: "Signs you're working out too much include:\n 1) Persistent fatigue or low energy.\n 2) Decreased performance (e.g., lifting less weight, running slower).\n 3) Frequent soreness or muscle pain that doesn't go away.\n 4) Increased irritability or mood swings.\n 5) Sleep disturbances (difficulty falling asleep or staying asleep).\n 6) Frequent injuries or joint pain.\n 7) Weakened immune system, leading to frequent illness. If you notice these signs, it's important to adjust your routine, prioritize rest, and allow time for recovery."
+  - text: |-
+      Dấu hiệu bạn đang tập luyện quá nhiều bao gồm:
+       1) Mệt mỏi dai dẳng hoặc năng lượng thấp.
+       2) Hiệu suất giảm (ví dụ: nâng ít trọng lượng hơn, chạy chậm hơn).
+       3) Đau nhức thường xuyên hoặc đau cơ không thuyên giảm.
+       4) Tăng sự khó chịu hoặc thay đổi tâm trạng.
+       5) Rối loạn giấc ngủ (khó ngủ hoặc khó duy trì giấc ngủ).
+       6) Chấn thương hoặc đau khớp thường xuyên.
+       7) Hệ thống miễn dịch suy yếu, dẫn đến bệnh tật thường xuyên. Nếu bạn nhận thấy những dấu hiệu này, điều quan trọng là phải điều chỉnh thói quen của mình, ưu tiên nghỉ ngơi và dành thời gian để phục hồi.
+
 
   utter_ans_avoid_overtraining:
-  - text: "To avoid overtraining, follow these tips:\n 1) Prioritize rest and recovery: Ensure adequate rest days between intense workouts and get quality sleep.\n 2) Listen to your body: Pay attention to signs of fatigue, soreness, or decreased performance.\n 3) Vary your routine: Mix up workout intensity, duration, and type to prevent constant strain on the same muscles.\n 4) Fuel properly: Eat a balanced diet with enough protein, carbohydrates, and fats to support recovery.\n 5) Stay hydrated: Dehydration can increase the risk of overtraining, so drink enough water throughout the day.\n 6) Gradually increase intensity: Avoid sudden increases in workout intensity or volume; progress gradually over time."
+  - text: |-
+      Để tránh tập luyện quá sức, hãy làm theo những lời khuyên sau:
+       1) Ưu tiên nghỉ ngơi và phục hồi: Đảm bảo có đủ ngày nghỉ ngơi giữa các buổi tập luyện cường độ cao và có được giấc ngủ chất lượng.
+       2) Lắng nghe cơ thể bạn: Chú ý đến các dấu hiệu mệt mỏi, đau nhức hoặc giảm hiệu suất.
+       3) Thay đổi thói quen của bạn: Kết hợp cường độ, thời lượng và loại hình tập luyện để tránh căng thẳng liên tục trên cùng một cơ.
+       4) Nạp nhiên liệu hợp lý: Ăn một chế độ ăn uống cân bằng với đủ protein, carbohydrate và chất béo để hỗ trợ phục hồi.
+       5) Giữ nước: Mất nước có thể làm tăng nguy cơ tập luyện quá sức, vì vậy hãy uống đủ nước trong ngày.
+       6) Tăng dần cường độ: Tránh tăng đột ngột cường độ hoặc khối lượng tập luyện; tiến triển dần dần theo thời gian.
+
 
   utter_ans_achievable_fitness_targets:
-  - text: "To set achievable fitness targets:\n 1) Assess your starting point (strength, endurance, etc.).\n 2) Use SMART goals: Specific, Measurable, Achievable, Relevant, and Time-bound (e.g., “Increase squat by 10kg in 8 weeks”).\n 3) Break goals into smaller milestones.\n 4) Track progress regularly.\n 5) Stay consistent and adjust as needed."
+  - text: |-
+      Để đặt mục tiêu tập thể dục có thể đạt được:
+       1) Đánh giá điểm xuất phát của bạn (sức mạnh, sức bền, v.v.).
+       2) Sử dụng các mục tiêu THÔNG MINH: Cụ thể, Có thể đo lường được, Có thể đạt được, Có liên quan và Có giới hạn thời gian (ví dụ: “Tăng squat thêm 10kg trong 8 tuần”).
+       3) Chia mục tiêu thành các cột mốc nhỏ hơn.
+       4) Theo dõi tiến độ thường xuyên.
+       5) Luôn nhất quán và điều chỉnh khi cần thiết.
+
 
   utter_ans_create_gym_milestones:
-  - text: "To create realistic gym milestones, follow these steps:\n 1) Assess your current fitness level: Know where you're starting from (e.g., current strength, endurance, flexibility).\n 2) Break down long-term goals: Divide large goals into smaller, measurable milestones (e.g., increasing your deadlift by 10kg in 6 weeks).\n 3) Set achievable timelines: Ensure milestones are challenging but realistic based on your progress pace.\n 4) Make them specific: Focus on clear targets like reps, weight, or duration (e.g., running 5km in 30 minutes).\n 5) Track progress regularly: Reevaluate your milestones every few weeks and adjust if needed to stay on track."
+  - text: |-
+      Để tạo các mốc quan trọng trong phòng tập thể dục thực tế, hãy làm theo các bước sau:
+       1) Đánh giá mức độ thể lực hiện tại của bạn: Biết bạn bắt đầu từ đâu (ví dụ: sức mạnh, sức bền, tính linh hoạt hiện tại).
+       2) Chia nhỏ các mục tiêu dài hạn: Chia các mục tiêu lớn thành các cột mốc nhỏ hơn, có thể đo lường được (ví dụ: tăng mức deadlift của bạn thêm 10kg trong 6 tuần).
+       3) Đặt các mốc thời gian có thể đạt được: Đảm bảo các cột mốc đầy thách thức nhưng thực tế dựa trên tốc độ tiến bộ của bạn.
+       4) Làm cho chúng cụ thể: Tập trung vào các mục tiêu rõ ràng như số lần lặp lại, trọng lượng hoặc thời lượng (ví dụ: chạy 5 km trong 30 phút).
+       5) Theo dõi tiến độ thường xuyên: Đánh giá lại các mốc quan trọng của bạn vài tuần một lần và điều chỉnh nếu cần để luôn đi đúng hướng.
+
 
   utter_ans_short_term_vs_long_term_goals:
-  - text: "It's best to aim for both short-term and long-term goals. Short-term goals keep you motivated and provide quick wins that build momentum (e.g., increasing your squat weight by 5kg in 2 weeks). Long-term goals provide a bigger vision and guide your overall fitness journey (e.g., running a marathon or achieving a specific body composition in a year). Combining both helps you stay on track and celebrate progress while working toward bigger objectives."
+  - text: |-
+      Tốt nhất là bạn nên nhắm tới cả mục tiêu ngắn hạn và dài hạn. Các mục tiêu ngắn hạn giúp bạn có động lực và mang lại những chiến thắng nhanh chóng để tạo động lực (ví dụ: tăng trọng lượng squat của bạn thêm 5kg trong 2 tuần). Các mục tiêu dài hạn mang lại tầm nhìn lớn hơn và định hướng hành trình tập thể dục tổng thể của bạn (ví dụ: chạy marathon hoặc đạt được thành phần cơ thể cụ thể trong một năm). Kết hợp cả hai giúp bạn đi đúng hướng và tôn vinh sự tiến bộ trong khi hướng tới các mục tiêu lớn hơn.
+
 
   utter_ans_set_fitness_goals:
-  - text: "The best way to set fitness goals is by using the SMART framework:\n 1) Specific: Clearly define your goal (e.g., 'I want to squat 100kg').\n 2) Measurable: Ensure you can track your progress (e.g., 'I will track my squat weight each week').\n 3) Achievable: Set a goal that's challenging but realistic based on your fitness level.\n 4) Relevant: Choose goals that align with your overall fitness priorities (e.g., strength, endurance, flexibility).\n 5) Time-bound: Set a target date to achieve your goal (e.g., 'I want to reach this goal in 3 months'). This helps keep you focused, motivated, and on track."
+  - text: |-
+      Cách tốt nhất để đặt mục tiêu tập thể dục là sử dụng khuôn khổ SMART:
+       1) Cụ thể: Xác định rõ ràng mục tiêu của bạn (ví dụ: 'Tôi muốn squat 100kg').
+       2) Có thể đo lường được: Đảm bảo bạn có thể theo dõi tiến trình của mình (ví dụ: 'Tôi sẽ theo dõi cân nặng squat của mình mỗi tuần').
+       3) Có thể đạt được: Đặt mục tiêu đầy thách thức nhưng thực tế dựa trên mức độ thể chất của bạn.
+       4) Có liên quan: Chọn các mục tiêu phù hợp với các ưu tiên về thể lực tổng thể của bạn (ví dụ: sức mạnh, sức bền, tính linh hoạt).
+       5) Có giới hạn thời gian: Đặt ngày mục tiêu để đạt được mục tiêu của bạn (ví dụ: 'Tôi muốn đạt được mục tiêu này sau 3 tháng'). Điều này giúp bạn tập trung, có động lực và đi đúng hướng.
+
 
   utter_ans_change_workout_routine:
-  - text: "You should consider changing your routine every 4-6 weeks to avoid plateaus, keep workouts fresh, and continue making progress. This can involve varying the exercises, intensity, volume, or even switching up the type of workout (e.g., strength training to HIIT). Making small adjustments regularly helps prevent boredom, challenges your muscles in new ways, and supports long-term progress."
+  - text: |-
+      Bạn nên cân nhắc việc thay đổi thói quen của mình sau mỗi 4 - 6 tuần để tránh tình trạng ổn định, giữ cho quá trình tập luyện luôn mới mẻ và tiếp tục tiến bộ. Điều này có thể liên quan đến việc thay đổi các bài tập, cường độ, âm lượng hoặc thậm chí chuyển đổi loại hình tập luyện (ví dụ: rèn luyện sức mạnh sang HIIT). Thực hiện những điều chỉnh nhỏ thường xuyên giúp ngăn ngừa sự nhàm chán, thử thách cơ bắp của bạn theo những cách mới và hỗ trợ sự tiến bộ lâu dài.
+
 
   utter_ans_mix_exercises_session:
-  - text: "Yes, mixing different exercises in one session is a great way to keep workouts engaging and well-rounded. Combining various types of exercises—such as strength training, cardio, and flexibility work—can target different muscle groups, improve overall fitness, and prevent boredom. For example, you could alternate between weightlifting and high-intensity interval training (HIIT), or incorporate mobility exercises at the end of a strength session. Just ensure you balance the intensity to avoid overtraining any muscle groups and allow adequate recovery."
+  - text: |-
+      Có, kết hợp các bài tập khác nhau trong một buổi là một cách tuyệt vời để giữ cho các bài tập luôn hấp dẫn và toàn diện. Kết hợp nhiều loại bài tập khác nhau — chẳng hạn như rèn luyện sức mạnh, tim mạch và rèn luyện tính linh hoạt — có thể nhắm vào các nhóm cơ khác nhau, cải thiện thể lực tổng thể và ngăn ngừa sự nhàm chán. Ví dụ: bạn có thể xen kẽ giữa cử tạ và luyện tập cường độ cao ngắt quãng (HIIT) hoặc kết hợp các bài tập vận động vào cuối buổi tập sức mạnh. Chỉ cần đảm bảo bạn cân bằng cường độ để tránh tập luyện quá sức bất kỳ nhóm cơ nào và cho phép phục hồi đầy đủ.
+
 
   utter_ans_avoid_workout_boredom:
-  - text: "To keep your workouts exciting, try the following strategies:\n 1) Change your routine: Rotate between different exercises, classes, or workout formats (e.g., HIIT, strength training, yoga).\n 2) Set new goals: Challenge yourself with specific fitness milestones, like lifting heavier or running faster.\n 3) Try new activities: Explore activities like swimming, cycling, or group fitness classes to break the monotony.\n 4) Work out with a partner: Exercising with a friend or trainer can make workouts more enjoyable and motivating.\n 5) Listen to music or podcasts: Create a playlist or listen to an engaging podcast to make the time pass faster. 6) Track progress: Regularly track and celebrate improvements to stay motivated."
+  - text: |-
+      Để giữ cho việc tập luyện của bạn luôn thú vị, hãy thử các chiến lược sau:
+       1) Thay đổi thói quen của bạn: Luân phiên giữa các bài tập, lớp học hoặc hình thức tập luyện khác nhau (ví dụ: HIIT, rèn luyện sức mạnh, yoga).
+       2) Đặt mục tiêu mới: Thử thách bản thân bằng các mốc thể lực cụ thể, như nâng vật nặng hơn hoặc chạy nhanh hơn.
+       3) Thử các hoạt động mới: Khám phá các hoạt động như bơi lội, đạp xe hoặc các lớp thể dục nhóm để phá vỡ sự đơn điệu.
+       4) Tập luyện với đối tác: Tập thể dục với bạn bè hoặc huấn luyện viên có thể khiến việc tập luyện trở nên thú vị và có động lực hơn.
+       5) Nghe nhạc hoặc podcast: Tạo danh sách phát hoặc nghe một podcast hấp dẫn để thời gian trôi qua nhanh hơn. 6) Theo dõi tiến độ: Thường xuyên theo dõi và khen ngợi những cải tiến để duy trì động lực.
+
 
   utter_ans_add_spin_to_cardio:
-  - text: "Adding spin classes to your cardio routine can be a great idea if you're looking to diversify your workouts and boost cardiovascular fitness. Spin classes provide a low-impact, high-intensity workout that can help improve endurance, burn calories, and target different muscle groups, particularly the legs. They’re also a fun way to keep cardio sessions engaging. If you enjoy cycling and want to reduce the risk of injury from high-impact activities like running, spin classes can be a great addition to your routine. Just make sure to balance them with other cardio and strength exercises for a well-rounded fitness plan."
+  - text: |-
+      Thêm các lớp học xoay tròn vào thói quen luyện tim mạch của bạn có thể là một ý tưởng tuyệt vời nếu bạn đang muốn đa dạng hóa các bài tập của mình và tăng cường thể lực cho tim mạch. Các lớp học xoay tròn cung cấp một bài tập cường độ cao, tác động thấp có thể giúp cải thiện sức bền, đốt cháy calo và nhắm vào các nhóm cơ khác nhau, đặc biệt là ở chân. Chúng cũng là một cách thú vị để giữ cho các buổi tập tim mạch luôn hấp dẫn. Nếu bạn thích đạp xe và muốn giảm nguy cơ chấn thương do các hoạt động có tác động mạnh như chạy, các lớp học đạp xe có thể là sự bổ sung tuyệt vời cho thói quen của bạn. Chỉ cần đảm bảo cân bằng chúng với các bài tập tim mạch và sức mạnh khác để có một kế hoạch tập luyện toàn diện.
+
 
   utter_ans_spin_class_calorie_burn:
-  - text: "Spin classes can burn anywhere from 400 to 600 calories per hour, depending on factors like intensity, your weight, and the specific class format. High-intensity spin sessions, especially those that include interval training, can increase calorie burn significantly. The afterburn effect (EPOC) also boosts calorie expenditure after the class ends. If you're looking to maximize fat loss, combining spin classes with a healthy diet and consistent exercise routine can enhance results."
+  - text: |-
+      Các lớp học xoay tròn có thể đốt cháy từ 400 đến 600 calo mỗi giờ, tùy thuộc vào các yếu tố như cường độ, cân nặng của bạn và hình thức lớp học cụ thể. Các buổi tập xoay tròn cường độ cao, đặc biệt là những buổi tập bao gồm luyện tập xen kẽ, có thể làm tăng đáng kể lượng calo đốt cháy. Hiệu ứng đốt cháy sau (EPOC) cũng làm tăng lượng calo tiêu thụ sau khi lớp học kết thúc. Nếu bạn đang tìm cách giảm mỡ tối đa, việc kết hợp các lớp tập xoay tròn với chế độ ăn uống lành mạnh và thói quen tập thể dục phù hợp có thể nâng cao kết quả.
+
 
   utter_ans_cycling_vs_running:
-  - text: "Both cycling and running are effective for weight loss, but the best option depends on your preferences and goals. Running tends to burn more calories per minute due to its higher intensity and weight-bearing nature, which can lead to quicker fat loss if performed at a high intensity. However, cycling is gentler on the joints, making it a better choice for people with joint pain or those seeking lower-impact exercise. Both can be effective for fat loss, but the key is consistency and combining either with a proper diet and strength training for the best results."
+  - text: |-
+      Cả đạp xe và chạy bộ đều có tác dụng giảm cân hiệu quả nhưng lựa chọn tốt nhất còn tùy thuộc vào sở thích và mục tiêu của bạn. Chạy có xu hướng đốt cháy nhiều calo hơn mỗi phút do cường độ cao hơn và tính chất chịu trọng lượng, điều này có thể dẫn đến giảm mỡ nhanh hơn nếu thực hiện ở cường độ cao. Tuy nhiên, đạp xe nhẹ nhàng hơn cho các khớp, nên nó trở thành lựa chọn tốt hơn cho những người bị đau khớp hoặc những người muốn tập thể dục ít tác động hơn. Cả hai đều có thể có hiệu quả trong việc giảm mỡ, nhưng điều quan trọng là sự nhất quán và kết hợp với chế độ ăn uống hợp lý và rèn luyện sức mạnh để có kết quả tốt nhất.
+
 
   utter_ans_spin_classes_weight_loss:
-  - text: "Yes, spin classes can be effective for fat loss. They provide an intense cardiovascular workout that helps burn calories, especially when combined with a healthy diet. Spin classes typically involve high-intensity intervals, which can boost your metabolism and improve fat burning even after the class ends (known as the afterburn effect). Consistency in attending spin classes, along with proper nutrition and recovery, can contribute significantly to fat loss over time."
+  - text: |-
+      Có, các lớp học xoay tròn có thể có hiệu quả trong việc giảm mỡ. Chúng cung cấp một bài tập tim mạch cường độ cao giúp đốt cháy calo, đặc biệt khi kết hợp với chế độ ăn uống lành mạnh. Các lớp học xoay tròn thường bao gồm các khoảng thời gian cường độ cao, có thể thúc đẩy quá trình trao đổi chất của bạn và cải thiện quá trình đốt cháy chất béo ngay cả sau khi lớp học kết thúc (được gọi là hiệu ứng đốt cháy sau). Việc nhất quán tham gia các lớp học xoay tròn, cùng với chế độ dinh dưỡng và phục hồi hợp lý, có thể góp phần đáng kể vào việc giảm mỡ theo thời gian.
+
 
   utter_ans_first_fitness_class:
-  - text: "To join your first fitness class, follow these steps:\n 1) Research local gyms or studios: Look for gyms or fitness centers that offer beginner-friendly classes, and check their schedules.\n 2) Choose a class: Pick a class that aligns with your fitness level and interests, such as yoga, Zumba, or a beginner strength class.\n 3) Register in advance: Many gyms allow you to sign up online or over the phone for classes. Some may require booking in advance to secure a spot.\n 4) Prepare: Wear comfortable workout clothes, bring water, and arrive early to familiarize yourself with the class setup.\n 5) Ask questions: Don't hesitate to ask the instructor about class expectations or modifications for beginners.\n 6) Enjoy: Keep an open mind, have fun, and focus on learning and improving!"
+  - text: |-
+      Để tham gia lớp thể dục đầu tiên của bạn, hãy làm theo các bước sau:
+       1) Nghiên cứu các phòng tập thể dục hoặc studio ở địa phương: Tìm các phòng tập thể dục hoặc trung tâm thể hình cung cấp các lớp học thân thiện với người mới bắt đầu và kiểm tra lịch trình của họ.
+       2) Chọn một lớp học: Chọn một lớp phù hợp với trình độ thể chất và sở thích của bạn, chẳng hạn như yoga, Zumba hoặc lớp sức mạnh dành cho người mới bắt đầu.
+       3) Đăng ký trước: Nhiều phòng tập thể dục cho phép bạn đăng ký lớp học trực tuyến hoặc qua điện thoại. Một số có thể yêu cầu đặt chỗ trước để đảm bảo có chỗ.
+       4) Chuẩn bị: Mặc quần áo tập luyện thoải mái, mang theo nước và đến sớm để làm quen với cách bố trí lớp học.
+       5) Đặt câu hỏi: Đừng ngần ngại hỏi người hướng dẫn về những kỳ vọng hoặc sửa đổi của lớp học dành cho người mới bắt đầu.
+       6) Tận hưởng: Giữ một tinh thần cởi mở, vui vẻ và tập trung vào việc học hỏi và cải thiện!
+
 
   utter_ans_zumba_vs_yoga:
-  - text: "Both Zumba and yoga are great options for beginners, but they offer different benefits. Zumba is high-energy, fun, and great for improving cardiovascular fitness while burning calories. If you enjoy dancing and a more upbeat environment, Zumba might be a good choice. Yoga, on the other hand, focuses on flexibility, strength, and mental relaxation, making it ideal for improving mobility and reducing stress. If you prefer a slower pace and want to work on flexibility and mindfulness, yoga may be more suitable. Ultimately, try both to see which one aligns with your preferences and fitness goals."
+  - text: |-
+      Cả Zumba và yoga đều là những lựa chọn tuyệt vời cho người mới bắt đầu, nhưng chúng mang lại những lợi ích khác nhau. Zumba mang lại năng lượng cao, vui nhộn và tuyệt vời để cải thiện sức khỏe tim mạch đồng thời đốt cháy calo. Nếu bạn thích khiêu vũ và môi trường sôi động hơn, Zumba có thể là một lựa chọn tốt. Mặt khác, Yoga tập trung vào sự linh hoạt, sức mạnh và thư giãn tinh thần, khiến nó trở nên lý tưởng để cải thiện khả năng vận động và giảm căng thẳng. Nếu bạn thích tốc độ chậm hơn và muốn rèn luyện sự linh hoạt và chánh niệm, yoga có thể phù hợp hơn. Cuối cùng, hãy thử cả hai để xem cái nào phù hợp với sở thích và mục tiêu tập thể dục của bạn.
+
 
   utter_ans_group_classes_beginners:
-  - text: "The best group class for beginners depends on your fitness goals and preferences, but generally, low-impact classes are great for starting out. Options include:\n 1) Yoga: Great for flexibility, strength, and mental relaxation.\n 2) Pilates: Focuses on core strength, posture, and flexibility with low impact.\n 3) Bodyweight strength classes: These focus on bodyweight exercises and are good for building a foundation in strength.\n 4) Cardio classes (like cycling or Zumba): Good for improving cardiovascular fitness in a fun, energetic environment.\n 5) Stretching or mobility classes: These can help improve flexibility and reduce injury risk. Look for classes marked as 'beginner-friendly' to ensure they match your fitness level."
+  - text: |-
+      Lớp học nhóm tốt nhất dành cho người mới bắt đầu tùy thuộc vào mục tiêu và sở thích tập thể dục của bạn, nhưng nhìn chung, các lớp học có tác động thấp sẽ rất phù hợp để bắt đầu. Các tùy chọn bao gồm:
+       1) Yoga: Rất tốt cho sự linh hoạt, sức mạnh và thư giãn tinh thần.
+       2) Pilates: Tập trung vào sức mạnh cốt lõi, tư thế và tính linh hoạt với tác động thấp.
+       3) Các lớp sức mạnh cơ thể: Những lớp này tập trung vào các bài tập thể hình và rất tốt cho việc xây dựng nền tảng về sức mạnh.
+       4) Các lớp tập cardio (như đạp xe hoặc Zumba): Tốt để cải thiện sức khỏe tim mạch trong môi trường vui vẻ, tràn đầy năng lượng.
+       5) Các lớp giãn cơ hoặc vận động: Những lớp này có thể giúp cải thiện tính linh hoạt và giảm nguy cơ chấn thương. Hãy tìm các lớp được đánh dấu là 'thân thiện với người mới bắt đầu' để đảm bảo chúng phù hợp với trình độ thể chất của bạn.
+
 
   utter_ans_body_composition_tracking:
-  - text: "To track changes in body composition, you can use the following methods:\n 1) Body measurements: Measure key areas like waist, chest, arms, and legs regularly to monitor size changes.\n 2) Progress photos: Take consistent photos from the same angles under similar lighting to visually assess changes in muscle definition.\n 3) Body fat percentage: Use methods like skinfold calipers, DEXA scans, or bioelectrical impedance scales to track fat loss or muscle gain.\n 4) Scale weight: While not the sole indicator, monitoring weight alongside other methods can give context to changes.\n 5) Fitness performance: Track improvements in strength, endurance, or flexibility, as muscle gains often correlate with enhanced performance."
+  - text: |-
+      Để theo dõi sự thay đổi thành phần cơ thể, bạn có thể sử dụng các phương pháp sau:
+       1) Số đo cơ thể: Đo các vùng quan trọng như eo, ngực, cánh tay và chân thường xuyên để theo dõi sự thay đổi kích thước.
+       2) Ảnh tiến trình: Chụp những bức ảnh nhất quán từ cùng một góc dưới ánh sáng tương tự để đánh giá trực quan những thay đổi về đường nét của cơ.
+       3) Tỷ lệ phần trăm mỡ cơ thể: Sử dụng các phương pháp như thước đo nếp gấp da, quét DEXA hoặc thang đo trở kháng điện sinh học để theo dõi quá trình giảm mỡ hoặc tăng cơ.
+       4) Trọng số của thang đo: Mặc dù không phải là chỉ số duy nhất, nhưng việc theo dõi trọng số cùng với các phương pháp khác có thể cung cấp bối cảnh cho những thay đổi.
+       5) Hiệu suất tập thể dục: Theo dõi sự cải thiện về sức mạnh, sức bền hoặc tính linh hoạt, vì mức tăng cơ bắp thường tương quan với hiệu suất được nâng cao.
+
 
   utter_ans_prioritize_fat_over_weight:
-  - text: "Yes, prioritizing body fat over weight is generally more beneficial for health and fitness. Weight alone doesn't distinguish between muscle, fat, or water, so focusing on body fat percentage gives a clearer picture of body composition. Reducing body fat while maintaining or increasing muscle mass is typically more important for improving health, strength, and appearance than just losing weight. Tracking body fat helps ensure you're losing fat, not muscle, and supports long-term fitness goals."
+  - text: |-
+      Có, việc ưu tiên lượng mỡ trong cơ thể hơn cân nặng thường có lợi hơn cho sức khỏe và thể lực. Chỉ riêng cân nặng không phân biệt được cơ, mỡ hay nước, vì vậy việc tập trung vào tỷ lệ phần trăm mỡ trong cơ thể sẽ mang lại bức tranh rõ ràng hơn về thành phần cơ thể. Giảm mỡ trong cơ thể trong khi duy trì hoặc tăng khối lượng cơ bắp thường quan trọng hơn để cải thiện sức khỏe, sức mạnh và ngoại hình hơn là chỉ giảm cân. Theo dõi lượng mỡ trong cơ thể giúp đảm bảo bạn giảm mỡ chứ không phải cơ và hỗ trợ các mục tiêu tập thể dục lâu dài.
+
 
   utter_ans_measure_body_fat:
-  - text: "The most accurate methods for measuring body fat are:\n 1) DEXA scan (highly accurate using X-rays),\n 2) Hydrostatic weighing (submerged in water to measure body density),\n 3) Bod Pod (uses air displacement),\n 4) Skinfold calipers (accurate with a trained professional).\n 5) Bioelectrical impedance (common in scales, less accurate but useful for tracking trends)."
+  - text: |-
+      Các phương pháp chính xác nhất để đo lượng mỡ trong cơ thể là:
+       1) Quét DEXA (có độ chính xác cao khi sử dụng tia X),
+       2) Cân thủy tĩnh (ngâm trong nước để đo mật độ cơ thể),
+       3) Bod Pod (sử dụng dịch chuyển không khí),
+       4) Thước cặp Skinfold (chính xác với chuyên gia được đào tạo).
+       5) Trở kháng điện sinh học (phổ biến trong thang đo, kém chính xác hơn nhưng hữu ích cho việc theo dõi xu hướng).
+
 
   utter_ans_check_body_fat:
-  - text: "It's best to check your body fat percentage every 4-6 weeks rather than more frequently. Body fat measurements can fluctuate due to factors like hydration, diet, and muscle gain, so checking too often may not give you an accurate picture of long-term trends. Monthly or bi-monthly checks will allow you to track gradual changes and avoid getting discouraged by short-term fluctuations. Consistency in measurement methods (e.g., using the same tool or technique) is key to tracking accurate progress."
+  - text: |-
+      Tốt nhất bạn nên kiểm tra tỷ lệ phần trăm mỡ trong cơ thể 4-6 tuần một lần thay vì thường xuyên hơn. Số đo lượng mỡ trong cơ thể có thể dao động do các yếu tố như hydrat hóa, chế độ ăn uống và tăng cơ, vì vậy việc kiểm tra quá thường xuyên có thể không cung cấp cho bạn bức tranh chính xác về xu hướng dài hạn. Việc kiểm tra hàng tháng hoặc hai tháng một lần sẽ cho phép bạn theo dõi những thay đổi dần dần và tránh nản lòng trước những biến động ngắn hạn. Tính nhất quán trong các phương pháp đo lường (ví dụ: sử dụng cùng một công cụ hoặc kỹ thuật) là chìa khóa để theo dõi tiến độ chính xác.
+
 
   utter_ans_record_progress:
-  - text: "To record your progress over time, consider tracking the following:\n 1) Strength gains: Log the weight, sets, and reps for each exercise to see improvements.\n 2) Body measurements: Track measurements like chest, arms, waist, and legs every few weeks.\n 3) Progress photos: Take consistent photos from the same angles under similar lighting to visually track changes in muscle definition.\n 4) Body composition: Track your body fat percentage using scales or calipers. 5) Fitness goals: Write down specific goals (e.g., running a certain distance, lifting a certain weight) and track your progress toward achieving them. Use a workout journal or digital app to keep everything organized and consistent."
+  - text: |-
+      Để ghi lại tiến trình của bạn theo thời gian, hãy cân nhắc việc theo dõi những điều sau:
+       1) Tăng sức mạnh: Ghi lại trọng lượng, số hiệp và số lần lặp lại cho mỗi bài tập để thấy sự cải thiện.
+       2) Số đo cơ thể: Theo dõi số đo như ngực, tay, eo và chân vài tuần một lần.
+       3) Ảnh tiến trình: Chụp những bức ảnh nhất quán từ cùng một góc dưới ánh sáng tương tự để theo dõi trực quan những thay đổi về đường nét của cơ.
+       4) Thành phần cơ thể: Theo dõi tỷ lệ phần trăm mỡ cơ thể của bạn bằng cân hoặc thước cặp. 5) Mục tiêu về thể chất: Viết ra các mục tiêu cụ thể (ví dụ: chạy một quãng đường nhất định, nâng một mức tạ nhất định) và theo dõi tiến trình của bạn để đạt được chúng. Sử dụng nhật ký tập luyện hoặc ứng dụng kỹ thuật số để giữ mọi thứ ngăn nắp và nhất quán.
+
 
   utter_ans_apps_for_exercises:
-  - text: "Digital apps can be very helpful for tracking exercises due to their convenience and features. They allow you to easily log workouts, track progress over time, set goals, and even provide workout suggestions. Apps often include visual progress charts, reminders, and the ability to store detailed records of your sets, reps, and weights, making it easier to analyze trends. However, some people prefer pen and paper for the personal touch and simplicity. Ultimately, whether an app is better depends on your preference for digital versus manual tracking and the level of detail you want to track."
+  - text: |-
+      Các ứng dụng kỹ thuật số có thể rất hữu ích cho việc theo dõi các bài tập do tính tiện lợi và tính năng của chúng. Chúng cho phép bạn dễ dàng ghi lại các bài tập, theo dõi tiến độ theo thời gian, đặt mục tiêu và thậm chí đưa ra các đề xuất tập luyện. Các ứng dụng thường bao gồm biểu đồ tiến độ trực quan, lời nhắc và khả năng lưu trữ hồ sơ chi tiết về các hiệp, số lần lặp và mức tạ của bạn, giúp phân tích xu hướng dễ dàng hơn. Tuy nhiên, một số người thích bút và giấy hơn vì sự đơn giản và mang tính cá nhân. Cuối cùng, việc ứng dụng có tốt hơn hay không phụ thuộc vào sở thích của bạn đối với theo dõi kỹ thuật số so với thủ công và mức độ chi tiết bạn muốn theo dõi.
+
 
   utter_ans_log_workouts:
-  - text: "The best way to log your workouts is to use a consistent method that tracks key details:\n 1) Exercise type: Note the exercises you do.\n 2) Sets, reps, and weight: Track the sets, repetitions, and weight used for each exercise to monitor strength progress.\n 3) Rest times: Log the rest between sets to maintain consistency.\n 4) Workout duration: Record how long your sessions are.\n 5) Feelings/Notes: Include how you felt during the workout, energy levels, or any discomfort to track recovery. You can use a physical notebook or a fitness app to log your progress, depending on your preference."
+  - text: |-
+      The best way to log your workouts is to use a consistent method that tracks key details:
+       1) Exercise type: Note the exercises you do.
+       2) Sets, reps, and weight: Track the sets, repetitions, and weight used for each exercise to monitor strength progress.
+       3) Rest times: Log the rest between sets to maintain consistency.
+       4) Workout duration: Record how long your sessions are.
+       5) Feelings/Notes: Include how you felt during the workout, energy levels, or any discomfort to track recovery. You can use a physical notebook or a fitness app to log your progress, depending on your preference.
+
 
   utter_ans_measure_muscle_gain:
-  - text: "To measure muscle gain, track these key indicators:\n 1) Body measurements: Measure your chest, arms, legs, and other areas to see if they are getting larger over time.\n 2) Progress photos: Take consistent photos under similar lighting to visually compare changes in muscle definition.\n 3) Strength increases: If you're able to lift heavier weights or perform more reps with the same weight, it's a sign of muscle growth.\n 4) Body fat percentage: A decrease in body fat, while maintaining or increasing muscle mass, indicates muscle gain.\n 5) Muscle soreness and recovery: Noticeable changes in soreness or how quickly you recover after workouts can signal muscle adaptation."
+  - text: |-
+      Để đo mức tăng cơ, hãy theo dõi các chỉ số chính sau:
+       1) Số đo cơ thể: Đo ngực, cánh tay, chân và các vùng khác để xem chúng có to hơn theo thời gian không.
+       2) Ảnh tiến trình: Chụp những bức ảnh nhất quán dưới ánh sáng tương tự để so sánh trực quan những thay đổi về nét cơ.
+       3) Sức mạnh tăng lên: Nếu bạn có thể nâng mức tạ nặng hơn hoặc thực hiện nhiều lần lặp lại với cùng mức tạ thì đó là dấu hiệu của sự phát triển cơ bắp.
+       4) Tỷ lệ mỡ cơ thể: Lượng mỡ trong cơ thể giảm, đồng thời duy trì hoặc tăng khối lượng cơ bắp, cho thấy cơ bắp đang tăng lên.
+       5) Đau nhức và phục hồi cơ bắp: Những thay đổi đáng chú ý về tình trạng đau nhức hoặc tốc độ phục hồi sau khi tập luyện của bạn có thể báo hiệu sự thích nghi của cơ bắp.
+
 
   utter_ans_track_weight_changes:
-  - text: "Tracking your weight weekly can provide insights, but it’s important to remember that weight fluctuations are normal due to factors like water retention, food intake, and muscle gain. Weekly tracking can help you spot trends, but focus on overall progress rather than single-week changes. Consider also tracking body measurements, body fat percentage, or performance improvements to get a more complete picture of your progress. Aim for consistency in tracking at the same time of day and under similar conditions for more accurate comparisons."
+  - text: |-
+      Theo dõi cân nặng của bạn hàng tuần có thể cung cấp thông tin chi tiết, nhưng điều quan trọng cần nhớ là sự dao động về cân nặng là bình thường do các yếu tố như giữ nước, lượng thức ăn ăn vào và tăng cơ. Theo dõi hàng tuần có thể giúp bạn phát hiện xu hướng nhưng hãy tập trung vào tiến độ tổng thể thay vì những thay đổi trong một tuần. Ngoài ra, hãy cân nhắc theo dõi số đo cơ thể, tỷ lệ phần trăm mỡ trong cơ thể hoặc cải thiện hiệu suất để có được bức tranh đầy đủ hơn về tiến trình của bạn. Nhằm mục đích thống nhất trong việc theo dõi vào cùng một thời điểm trong ngày và trong các điều kiện tương tự để so sánh chính xác hơn.
+
 
   utter_ans_progress_assessment:
-  - text: "To know if you're making progress, track multiple indicators:\n 1) Strength improvements: If you're lifting heavier weights or increasing reps with the same weight, you're making progress.\n 2) Body measurements: Track your waist, chest, hips, and other body areas to see changes in size.\n 3) Body composition: Monitor fat loss or muscle gain through scales, body fat measurements, or progress photos.\n 4) Performance gains: If you're completing more intense or longer workouts, you're improving.\n 5) Consistency: If you're sticking to your workout routine and diet, even small changes over time reflect progress."
+  - text: |-
+      To know if you're making progress, track multiple indicators:
+       1) Strength improvements: If you're lifting heavier weights or increasing reps with the same weight, you're making progress.
+       2) Body measurements: Track your waist, chest, hips, and other body areas to see changes in size.
+       3) Body composition: Monitor fat loss or muscle gain through scales, body fat measurements, or progress photos.
+       4) Performance gains: If you're completing more intense or longer workouts, you're improving.
+       5) Consistency: If you're sticking to your workout routine and diet, even small changes over time reflect progress.
+
 
   utter_ans_weightlifting_belt_purpose:
-  - text: "A weightlifting belt is used to provide additional support to your lower back and core during heavy lifts. It helps increase intra-abdominal pressure, which stabilizes the spine and reduces the risk of injury, especially during exercises like squats, deadlifts, and overhead presses. By providing support, it allows you to lift heavier weights with better posture and control. However, it should be used correctly and primarily for heavy lifts, not as a substitute for core strength."
+  - text: |-
+      Đai cử tạ được sử dụng để hỗ trợ thêm cho lưng dưới và lõi của bạn khi nâng vật nặng. Nó giúp tăng áp lực trong ổ bụng, giúp ổn định cột sống và giảm nguy cơ chấn thương, đặc biệt là trong các bài tập như squats, deadlifts và overhead presses. Bằng cách cung cấp sự hỗ trợ, nó cho phép bạn nâng tạ nặng hơn với tư thế và khả năng kiểm soát tốt hơn. Tuy nhiên, nó nên được sử dụng đúng cách và chủ yếu cho các bài tập nặng chứ không phải để thay thế cho sức mạnh cốt lõi.
+
 
   utter_ans_dumbbell_gloves:
-  - text: "Wearing gloves while using dumbbells is a personal choice. Gloves can provide extra grip, reduce the chance of calluses or blisters, and absorb sweat, but they can also slightly reduce your tactile feel of the weights. If you have sensitive hands or are lifting for extended periods, gloves may help. However, many people prefer to train without them to improve their grip strength and maintain a better connection with the weights. Ultimately, it depends on your comfort and preference."
+  - text: |-
+      Đeo găng tay khi sử dụng tạ là lựa chọn cá nhân. Găng tay có thể giúp tăng thêm độ bám, giảm nguy cơ bị chai hoặc phồng rộp và thấm mồ hôi, nhưng chúng cũng có thể làm giảm nhẹ cảm giác xúc giác của bạn với tạ. Nếu bạn có bàn tay nhạy cảm hoặc phải nâng vật nặng trong thời gian dài, găng tay có thể hữu ích. Tuy nhiên, nhiều người thích tập luyện mà không có chúng để cải thiện sức cầm nắm và duy trì kết nối tốt hơn với tạ. Cuối cùng, nó phụ thuộc vào sự thoải mái và sở thích của bạn.
+
 
   utter_ans_lifting_gloves:
-  - text: "Lifting gloves can help with grip by providing extra traction and protection against blisters or calluses, and they absorb sweat, improving grip during lifting. However, some lifters prefer to avoid gloves for a more natural feel on the bar. Alternatives to lifting gloves include lifting straps, which secure the bar for heavy lifting, chalk to absorb sweat and improve grip, and grip-enhancing powders or tacky gels to increase friction."
+  - text: |-
+      Lifting gloves can help with grip by providing extra traction and protection against blisters or calluses, and they absorb sweat, improving grip during lifting. However, some lifters prefer to avoid gloves for a more natural feel on the bar. Alternatives to lifting gloves include lifting straps, which secure the bar for heavy lifting, chalk to absorb sweat and improve grip, and grip-enhancing powders or tacky gels to increase friction.
+
 
   utter_ans_weightlifting_shoes:
-  - text: "For weightlifting, it's best to wear shoes with a flat, firm sole and minimal cushioning to provide stability and support during lifts. Weightlifting shoes often have a slight heel to improve posture and help with squats and other lifts. Popular choices include Nike Romaleos, Adidas Adipower, or Reebok Legacy Lifter.For cardio exercises, you need shoes with more cushioning and flexibility to absorb impact and provide comfort during running or aerobic exercises. Look for shoes designed for running or cross-training that offer good arch support and flexibility. Options like Nike Air Zoom Pegasus, Asics Gel series, or Brooks Adrenaline are great for cardio workouts."
+  - text: |-
+      Để tập tạ, tốt nhất bạn nên mang giày có đế phẳng, chắc chắn và có lớp đệm tối thiểu để mang lại sự ổn định và hỗ trợ trong quá trình nâng. Giày cử tạ thường có gót nhẹ để cải thiện tư thế và hỗ trợ squat và các động tác nâng khác. Các lựa chọn phổ biến bao gồm Nike Romaleos, Adidas Adipower hoặc Reebok Legacy Lifter. Đối với các bài tập tim mạch, bạn cần giày có độ đệm và tính linh hoạt cao hơn để hấp thụ tác động và mang lại sự thoải mái khi chạy hoặc các bài tập aerobic. Hãy tìm những đôi giày được thiết kế để chạy hoặc tập luyện phối hợp có khả năng hỗ trợ vòm bàn chân tốt và linh hoạt. Các lựa chọn như Nike Air Zoom Pegasus, dòng Asics Gel hoặc Brooks Adrenaline đều rất phù hợp cho các bài tập tim mạch.
+
 
   utter_ans_gym_shoes:
-  - text: "The type of shoes you should wear to the gym depends on your workout type: For weightlifting, flat, stable shoes with minimal cushioning (like Converse Chuck Taylors or specific lifting shoes) are ideal for better support and control. For running or cardio, choose shoes with cushioning and proper arch support to absorb impact and provide comfort. For cross-training, opt for versatile shoes that offer stability, support, and flexibility for a mix of movements like jumping, running, and lateral movements (e.g., Nike Metcon or Reebok Nano). Ensure your shoes fit well and match the type of exercise you're doing for optimal performance and injury prevention."
+  - text: |-
+      The type of shoes you should wear to the gym depends on your workout type: For weightlifting, flat, stable shoes with minimal cushioning (like Converse Chuck Taylors or specific lifting shoes) are ideal for better support and control. For running or cardio, choose shoes with cushioning and proper arch support to absorb impact and provide comfort. For cross-training, opt for versatile shoes that offer stability, support, and flexibility for a mix of movements like jumping, running, and lateral movements (e.g., Nike Metcon or Reebok Nano). Ensure your shoes fit well and match the type of exercise you're doing for optimal performance and injury prevention.
+
 
   utter_ans_cutting_bulking:
-  - text: "Cutting and bulking are two phases commonly used in bodybuilding or fitness to achieve specific body composition goals. Bulking is the phase where you consume a calorie surplus (eating more calories than you burn) to promote muscle growth. During bulking, strength training is emphasized to maximize muscle gain, but some fat gain may also occur. Cutting is the phase where you reduce calories (eating fewer calories than you burn) to lose fat while maintaining as much muscle mass as possible. The goal of cutting is to reveal muscle definition and reduce body fat percentage. Bulking is focused on muscle growth, while cutting is focused on fat loss."
+  - text: |-
+      Cắt và tăng cơ là hai giai đoạn thường được sử dụng trong thể hình hoặc thể hình để đạt được các mục tiêu về thành phần cơ thể cụ thể. Bulking là giai đoạn bạn tiêu thụ lượng calo dư thừa (ăn nhiều calo hơn lượng calo bạn đốt cháy) để thúc đẩy tăng trưởng cơ bắp. Trong quá trình tập luyện tăng cơ, việc rèn luyện sức mạnh được nhấn mạnh để tối đa hóa việc tăng cơ, nhưng cũng có thể xảy ra hiện tượng tăng mỡ. Cắt cơ là giai đoạn bạn giảm lượng calo (ăn ít calo hơn mức đốt cháy) để giảm mỡ trong khi vẫn duy trì khối lượng cơ bắp nhiều nhất có thể. Mục tiêu của việc cắt giảm là để lộ đường nét cơ bắp và giảm tỷ lệ mỡ trong cơ thể. Bulking tập trung vào việc phát triển cơ bắp, trong khi việc cắt tập trung vào việc giảm mỡ.
+
 
   utter_ans_tone_or_bulk:
-  - text: "Whether to focus on toning or bulking first depends on your current body composition and fitness goals. If you have a higher body fat percentage, it may be better to focus on toning first by reducing fat through a moderate calorie deficit and strength training. Once you’ve reached a leaner physique, you can shift to bulking to build muscle. If you're already lean and want to gain muscle mass, bulking can be your primary focus, followed by cutting to reduce any excess fat gained. Tailor your approach to your goals, and adjust based on how your body responds."
+  - text: |-
+      Whether to focus on toning or bulking first depends on your current body composition and fitness goals. If you have a higher body fat percentage, it may be better to focus on toning first by reducing fat through a moderate calorie deficit and strength training. Once you’ve reached a leaner physique, you can shift to bulking to build muscle. If you're already lean and want to gain muscle mass, bulking can be your primary focus, followed by cutting to reduce any excess fat gained. Tailor your approach to your goals, and adjust based on how your body responds.
+
 
   utter_ans_toning_vs_bulking:
-  - text: "Toning and bulking refer to different fitness goals. Toning involves reducing body fat while maintaining or slightly increasing muscle mass, with a focus on achieving a lean, defined physique. It typically requires a moderate calorie deficit, strength training, and higher reps with lighter weights. Bulking, on the other hand, focuses on gaining muscle mass by eating in a calorie surplus, with heavier strength training and lower rep ranges. Bulking may lead to some fat gain, which is later reduced during a cutting phase. Toning emphasizes fat loss and muscle maintenance, while bulking emphasizes muscle growth."
+  - text: |-
+      Toning và Bulking đề cập đến các mục tiêu tập thể dục khác nhau. Săn chắc bao gồm việc giảm mỡ trong cơ thể trong khi duy trì hoặc tăng nhẹ khối lượng cơ bắp, tập trung vào việc đạt được một vóc dáng săn chắc, rõ nét. Nó thường yêu cầu mức thâm hụt calo vừa phải, rèn luyện sức mạnh và số lần lặp lại cao hơn với mức tạ nhẹ hơn. Mặt khác, Bulking tập trung vào việc tăng khối lượng cơ bằng cách ăn dư thừa calo, tập luyện sức mạnh nặng hơn và số lần lặp lại thấp hơn. Bulking có thể dẫn đến tăng mỡ, sau đó sẽ giảm đi trong giai đoạn cắt. Toning nhấn mạnh vào việc giảm mỡ và duy trì cơ bắp, trong khi Bulking nhấn mạnh đến sự phát triển của cơ bắp.
+
 
   utter_ans_core_exercises:
-  - text: "The most effective core exercises include planks (engage the entire core and improve stability), Russian twists (target the obliques and improve rotational strength), leg raises (focus on the lower abs), bicycle crunches (work the upper and lower abs, and obliques), dead bugs (engage deep core muscles), mountain climbers (target the core and increase cardio intensity), and hanging leg raises (great for lower abs and improving grip strength). Incorporating these exercises strengthens the core, improving stability and muscle definition."
+  - text: |-
+      Các bài tập cốt lõi hiệu quả nhất bao gồm plank (tập trung vào toàn bộ cơ bụng và cải thiện độ ổn định), xoắn kiểu Nga (nhắm vào cơ xiên và cải thiện sức mạnh xoay), nâng chân (tập trung vào cơ bụng dưới), gập bụng xe đạp (tập cơ bụng trên và dưới, và cơ xiên), bọ chết (tập trung vào cơ lõi sâu), leo núi (nhắm vào cơ trung tâm và tăng cường độ tim mạch) và nâng chân treo (tuyệt vời cho cơ bụng dưới và cải thiện sức mạnh cầm nắm). Việc kết hợp các bài tập này giúp tăng cường sức mạnh cốt lõi, cải thiện độ ổn định và độ nét của cơ.
+
 
   utter_ans_abs_through_diet:
-  - text: "Achieving visible abs requires both diet and exercise. While diet plays a significant role in reducing body fat (the key to revealing your abs), exercise is necessary to strengthen and define the abdominal muscles. A caloric deficit through a balanced, nutrient-dense diet will help reduce fat, but core exercises like planks, crunches, and leg raises are essential for building muscle definition. To see visible abs, you'll need to lower your overall body fat percentage, which typically requires a combination of both proper nutrition and consistent exercise."
+  - text: |-
+      Để có được cơ bụng rõ ràng đòi hỏi cả chế độ ăn kiêng và tập thể dục. Trong khi chế độ ăn uống đóng một vai trò quan trọng trong việc giảm mỡ cơ thể (chìa khóa để lộ cơ bụng của bạn), thì tập thể dục là cần thiết để tăng cường và làm săn chắc cơ bụng. Sự thiếu hụt calo thông qua một chế độ ăn uống cân bằng, giàu chất dinh dưỡng sẽ giúp giảm mỡ, nhưng các bài tập cốt lõi như plank, gập bụng và nâng chân là rất cần thiết để xây dựng cơ bắp. Để có cơ bụng rõ ràng, bạn cần giảm tỷ lệ phần trăm mỡ tổng thể trên cơ thể, điều này thường đòi hỏi sự kết hợp của cả chế độ dinh dưỡng hợp lý và tập thể dục đều đặn.
+
 
   utter_ans_six_pack_abs:
-  - text: "The best way to get a six-pack involves a combination of reducing body fat and strengthening core muscles. To reduce body fat, focus on a calorie deficit through a balanced diet with a mix of protein, healthy fats, and carbs, while also incorporating cardio exercises. To strengthen the core, include exercises like planks, leg raises, and crunches. Consistency is key, as well as ensuring you're working the entire body with compound exercises, as overall fat loss will reveal your abdominal muscles. Keep in mind that visible abs are largely dependent on low body fat."
+  - text: |-
+      Cách tốt nhất để có cơ bụng 6 múi bao gồm sự kết hợp giữa giảm mỡ cơ thể và tăng cường cơ bắp cốt lõi. Để giảm mỡ trong cơ thể, hãy tập trung vào việc thâm hụt calo thông qua chế độ ăn uống cân bằng với sự kết hợp của protein, chất béo lành mạnh và carbs, đồng thời kết hợp các bài tập tim mạch. Để tăng cường sức mạnh cốt lõi, hãy bao gồm các bài tập như plank, nâng chân và gập bụng. Sự nhất quán là chìa khóa, cũng như đảm bảo bạn đang vận động toàn bộ cơ thể bằng các bài tập tổng hợp, vì quá trình giảm mỡ tổng thể sẽ để lộ cơ bụng của bạn. Hãy nhớ rằng cơ bụng có thể nhìn thấy được phần lớn phụ thuộc vào lượng mỡ trong cơ thể thấp.
+
 
   utter_ans_target_weaker_muscles:
-  - text: "To target weaker muscles, use isolation exercises that focus on the specific muscle group. Start with lower weights and higher reps to build endurance and activation. Incorporate unilateral exercises like single-arm or single-leg movements to ensure both sides of your body are equally trained. Prioritize form and avoid using compensating muscles, which can reinforce imbalances. Gradually increase the weight as your weaker muscles get stronger. Consider adding extra sets or reps for the weaker muscles and make sure to rest and recover properly to allow for growth."
+  - text: |-
+      Để nhắm vào các cơ yếu hơn, hãy sử dụng các bài tập cô lập tập trung vào nhóm cơ cụ thể. Bắt đầu với mức tạ thấp hơn và số lần lặp lại cao hơn để xây dựng sức bền và khả năng kích hoạt. Kết hợp các bài tập đơn phương như động tác một tay hoặc một chân để đảm bảo cả hai bên cơ thể của bạn đều được rèn luyện như nhau. Ưu tiên hình thức và tránh sử dụng các cơ bù trừ, điều này có thể củng cố sự mất cân bằng. Tăng dần mức tạ khi các cơ yếu hơn của bạn khỏe hơn. Cân nhắc thêm hiệp hoặc số lần lặp lại cho các cơ yếu hơn và đảm bảo nghỉ ngơi và phục hồi đúng cách để có thể phát triển.
+
 
   utter_ans_unilateral_exercises:
-  - text: "Yes, unilateral exercises can help with asymmetry by allowing each side of your body to work independently. This helps address strength or muscle imbalances between the left and right sides, as each side is trained to its own capacity without the stronger side compensating. Exercises like single-leg squats, lunges, and single-arm presses target specific muscles, promote balanced strength, and improve coordination, which can reduce asymmetry over time. Consistency with these exercises and gradually increasing the volume on the weaker side can effectively correct imbalances."
+  - text: |-
+      Có, các bài tập một bên có thể giúp khắc phục tình trạng bất đối xứng bằng cách cho phép mỗi bên cơ thể bạn hoạt động độc lập. Điều này giúp giải quyết sự mất cân bằng về sức mạnh hoặc cơ giữa bên trái và bên phải, vì mỗi bên đều được tập luyện theo khả năng của mình mà không cần bên khỏe hơn bù đắp. Các bài tập như squat một chân, lunges và ép một tay nhắm vào các cơ cụ thể, tăng cường sức mạnh cân bằng và cải thiện khả năng phối hợp, có thể làm giảm sự bất đối xứng theo thời gian. Kiên trì với các bài tập này và tăng dần âm lượng ở bên yếu hơn có thể điều chỉnh sự mất cân bằng một cách hiệu quả.
+
 
   utter_ans_even_out_strength:
-  - text: "The best way to even out strength on both sides is to focus on unilateral exercises that target each side individually, such as single-arm presses, lunges, and single-leg deadlifts. Start with the weaker side and complete all reps before moving to the stronger side, ensuring you're not rushing through the movement. Incorporate more volume for the weaker side to gradually build strength. Additionally, prioritize proper form to avoid compensating with the stronger side and include mobility exercises to ensure both sides move efficiently. Tracking your progress can help you monitor improvements over time."
+  - text: |-
+      Cách tốt nhất để phát huy sức mạnh đồng đều cho cả hai bên là tập trung vào các bài tập đơn phương nhắm vào từng bên, chẳng hạn như ép một tay, lunges và deadlifts một chân. Bắt đầu với bên yếu hơn và hoàn thành tất cả các lần lặp lại trước khi chuyển sang bên mạnh hơn, đảm bảo bạn không thực hiện động tác quá vội vàng. Kết hợp nhiều khối lượng hơn cho bên yếu hơn để dần dần xây dựng sức mạnh. Ngoài ra, hãy ưu tiên hình thức phù hợp để tránh bù đắp cho bên mạnh hơn và bao gồm các bài tập di chuyển để đảm bảo cả hai bên di chuyển hiệu quả. Theo dõi tiến trình của bạn có thể giúp bạn theo dõi các cải tiến theo thời gian.
+
 
   utter_ans_fix_muscle_imbalance:
-  - text: "To fix muscle imbalances, focus on targeted exercises that strengthen the weaker muscle and correct movement patterns. Start by identifying the imbalanced muscles, then incorporate unilateral exercises (like single-leg squats or single-arm presses) to work each side of the body independently. Ensure you're using proper form to avoid compensating with stronger muscles. Gradually increase the volume and intensity for the weaker side, while maintaining balance on both sides. Stretch and foam roll tight areas, and consider consulting a physical therapist for personalized guidance."
+  - text: |-
+      Để khắc phục tình trạng mất cân bằng cơ, hãy tập trung vào các bài tập có mục tiêu giúp tăng cường sức mạnh cho cơ yếu hơn và điều chỉnh các kiểu chuyển động. Bắt đầu bằng cách xác định các cơ bị mất cân bằng, sau đó kết hợp các bài tập đơn phương (như squat một chân hoặc ép một tay) để hoạt động độc lập mỗi bên cơ thể. Đảm bảo bạn đang sử dụng hình thức phù hợp để tránh bù đắp bằng các cơ khỏe hơn. Tăng dần âm lượng và cường độ cho bên yếu hơn, đồng thời duy trì sự cân bằng cho cả hai bên. Kéo căng và cuộn bọt ở những vùng da chật, đồng thời cân nhắc tham khảo ý kiến ​​của bác sĩ vật lý trị liệu để được hướng dẫn cá nhân.
+
 
   utter_ans_resistance_exercise_weight_loss:
-  - text: "Resistance exercises play a key role in losing weight by building lean muscle mass, which increases your resting metabolic rate and helps you burn more calories at rest. They also improve overall body composition by reducing fat and toning muscles. Additionally, resistance training can help prevent muscle loss during weight loss, maintain strength, and boost endurance, which makes it easier to sustain an active lifestyle. When combined with cardio and a healthy diet, resistance exercises are essential for effective and sustainable weight loss."
+  - text: |-
+      Các bài tập sức đề kháng đóng vai trò quan trọng trong việc giảm cân bằng cách xây dựng khối lượng cơ nạc, giúp tăng tốc độ trao đổi chất khi nghỉ ngơi và giúp bạn đốt cháy nhiều calo hơn khi nghỉ ngơi. Họ cũng cải thiện thành phần cơ thể tổng thể bằng cách giảm mỡ và làm săn chắc cơ bắp. Ngoài ra, rèn luyện sức đề kháng có thể giúp ngăn ngừa mất cơ trong quá trình giảm cân, duy trì sức mạnh và tăng cường sức bền, giúp duy trì lối sống năng động dễ dàng hơn. Khi kết hợp với cardio và chế độ ăn uống lành mạnh, các bài tập tăng sức đề kháng là điều cần thiết để giảm cân hiệu quả và bền vững.
+
 
   utter_ans_weight_stuck:
-  - text: "Your weight may be stuck despite exercise due to factors like consuming more calories than you realize, metabolic adaptation (where your body burns fewer calories over time), muscle gain (which can offset fat loss), or insufficient recovery (stress and poor sleep can hinder weight loss). Water retention and hormonal fluctuations can also affect the scale. Reassess your diet, increase workout intensity, and ensure you're managing stress and sleep for better results."
+  - text: |-
+      Cân nặng của bạn có thể bị kẹt mặc dù tập thể dục do các yếu tố như tiêu thụ nhiều calo hơn bạn nhận ra, thích ứng trao đổi chất (khi cơ thể bạn đốt cháy ít calo hơn theo thời gian), tăng cơ (có thể bù đắp cho việc giảm mỡ) hoặc phục hồi không đủ (căng thẳng và ngủ kém có thể cản trở việc giảm cân). Việc giữ nước và biến động nội tiết tố cũng có thể ảnh hưởng đến cân nặng. Đánh giá lại chế độ ăn uống của bạn, tăng cường độ tập luyện và đảm bảo bạn đang kiểm soát căng thẳng và ngủ để có kết quả tốt hơn.
+
 
   utter_ans_overcome_weight_loss_plateau:
-  - text: "To overcome a weight-loss plateau, try reducing calories slightly or increasing activity, change your workout routine, track food intake carefully, add more daily movement, and manage stress and sleep. Plateaus are normal, so stay consistent and make small adjustments over time to break through."
+  - text: |-
+      Để vượt qua tình trạng ổn định trong quá trình giảm cân, hãy thử giảm lượng calo một chút hoặc tăng cường hoạt động, thay đổi thói quen tập luyện, theo dõi lượng thức ăn ăn vào một cách cẩn thận, tăng cường vận động hàng ngày cũng như kiểm soát căng thẳng và giấc ngủ. Sự ổn định là bình thường, vì vậy hãy kiên định và thực hiện những điều chỉnh nhỏ theo thời gian để vượt qua.
+
 
   utter_ans_stop_weight_loss:
-  - text: "If you've stopped losing weight, it could be due to several factors: 1) Caloric intake: You may have unknowingly started eating more, or your body has adapted to your current calorie intake, slowing down weight loss. 2) Metabolic adaptation: As you lose weight, your metabolism may slow down, requiring fewer calories to maintain weight. 3) Exercise routine: Your workout intensity or frequency might have plateaued, reducing the calorie burn. 4) Muscle gain: If you're building muscle, it may offset fat loss, making weight loss less noticeable on the scale. 5) Stress or sleep: High stress and lack of sleep can interfere with hormones that regulate hunger and metabolism. 6) Hydration and water retention: Sometimes, water retention from diet changes, sodium intake, or hormonal fluctuations can mask weight loss. Consider reassessing your diet, exercise, and recovery to break through the plateau."
+  - text: |-
+      Nếu bạn ngừng giảm cân, có thể do một số yếu tố: 1) Lượng calo nạp vào: Bạn có thể đã vô tình bắt đầu ăn nhiều hơn hoặc cơ thể bạn đã thích nghi với lượng calo hiện tại, làm chậm quá trình giảm cân. 2) Thích ứng trao đổi chất: Khi bạn giảm cân, quá trình trao đổi chất của bạn có thể chậm lại, cần ít calo hơn để duy trì cân nặng. 3) Thói quen tập thể dục: Cường độ hoặc tần suất tập luyện của bạn có thể đã ổn định, làm giảm lượng calo đốt cháy. 4) Tăng cơ: Nếu bạn đang xây dựng cơ bắp, điều đó có thể bù đắp cho việc giảm mỡ, khiến việc giảm cân ít được chú ý hơn trên bàn cân. 5) Căng thẳng hoặc mất ngủ: Căng thẳng cao và thiếu ngủ có thể cản trở các hormone điều hòa cơn đói và trao đổi chất. 6) Hydrat hóa và giữ nước: Đôi khi, việc giữ nước do thay đổi chế độ ăn uống, lượng natri nạp vào hoặc biến động nội tiết tố có thể che giấu việc giảm cân. Hãy cân nhắc việc đánh giá lại chế độ ăn uống, tập thể dục và quá trình phục hồi của bạn để vượt qua trạng thái ổn định.
+
 
   utter_ans_fats_in_fitness_diet:
-  - text: "Fats play an important role in a fitness diet by supporting hormone production, providing long-lasting energy, and aiding in the absorption of fat-soluble vitamins (A, D, E, and K). Healthy fats, such as those from avocados, nuts, seeds, and olive oil, also help reduce inflammation and support joint health. While fats are more calorie-dense than proteins and carbs, they are still essential for overall health and performance, especially for endurance athletes or those in need of sustained energy for longer workouts. Balancing fat intake with carbs and protein is key for a well-rounded diet."
+  - text: |-
+      Chất béo đóng vai trò quan trọng trong chế độ ăn uống thể dục bằng cách hỗ trợ sản xuất hormone, cung cấp năng lượng lâu dài và hỗ trợ hấp thu các vitamin tan trong chất béo (A, D, E và K). Chất béo lành mạnh, chẳng hạn như chất béo từ bơ, các loại hạt, hạt và dầu ô liu, cũng giúp giảm viêm và hỗ trợ sức khỏe khớp. Mặc dù chất béo chứa nhiều calo hơn protein và carbs nhưng chúng vẫn cần thiết cho sức khỏe và hiệu suất tổng thể, đặc biệt đối với các vận động viên sức bền hoặc những người cần năng lượng bền vững để tập luyện lâu hơn. Cân bằng lượng chất béo với carbs và protein là chìa khóa cho một chế độ ăn uống toàn diện.
+
 
   utter_ans_carbs_for_workout:
-  - text: "Carbs are necessary for working out as they provide the body with energy. Carbohydrates are stored as glycogen in muscles and the liver, which is the primary fuel source during exercise, especially for high-intensity workouts. Eating carbs before and after exercise helps replenish glycogen stores and maintain performance. While protein is important for muscle repair, carbs are key for fueling workouts and supporting recovery. The amount of carbs you need depends on your activity level and fitness goals."
+  - text: |-
+      Carbs cần thiết cho việc tập luyện vì chúng cung cấp năng lượng cho cơ thể. Carbohydrate được lưu trữ dưới dạng glycogen trong cơ và gan, là nguồn nhiên liệu chính trong quá trình tập luyện, đặc biệt là khi tập luyện cường độ cao. Ăn carbs trước và sau khi tập thể dục giúp bổ sung lượng glycogen dự trữ và duy trì hiệu suất. Trong khi protein rất quan trọng cho việc sửa chữa cơ bắp thì carbs lại là chìa khóa để cung cấp năng lượng cho quá trình tập luyện và hỗ trợ phục hồi. Lượng carbs bạn cần phụ thuộc vào mức độ hoạt động và mục tiêu tập thể dục của bạn.
+
 
   utter_ans_high_protein_diet:
-  - text: "Following a high-protein diet can benefit fitness, especially for muscle growth and recovery. Protein is essential for repairing and building muscle tissue after workouts. Aim for about 1.6-2.2 grams of protein per kg of body weight, depending on your fitness goals. Consuming protein-rich foods like lean meats, fish, eggs, and plant-based sources helps ensure you have the necessary building blocks for muscle repair. However, balance protein intake with adequate carbohydrates and fats to support overall energy levels and performance."
+  - text: |-
+      Tuân theo chế độ ăn giàu protein có thể có lợi cho thể lực, đặc biệt là cho sự phát triển và phục hồi cơ bắp. Protein rất cần thiết cho việc sửa chữa và xây dựng mô cơ sau khi tập luyện. Hãy nhắm tới khoảng 1,6-2,2 gam protein cho mỗi kg trọng lượng cơ thể, tùy thuộc vào mục tiêu tập thể dục của bạn. Tiêu thụ thực phẩm giàu protein như thịt nạc, cá, trứng và các nguồn thực vật giúp đảm bảo bạn có các khối xây dựng cần thiết để phục hồi cơ bắp. Tuy nhiên, hãy cân bằng lượng protein với đủ carbohydrate và chất béo để hỗ trợ mức năng lượng và hiệu suất tổng thể.
+
 
   utter_ans_gym_goers_diet:
-  - text: "The best diet for gym-goers supports your fitness goals, whether it’s building muscle, losing fat, or improving performance. A balanced diet should include protein (1.6-2.2 grams per kg of body weight) from sources like lean meats, fish, eggs, and beans; carbohydrates for energy from whole grains, vegetables, and fruits; healthy fats for hormone production from avocados, nuts, seeds, and olive oil; and plenty of water for hydration. Adjust calorie intake based on goals: a slight surplus for muscle gain or a deficit for fat loss. Focus on whole, nutrient-dense foods for optimal results."
+  - text: |-
+      Chế độ ăn uống tốt nhất cho người tập gym sẽ hỗ trợ các mục tiêu về thể chất của bạn, cho dù đó là xây dựng cơ bắp, giảm mỡ hay cải thiện hiệu suất. Một chế độ ăn uống cân bằng nên bao gồm protein (1,6-2,2 gam mỗi kg trọng lượng cơ thể) từ các nguồn như thịt nạc, cá, trứng và đậu; carbohydrate để lấy năng lượng từ ngũ cốc nguyên hạt, rau và trái cây; chất béo lành mạnh để sản xuất hormone từ bơ, các loại hạt, hạt và dầu ô liu; và nhiều nước để hydrat hóa. Điều chỉnh lượng calo dựa trên mục tiêu: dư một chút để tăng cơ hoặc thiếu hụt để giảm mỡ. Tập trung vào thực phẩm nguyên chất, giàu chất dinh dưỡng để có kết quả tối ưu.
+
 
   utter_ans_calories_muscle_building:
-  - text: "When building muscle, you should eat more calories to support muscle growth. Your body needs extra energy to repair and build muscle tissue after workouts. Aim for a calorie surplus, typically 250-500 calories above your maintenance level. Focus on a balanced diet with adequate protein (around 1.6-2.2 grams per kg of body weight) to promote muscle recovery and growth. Carbs are also important for fueling workouts, and healthy fats support hormone production."
+  - text: |-
+      Khi xây dựng cơ bắp, bạn nên ăn nhiều calo hơn để hỗ trợ phát triển cơ bắp. Cơ thể bạn cần thêm năng lượng để sửa chữa và xây dựng mô cơ sau khi tập luyện. Đặt mục tiêu dư thừa calo, thường là cao hơn 250-500 calo so với mức duy trì của bạn. Tập trung vào chế độ ăn uống cân bằng với đủ lượng protein (khoảng 1,6-2,2 gram mỗi kg trọng lượng cơ thể) để thúc đẩy quá trình phục hồi và phát triển cơ bắp. Carbs cũng rất quan trọng để thúc đẩy quá trình tập luyện và chất béo lành mạnh hỗ trợ sản xuất hormone.
+
 
   utter_ans_calorie_tracking:
-  - text: "The best way to track calories for fitness goals is to use a food diary or a nutrition tracking app like MyFitnessPal or Cronometer. Start by calculating your daily calorie needs based on your goals (e.g., weight loss, maintenance, or muscle gain). Track everything you eat, including portion sizes, and record your exercise to account for calories burned. Be consistent with tracking to understand your eating habits and adjust your diet as needed. Over time, you'll gain insight into how food intake aligns with your fitness goals, helping you stay on track."
+  - text: |-
+      Cách tốt nhất để theo dõi lượng calo cho mục tiêu tập thể dục là sử dụng nhật ký ăn uống hoặc ứng dụng theo dõi dinh dưỡng như MyFitnessPal hoặc Cronometer. Bắt đầu bằng cách tính toán nhu cầu calo hàng ngày dựa trên mục tiêu của bạn (ví dụ: giảm cân, duy trì hoặc tăng cơ). Theo dõi mọi thứ bạn ăn, bao gồm cả khẩu phần ăn và ghi lại bài tập của bạn để tính lượng calo đã đốt cháy. Hãy nhất quán với việc theo dõi để hiểu thói quen ăn uống của bạn và điều chỉnh chế độ ăn uống nếu cần. Theo thời gian, bạn sẽ hiểu rõ hơn về mức độ ăn uống phù hợp với mục tiêu tập thể dục của mình, giúp bạn đi đúng hướng.
+
 
   utter_ans_calculate_calories:
-  - text: "To calculate your calorie needs, start with your Basal Metabolic Rate (BMR), which represents the number of calories your body needs at rest to maintain basic functions. Use the Mifflin-St Jeor Equation to estimate BMR: For men: BMR = 10 × weight (kg) + 6.25 × height (cm) - 5 × age (years) + 5, and for women: BMR = 10 * weight (kg) + 6.25 × height (cm) - 5 × age (years) - 161. Next, multiply your BMR by an activity factor to account for exercise and daily activity: Sedentary (little or no exercise): BMR × 1.2, Lightly active (light exercise/sports 1-3 days/week): BMR × 1.375, Moderately active (moderate exercise/sports 3-5 days/week): BMR × 1.55, Very active (hard exercise/sports 6-7 days/week): BMR × 1.725, Super active (very hard exercise or physical job): BMR × 1.9. This gives you your Total Daily Energy Expenditure (TDEE), the number of calories you need to maintain your current weight. To gain or lose weight, adjust your calorie intake by 10-20% more or less than your TDEE."
+  - text: |-
+      Để tính toán nhu cầu calo của bạn, hãy bắt đầu với Tỷ lệ trao đổi chất cơ bản (BMR), biểu thị số lượng calo mà cơ thể bạn cần khi nghỉ ngơi để duy trì các chức năng cơ bản. Sử dụng Phương trình Mifflin-St Jeor để ước tính BMR: Đối với nam: BMR = 10 × cân nặng (kg) + 6,25 × chiều cao (cm) - 5 × tuổi (năm) + 5 và đối với nữ: BMR = 10 * cân nặng (kg) + 6,25 × chiều cao (cm) - 5 × tuổi (năm) - 161. Tiếp theo, nhân BMR của bạn với hệ số hoạt động để tính đến việc tập thể dục và hoạt động hàng ngày: Ít vận động (ít hoặc không tập thể dục): BMR × 1,2, Hoạt động nhẹ (tập thể dục/thể thao nhẹ 1-3 ngày/tuần): BMR × 1,375, Hoạt động vừa phải (tập thể dục/thể thao vừa phải 3-5 ngày/tuần): BMR × 1,55, Rất năng động (tập thể dục/thể thao chăm chỉ 6-7 ngày/tuần): BMR × 1,725, Siêu năng động (tập thể dục/thể thao rất nặng): BMR × 1,9. Điều này cung cấp cho bạn Tổng chi tiêu năng lượng hàng ngày (TDEE), số lượng calo bạn cần để duy trì cân nặng hiện tại của mình. Để tăng hoặc giảm cân, hãy điều chỉnh lượng calo nạp vào nhiều hơn hoặc ít hơn 10-20% so với TDEE của bạn.
+
 
   utter_ans_refuel_after_gym:
-  - text: "To refuel after the gym, focus on consuming a combination of protein and carbohydrates. Protein helps with muscle repair, while carbs replenish glycogen stores used during exercise. Examples include a protein shake with fruit, grilled chicken with sweet potatoes, or a whole grain sandwich with lean meat. It's also important to hydrate, so drink water or an electrolyte-rich drink. Aim to eat within 30-60 minutes after your workout for optimal recovery."
+  - text: |-
+      Để tiếp nhiên liệu sau khi tập gym, hãy tập trung vào việc tiêu thụ kết hợp protein và carbohydrate. Protein giúp phục hồi cơ bắp, trong khi carbs bổ sung lượng glycogen dự trữ được sử dụng trong quá trình tập luyện. Ví dụ như món sinh tố protein với trái cây, gà nướng với khoai lang hoặc bánh mì kẹp ngũ cốc nguyên hạt với thịt nạc. Việc bổ sung nước cũng rất quan trọng, vì vậy hãy uống nước hoặc đồ uống giàu chất điện giải. Hãy cố gắng ăn trong vòng 30-60 phút sau khi tập luyện để phục hồi tối ưu.
+
 
   utter_ans_post_workout_protein:
-  - text: "While protein immediately after a workout isn't strictly necessary, consuming it within 30-60 minutes can help kickstart muscle repair and recovery. The body is most receptive to nutrient absorption during this 'anabolic window,' so having 10-20 grams of protein after exercise can support muscle growth and prevent muscle breakdown. However, if you have a well-balanced diet with sufficient protein intake throughout the day, the timing of protein consumption is less critical."
+  - text: |-
+      Mặc dù protein ngay sau khi tập luyện là không thực sự cần thiết nhưng việc tiêu thụ nó trong vòng 30-60 phút có thể giúp khởi động quá trình sửa chữa và phục hồi cơ bắp. Cơ thể dễ hấp thụ chất dinh dưỡng nhất trong 'cửa sổ đồng hóa' này, vì vậy bổ sung 10-20 gram protein sau khi tập thể dục có thể hỗ trợ sự phát triển cơ bắp và ngăn ngừa sự phân hủy cơ bắp. Tuy nhiên, nếu bạn có một chế độ ăn uống cân bằng với lượng protein đủ trong ngày thì thời điểm tiêu thụ protein sẽ ít quan trọng hơn.
+
 
   utter_ans_post_workout_food:
-  - text: "After a workout, focus on a combination of protein and carbohydrates to aid muscle recovery and replenish glycogen stores. Good options include a protein shake with fruit, chicken with rice, or a smoothie with protein powder, banana, and spinach. Aim for 10-20 grams of protein and 30-60 grams of carbs within 30-60 minutes post-workout. Hydration is also key, so drink plenty of water or an electrolyte-rich drink."
+  - text: |-
+      Sau khi tập luyện, hãy tập trung vào sự kết hợp giữa protein và carbohydrate để hỗ trợ phục hồi cơ bắp và bổ sung lượng glycogen dự trữ. Các lựa chọn tốt bao gồm sinh tố protein với trái cây, thịt gà với cơm hoặc sinh tố với bột protein, chuối và rau bina. Hãy nhắm đến việc bổ sung 10-20 gam protein và 30-60 gam carbs trong vòng 30-60 phút sau khi tập luyện. Hydrat hóa cũng là chìa khóa, vì vậy hãy uống nhiều nước hoặc đồ uống giàu chất điện giải.
+
 
   utter_ans_runner_training_plan:
-  - text: "The ideal training plan for runners includes a mix of long runs, speed work, strength training, and recovery. Start with 3-4 running days per week: one long run for endurance, one tempo run for sustained effort, and one or two interval or hill sessions for speed. Include 1-2 days of strength training to build muscle and prevent injury, and at least one rest day to allow recovery. Gradually increase weekly mileage by 10% to avoid overtraining. Prioritize rest, proper nutrition, and hydration for optimal performance."
+  - text: |-
+      Kế hoạch tập luyện lý tưởng cho người chạy bộ bao gồm sự kết hợp giữa chạy dài, tập tốc độ, rèn luyện sức mạnh và phục hồi. Bắt đầu với 3-4 ngày chạy mỗi tuần: một lần chạy dài để rèn luyện sức bền, một lần chạy tốc độ để duy trì nỗ lực và một hoặc hai buổi chạy ngắt quãng hoặc chạy dốc để tăng tốc. Bao gồm 1-2 ngày tập luyện sức mạnh để xây dựng cơ bắp và ngăn ngừa chấn thương, và ít nhất một ngày nghỉ ngơi để phục hồi. Tăng dần số dặm chạy hàng tuần lên 10% để tránh tập luyện quá sức. Ưu tiên nghỉ ngơi, dinh dưỡng hợp lý và bù nước để đạt hiệu quả tối ưu.
+
 
   utter_ans_running_strength_training:
-  - text: "Combining running with strength training is beneficial. Strength training helps improve running performance by building muscle, increasing power, and preventing injury. It also enhances endurance and supports joint stability. Aim to do strength training 2-3 times per week on non-running days or after shorter runs to avoid fatigue during key runs. This combination can help you become a more balanced and injury-resistant runner."
+  - text: |-
+      Kết hợp chạy bộ với rèn luyện sức mạnh sẽ mang lại lợi ích. Rèn luyện sức mạnh giúp cải thiện hiệu suất chạy bằng cách xây dựng cơ bắp, tăng sức mạnh và ngăn ngừa chấn thương. Nó cũng tăng cường sức bền và hỗ trợ sự ổn định của khớp. Hãy đặt mục tiêu tập luyện sức mạnh 2-3 lần mỗi tuần vào những ngày không chạy hoặc sau những lần chạy ngắn hơn để tránh mệt mỏi trong những lần chạy chính. Sự kết hợp này có thể giúp bạn trở thành một vận động viên chạy cân bằng hơn và có khả năng chống chấn thương tốt hơn.
+
 
   utter_ans_marathon_training:
-  - text: "To train for a marathon, follow a structured plan that gradually increases your weekly mileage. Include long runs, speed work (tempo runs and intervals), and rest days. Cross-train to prevent injury and improve fitness. Focus on nutrition, hydration, and proper gear. Taper your mileage in the final weeks for optimal recovery and race performance."
+  - text: |-
+      Để tập luyện cho một cuộc chạy marathon, hãy tuân theo một kế hoạch có cấu trúc để tăng dần số dặm hàng tuần của bạn. Bao gồm các bài chạy dài, bài tập tốc độ (chạy nhịp độ và ngắt quãng) và ngày nghỉ. Tập luyện chéo để ngăn ngừa chấn thương và cải thiện thể lực. Tập trung vào dinh dưỡng, hydrat hóa và thiết bị thích hợp. Giảm dần quãng đường của bạn trong những tuần cuối cùng để có được khả năng phục hồi và hiệu suất cuộc đua tối ưu.
+
 
   utter_ans_endurance_training:
-  - text: "To build endurance for long workouts, gradually increase the duration and intensity of your exercises over time. Incorporate a mix of cardiovascular activities like running, cycling, or swimming, and focus on progressive overload to improve stamina. Interval training, such as HIIT, can enhance both aerobic and anaerobic endurance. Make sure to include strength training to build overall muscle endurance, and prioritize recovery with proper rest, hydration, and nutrition to support longer sessions. Consistency and patience are key in building lasting endurance."
+  - text: |-
+      Để xây dựng sức bền cho các bài tập dài, hãy tăng dần thời lượng và cường độ tập luyện theo thời gian. Kết hợp kết hợp các hoạt động tim mạch như chạy, đạp xe hoặc bơi lội và tập trung vào mức độ quá tải tăng dần để cải thiện sức chịu đựng. Tập luyện xen kẽ, chẳng hạn như HIIT, có thể tăng cường sức bền cả hiếu khí và kỵ khí. Đảm bảo bao gồm tập luyện sức mạnh để xây dựng sức bền tổng thể của cơ và ưu tiên phục hồi bằng cách nghỉ ngơi, cung cấp nước và dinh dưỡng hợp lý để hỗ trợ các buổi tập dài hơn. Sự nhất quán và kiên nhẫn là chìa khóa trong việc xây dựng sức bền lâu dài.
+
 
   utter_ans_combine_strength_hypertrophy:
-  - text: "You can combine strength and hypertrophy in one routine. A common approach is to use a hybrid model where you focus on strength for the first part of your workout (low reps, heavy weights) and then switch to hypertrophy training (moderate weights, higher reps) for the remaining exercises. For example, you could start with compound lifts like squats, deadlifts, or bench press for strength, then follow up with accessory exercises such as dumbbell presses or cable exercises for hypertrophy. This combination helps improve both strength and muscle size."
+  - text: |-
+      Bạn có thể kết hợp sức mạnh và phì đại trong một thói quen. Một cách tiếp cận phổ biến là sử dụng mô hình kết hợp trong đó bạn tập trung vào sức mạnh trong phần đầu tiên của buổi tập (số lần tập thấp, mức tạ nặng) và sau đó chuyển sang tập luyện tăng cơ (tạ tạ vừa phải, số lần lặp cao hơn) cho các bài tập còn lại. Ví dụ: bạn có thể bắt đầu với các bài tập kết hợp như squats, deadlifts hoặc bench press để tăng sức mạnh, sau đó tiếp theo với các bài tập phụ kiện như tạ tạ hoặc bài tập cáp để tăng cơ. Sự kết hợp này giúp cải thiện cả sức mạnh và kích thước cơ bắp.
+
 
   utter_ans_strength_vs_hypertrophy:
-  - text: "Strength training focuses on lifting heavy weights with low reps (1-5) to increase the amount of weight you can lift. It emphasizes neuromuscular adaptations, improving the efficiency of your muscles and nervous system. Hypertrophy training, on the other hand, focuses on muscle growth and involves moderate weights with higher reps (6-12) to stimulate muscle fibers, causing them to grow in size. While strength training emphasizes power, hypertrophy training emphasizes muscle volume."
+  - text: |-
+      Tập luyện sức mạnh tập trung vào việc nâng tạ nặng với số lần lặp lại thấp (1-5) để tăng khối lượng tạ bạn có thể nâng. Nó nhấn mạnh sự thích ứng của thần kinh cơ, cải thiện hiệu quả của cơ và hệ thần kinh của bạn. Mặt khác, tập luyện phì đại tập trung vào sự phát triển cơ bắp và sử dụng mức tạ vừa phải với số lần lặp lại cao hơn (6-12) để kích thích các sợi cơ, khiến chúng phát triển kích thước. Trong khi rèn luyện sức mạnh nhấn mạnh vào sức mạnh thì tập luyện phì đại nhấn mạnh vào khối lượng cơ.
+
 
   utter_ans_strength_low_reps:
-  - text: "Focusing on low reps (typically 1-5 reps) with heavier weights is effective for strength training. This rep range helps build maximal strength by targeting your nervous system and increasing muscle recruitment. It's important to maintain proper form and gradually increase the weight as your strength improves. Low-rep training helps you lift heavier loads, which is key for strength development."
+  - text: |-
+      Tập trung vào số lần lặp lại thấp (thường là 1-5 lần) với mức tạ nặng hơn sẽ có hiệu quả cho việc rèn luyện sức mạnh. Phạm vi đại diện này giúp xây dựng sức mạnh tối đa bằng cách nhắm mục tiêu vào hệ thống thần kinh của bạn và tăng cường huy động cơ bắp. Điều quan trọng là duy trì hình thức phù hợp và tăng dần trọng lượng khi sức mạnh của bạn được cải thiện. Tập luyện với số lần tập thấp giúp bạn nâng được tải nặng hơn, đây là chìa khóa để phát triển sức mạnh.
+
 
   utter_ans_strength_training:
-  - text: "The best exercises for building strength are compound movements that target multiple muscle groups. These include squats (great for legs, glutes, and core), deadlifts (target the back, legs, and core), bench press (focuses on the chest, shoulders, and triceps), overhead press (builds shoulders, upper chest, and triceps), pull-ups/chin-ups (strengthen the back, shoulders, and arms), and rows (effective for the back and biceps). Perform these exercises with progressive overload (gradually increasing the weight or reps) to build strength over time."
+  - text: |-
+      Các bài tập tốt nhất để tăng cường sức mạnh là các động tác kết hợp nhắm vào nhiều nhóm cơ. Chúng bao gồm squats (tuyệt vời cho chân, mông và cơ), deadlifts (nhắm vào lưng, chân và cơ trung tâm), Bench Press (tập trung vào ngực, vai và cơ tam đầu), overhead press (tập vai, ngực trên và cơ tam đầu), kéo xà/nâng cằm (tăng cường sức mạnh cho lưng, vai và cánh tay) và hàng (hiệu quả cho lưng và bắp tay). Thực hiện các bài tập này với mức độ quá tải tăng dần (tăng dần mức tạ hoặc số lần lặp lại) để tăng cường sức mạnh theo thời gian.
+
 
   utter_ans_naps_recovery:
-  - text: "Naps can help with post-workout recovery by promoting muscle repair and reducing fatigue. A short nap (20-30 minutes) can boost energy and improve focus without disrupting nighttime sleep. For more restorative benefits, a longer nap (up to 90 minutes) can aid in deeper recovery, allowing your body to fully rest and repair. Just be mindful of not napping too late in the day, as it may interfere with your nighttime sleep."
+  - text: |-
+      Những giấc ngủ ngắn có thể giúp phục hồi sau tập luyện bằng cách thúc đẩy quá trình phục hồi cơ và giảm mệt mỏi. Một giấc ngủ ngắn (20-30 phút) có thể tăng cường năng lượng và cải thiện sự tập trung mà không làm gián đoạn giấc ngủ ban đêm. Để có nhiều lợi ích phục hồi hơn, một giấc ngủ ngắn dài hơn (tối đa 90 phút) có thể hỗ trợ quá trình phục hồi sâu hơn, cho phép cơ thể bạn nghỉ ngơi và phục hồi hoàn toàn. Chỉ cần lưu ý không ngủ trưa quá muộn vì nó có thể cản trở giấc ngủ ban đêm của bạn.
+
 
   utter_ans_sleep_muscle_recovery:
-  - text: "Sleep is crucial for muscle recovery, as it's during sleep that your body repairs and rebuilds muscle tissue. Deep sleep stimulates the release of growth hormones, which are essential for muscle growth and repair. Lack of sleep can impair recovery, increase fatigue, and reduce performance in your next workout. Aim for 7-9 hours of quality sleep each night to optimize muscle recovery and overall performance."
+  - text: |-
+      Giấc ngủ rất quan trọng để phục hồi cơ bắp, vì trong khi ngủ, cơ thể bạn sẽ sửa chữa và xây dựng lại các mô cơ. Giấc ngủ sâu kích thích giải phóng hormone tăng trưởng, rất cần thiết cho sự phát triển và phục hồi cơ bắp. Thiếu ngủ có thể làm giảm khả năng phục hồi, tăng mệt mỏi và giảm hiệu suất trong buổi tập tiếp theo của bạn. Đặt mục tiêu ngủ đủ 7-9 giờ mỗi đêm để tối ưu hóa quá trình phục hồi cơ bắp và hiệu suất tổng thể.
+
 
   utter_ans_stop_exercise_pain:
-  - text: "You should stop exercising if something hurts, especially if it's sharp, intense, or persistent pain. Pain may indicate an injury or strain, and continuing to exercise could make it worse. If it's mild discomfort or muscle soreness, you can try adjusting your form or switching to a less intense exercise. If the pain persists, it's best to rest and consult a healthcare professional for advice."
+  - text: |-
+      Bạn nên ngừng tập thể dục nếu có cảm giác đau, đặc biệt nếu đó là cơn đau nhói, dữ dội hoặc dai dẳng. Cơn đau có thể là dấu hiệu của chấn thương hoặc căng thẳng và việc tiếp tục tập thể dục có thể khiến tình trạng trở nên tồi tệ hơn. Nếu cảm thấy khó chịu nhẹ hoặc đau nhức cơ, bạn có thể thử điều chỉnh hình thức hoặc chuyển sang bài tập nhẹ nhàng hơn. Nếu cơn đau kéo dài, tốt nhất bạn nên nghỉ ngơi và tham khảo ý kiến ​​của chuyên gia chăm sóc sức khỏe để được tư vấn.
+
 
   utter_ans_poor_form_injuries:
-  - text: "Poor form can lead to injuries by placing undue stress on joints, muscles, and ligaments, increasing the risk of strains, sprains, or more serious injuries. Incorrect posture or movement patterns can cause misalignments, overloading certain areas of the body, and may lead to chronic issues over time. It's important to prioritize proper technique to reduce injury risk and ensure effective workouts."
+  - text: |-
+      Hình thức kém có thể dẫn đến chấn thương do gây căng thẳng quá mức lên khớp, cơ và dây chằng, làm tăng nguy cơ bị căng cơ, bong gân hoặc chấn thương nghiêm trọng hơn. Tư thế hoặc kiểu chuyển động không chính xác có thể gây ra sai lệch, làm quá tải một số vùng trên cơ thể và có thể dẫn đến các vấn đề mãn tính theo thời gian. Điều quan trọng là phải ưu tiên kỹ thuật phù hợp để giảm nguy cơ chấn thương và đảm bảo tập luyện hiệu quả.
+
 
   utter_ans_post_workout_rest:
-  - text: "After a tough session, rest for 24 to 48 hours, depending on the intensity and type of workout. This allows your muscles to recover and rebuild. Active recovery, like light walking, stretching, or yoga, can also help reduce soreness and promote blood flow. Ensure you get enough sleep and stay hydrated to support your recovery process."
+  - text: |-
+      Sau một buổi tập khó, hãy nghỉ ngơi từ 24 đến 48 giờ, tùy thuộc vào cường độ và loại hình tập luyện. Điều này cho phép cơ bắp của bạn phục hồi và xây dựng lại. Phục hồi tích cực, như đi bộ nhẹ, giãn cơ hoặc tập yoga, cũng có thể giúp giảm đau nhức và thúc đẩy lưu lượng máu. Đảm bảo bạn ngủ đủ giấc và uống đủ nước để hỗ trợ quá trình phục hồi.
+
 
   utter_ans_sore_muscles_treatment:
-  - text: "For sore muscles, ice is typically recommended in the first 24-48 hours to reduce inflammation and numb the area, especially if there's swelling or bruising. After that, heat can be used to relax and soothe the muscles, improve blood flow, and relieve tension. Alternating between ice and heat may also help, depending on the type of soreness or injury. Always listen to your body and avoid excessive use of either to prevent skin damage."
+  - text: |-
+      For sore muscles, ice is typically recommended in the first 24-48 hours to reduce inflammation and numb the area, especially if there's swelling or bruising. After that, heat can be used to relax and soothe the muscles, improve blood flow, and relieve tension. Alternating between ice and heat may also help, depending on the type of soreness or injury. Always listen to your body and avoid excessive use of either to prevent skin damage.
+
 
   utter_ans_back_arch_bench_press:
-  - text: "A slight arch in your lower back is natural and generally acceptable during bench presses, as long as your feet remain flat on the floor and your upper back and shoulders are firmly pressed against the bench. This arch helps create stability and proper positioning, allowing for better force transfer during the lift. However, avoid excessive arching that could strain your spine. Focus on maintaining a strong core and proper shoulder blade retraction to ensure safety and prevent injury."
+  - text: |-
+      Phần lưng dưới hơi cong là điều tự nhiên và thường có thể chấp nhận được khi thực hiện động tác ép ghế, miễn là bàn chân của bạn vẫn phẳng trên sàn và lưng trên và vai của bạn ép chặt vào băng ghế. Vòm này giúp tạo sự ổn định và định vị thích hợp, cho phép truyền lực tốt hơn trong quá trình nâng. Tuy nhiên, tránh uốn cong quá mức có thể làm căng cột sống của bạn. Tập trung vào việc duy trì lõi khỏe và khả năng rút xương bả vai thích hợp để đảm bảo an toàn và ngăn ngừa chấn thương.
+
 
   utter_ans_bench_press_shoulder_pain:
-  - text: "To avoid shoulder pain while bench pressing, focus on proper form: Keep your shoulders retracted and depressed (pinched down and back) throughout the lift to protect the shoulder joint. Lower the bar to your chest, not too far below, and avoid flaring your elbows out too wide—keep them at about a 45-degree angle to your body. Warm up properly, and use a full range of motion without overloading the weight. If pain persists, consider adjusting your grip width, using dumbbells, or incorporating shoulder-strengthening exercises."
+  - text: |-
+      Để tránh đau vai khi ép ghế, hãy tập trung vào tư thế thích hợp: Giữ vai của bạn thu lại và ấn xuống (kéo xuống và ra sau) trong suốt quá trình nâng để bảo vệ khớp vai. Hạ thanh đòn xuống ngực, không quá xa bên dưới và tránh dang khuỷu tay ra quá rộng — giữ chúng ở một góc khoảng 45 độ so với cơ thể. Khởi động đúng cách và thực hiện đầy đủ các chuyển động mà không khiến tạ quá tải. Nếu cơn đau vẫn tiếp diễn, hãy cân nhắc điều chỉnh độ rộng tay cầm, sử dụng tạ hoặc kết hợp các bài tập tăng cường sức mạnh cho vai.
+
 
   utter_ans_bench_press_strength:
-  - text: "To increase your bench press strength, focus on progressive overload by gradually increasing the weight you lift. Incorporate accessory exercises like tricep dips, push-ups, and dumbbell presses to strengthen supporting muscles. Improve your form by ensuring proper shoulder positioning, maintaining a stable base with your feet, and using a controlled motion during both the lowering and lifting phases. Also, include variations like incline or decline bench presses to target different muscle fibers and prevent plateaus. Ensure adequate rest and recovery for muscle growth and strength gains."
+  - text: |-
+      Để tăng sức ép của máy ép ghế, hãy tập trung vào tình trạng quá tải dần dần bằng cách tăng dần trọng lượng bạn nâng. Kết hợp các bài tập phụ kiện như gập cơ tam đầu, chống đẩy và ép tạ để tăng cường cơ bắp hỗ trợ. Cải thiện hình thức của bạn bằng cách đảm bảo vị trí vai thích hợp, duy trì chân đế ổn định và sử dụng chuyển động có kiểm soát trong cả giai đoạn hạ xuống và nâng lên. Ngoài ra, hãy thêm các biến thể như máy ép ghế nghiêng hoặc nghiêng để nhắm mục tiêu vào các sợi cơ khác nhau và ngăn ngừa tình trạng cao nguyên. Đảm bảo nghỉ ngơi và phục hồi đầy đủ để tăng trưởng cơ bắp và tăng sức mạnh.
+
 
   utter_ans_deadlift_belt:
-  - text: "Using a belt for deadlifts can be helpful for providing additional core support and stability, especially when lifting heavy weights. It helps increase intra-abdominal pressure, which can protect the spine. However, it's not necessary for everyone—if you're lifting moderate weights or focusing on form, you may not need one. It's best to use a belt when you reach a weight that challenges your core stability and when you've mastered the proper deadlift technique."
+  - text: |-
+      Sử dụng đai để tập deadlift có thể hữu ích trong việc cung cấp thêm sự hỗ trợ và ổn định cốt lõi, đặc biệt là khi nâng tạ nặng. Nó giúp tăng áp lực trong ổ bụng, có thể bảo vệ cột sống. Tuy nhiên, nó không cần thiết đối với tất cả mọi người — nếu bạn đang nâng mức tạ vừa phải hoặc tập trung vào hình thức, bạn có thể không cần. Tốt nhất bạn nên sử dụng đai khi đạt mức tạ thách thức sự ổn định của cơ lõi và khi bạn đã thành thạo kỹ thuật deadlift thích hợp.
+
 
   utter_ans_proper_deadlift:
-  - text: "To deadlift properly, stand with feet shoulder-width apart, bar over your mid-foot. Grip the bar just outside your knees, engage your core, and keep your chest up and back straight. Drive through your heels to lift, extending hips and knees at the same time. At the top, stand tall with shoulders back, and avoid leaning back. Lower the bar by pushing your hips back, then bending your knees. Keep the bar close to your body throughout."
+  - text: |-
+      Để deadlift đúng cách, hãy đứng hai chân rộng bằng vai, thanh đòn ở giữa bàn chân. Nắm chặt thanh đòn ngay bên ngoài đầu gối của bạn, siết chặt cơ thể và giữ ngực thẳng và lưng thẳng. Đẩy qua gót chân để nâng lên, duỗi hông và đầu gối cùng một lúc. Ở phía trên, đứng thẳng, đưa vai về phía sau và tránh ngả người về phía sau. Hạ thanh đòn xuống bằng cách đẩy hông ra sau, sau đó gập đầu gối. Giữ thanh gần với cơ thể của bạn trong suốt quá trình.
+
 
   utter_ans_squat_mistakes:
-  - text: "Common mistakes when squatting include:\n 1) Letting the knees cave inward (valgus collapse) instead of tracking over the toes.\n 2) Rounding the back or leaning too far forward, which can strain the lower back.\n 3) Lifting the heels off the ground, which shifts the weight forward and affects stability.\n 4) Squatting too deep without proper mobility or control, leading to injury risk.\n 5) Not engaging the core, which can lead to instability and poor form. Always focus on maintaining proper posture, engaging the core, and using correct knee and hip alignment."
+  - text: |-
+      Những lỗi thường gặp khi squat bao gồm:
+       1) Để đầu gối lõm vào trong (valgus xẹp xuống) thay vì di chuyển theo các ngón chân.
+       2) Cong lưng hoặc nghiêng quá xa về phía trước, có thể làm căng lưng dưới.
+       3) Nhấc gót chân lên khỏi mặt đất, làm trọng lượng dồn về phía trước và ảnh hưởng đến độ ổn định.
+       4) Ngồi xổm quá sâu mà không di chuyển hoặc kiểm soát thích hợp, dẫn đến nguy cơ chấn thương.
+       5) Không gắn vào lõi, có thể dẫn đến mất ổn định và hình thức kém. Luôn tập trung vào việc duy trì tư thế thích hợp, vận động cơ lõi và sử dụng cách căn chỉnh đầu gối và hông chính xác.
+
 
   utter_ans_proper_squat:
-  - text: "To perform a proper squat, stand with your feet shoulder-width apart, toes slightly turned outward. Keep your chest up and your back straight, engaging your core. Lower your body by bending your knees and pushing your hips back, as if sitting in a chair, ensuring your knees track over your toes. Keep your weight in your heels and your heels flat on the ground. Lower until your thighs are parallel to the floor or deeper if your mobility allows, then push through your heels to return to the starting position."
+  - text: |-
+      Để thực hiện động tác squat đúng cách, hãy đứng hai chân rộng bằng vai, các ngón chân hơi hướng ra ngoài. Giữ ngực thẳng và lưng thẳng, thu hút cơ thể của bạn. Hạ thấp cơ thể bằng cách uốn cong đầu gối và đẩy hông về phía sau, giống như đang ngồi trên ghế, đảm bảo đầu gối của bạn di chuyển qua ngón chân. Giữ trọng lượng của bạn ở gót chân và gót chân của bạn phẳng trên mặt đất. Hạ thấp cho đến khi đùi song song với sàn hoặc sâu hơn nếu khả năng di chuyển của bạn cho phép, sau đó đẩy qua gót chân để trở về vị trí bắt đầu.
+
 
   utter_ans_correct_slouching:
-  - text: "To correct slouching during workouts, focus on maintaining proper posture by engaging your core, keeping your shoulders back and down, and aligning your head with your spine. Incorporate exercises that strengthen your upper back, such as rows and reverse flys, and stretch tight chest muscles. Be mindful of your form throughout the workout, and take breaks if needed to reset your posture."
+  - text: |-
+      Để khắc phục tình trạng thõng vai trong khi tập luyện, hãy tập trung vào việc duy trì tư thế thích hợp bằng cách vận động cơ thể, giữ vai qua lại và căn chỉnh đầu với cột sống. Kết hợp các bài tập giúp tăng cường sức mạnh cho lưng trên của bạn, chẳng hạn như hàng và bay ngược, đồng thời kéo căng cơ ngực săn chắc. Hãy chú ý đến hình thức của bạn trong suốt quá trình tập luyện và nghỉ giải lao nếu cần để thiết lập lại tư thế.
+
 
   utter_ans_improve_posture:
-  - text: "Exercises that help with better posture include back-strengthening exercises like rows, lat pulldowns, and reverse flys, as well as core exercises such as planks, bird dogs, and bridges. Chest stretches (e.g., doorway stretches) and shoulder exercises like shoulder blade squeezes also help open up the chest and improve alignment. Regularly practicing these exercises can strengthen muscles that support proper posture and reduce slouching."
+  - text: |-
+      Các bài tập giúp có tư thế tốt hơn bao gồm các bài tập tăng cường sức mạnh cho lưng như hàng, kéo xuống và bay ngược, cũng như các bài tập cốt lõi như ván, chó chim và cầu. Căng cơ ngực (ví dụ: căng cơ cửa) và các bài tập vai như ép xương bả vai cũng giúp mở ngực và cải thiện sự liên kết. Thường xuyên luyện tập các bài tập này có thể tăng cường cơ bắp hỗ trợ tư thế thích hợp và giảm tình trạng khom lưng.
+
 
   utter_ans_yoga_recovery:
-  - text: " yoga is excellent for recovery days as it promotes relaxation, flexibility, and reduces muscle tension. It helps improve circulation, reduces soreness, and enhances mobility without putting stress on the body. Gentle yoga or restorative poses can aid in muscle recovery and mental relaxation, making it an ideal option for active recovery."
+  - text: |-
+      yoga rất tốt cho những ngày phục hồi vì nó thúc đẩy sự thư giãn, linh hoạt và giảm căng cơ. Nó giúp cải thiện tuần hoàn, giảm đau nhức và tăng cường khả năng vận động mà không gây căng thẳng cho cơ thể. Các tư thế yoga hoặc phục hồi nhẹ nhàng có thể hỗ trợ phục hồi cơ bắp và thư giãn tinh thần, khiến nó trở thành một lựa chọn lý tưởng để phục hồi tích cực.
+
 
   utter_ans_yoga_benefits:
-  - text: "including yoga in your workout routine can be beneficial for improving flexibility, balance, and mental focus. It also helps with recovery, reduces stress, and prevents injury by enhancing mobility and promoting relaxation. Yoga complements strength training and cardio, contributing to overall well-being and better physical performance."
+  - text: |-
+      bao gồm yoga trong thói quen tập luyện của bạn có thể có lợi cho việc cải thiện tính linh hoạt, cân bằng và tập trung tinh thần. Nó cũng giúp phục hồi, giảm căng thẳng và ngăn ngừa chấn thương bằng cách tăng cường khả năng vận động và thúc đẩy thư giãn. Yoga bổ sung cho việc rèn luyện sức mạnh và tim mạch, góp phần mang lại sức khỏe tổng thể và hoạt động thể chất tốt hơn.
+
 
   utter_ans_improve_flexibility:
-  - text: "The best stretches for flexibility include hamstring stretches, hip flexor stretches, quadriceps stretches, calf stretches, and shoulder stretches. Yoga poses like Downward Dog, Cobra, and Child's Pose are also great for improving flexibility. Incorporate dynamic stretches before workouts and static stretches after workouts to enhance range of motion and prevent injury."
+  - text: |-
+      Các động tác giãn cơ tốt nhất để tăng tính linh hoạt bao gồm giãn gân kheo, giãn cơ gấp hông, giãn cơ tứ đầu, giãn bắp chân và giãn vai. Các tư thế yoga như Chó úp mặt, Rắn hổ mang và Tư thế trẻ em cũng rất tốt để cải thiện tính linh hoạt. Kết hợp các động tác giãn cơ trước khi tập luyện và giãn cơ tĩnh sau khi tập luyện để tăng cường phạm vi chuyển động và ngăn ngừa chấn thương.
+
 
   utter_ans_mental_health_fitness_balance:
-  - text: "To balance mental health and fitness goals, set realistic, flexible targets that prioritize well-being. Focus on consistency over perfection, and rest when needed to avoid burnout. Choose enjoyable activities that promote relaxation, and adjust your routine if feeling overwhelmed. Practice self-compassion and remember that caring for both mind and body leads to long-term balance."
+  - text: |-
+      Để cân bằng các mục tiêu về sức khỏe tinh thần và thể chất, hãy đặt ra các mục tiêu thực tế, linh hoạt, ưu tiên sức khỏe. Tập trung vào sự nhất quán hơn là sự hoàn hảo và nghỉ ngơi khi cần thiết để tránh kiệt sức. Chọn các hoạt động thú vị giúp thư giãn và điều chỉnh thói quen của bạn nếu cảm thấy quá tải. Hãy rèn luyện lòng từ bi với bản thân và nhớ rằng việc chăm sóc cả tinh thần và thể xác sẽ mang lại sự cân bằng lâu dài.
+
 
   utter_ans_tired_to_workout:
-  - text: "If you're too tired to work out, consider doing a light activity like walking, stretching, or yoga to boost energy without overexertion. Focus on rest and recovery, ensuring you're getting enough sleep, staying hydrated, and eating nutritious meals. Listen to your body and prioritize consistency over intensity—sometimes, a rest day is more beneficial than pushing through fatigue."
+  - text: |-
+      Nếu bạn quá mệt để tập thể dục, hãy cân nhắc thực hiện một hoạt động nhẹ nhàng như đi bộ, giãn cơ hoặc yoga để tăng cường năng lượng mà không phải gắng sức quá mức. Tập trung vào việc nghỉ ngơi và phục hồi, đảm bảo bạn ngủ đủ giấc, giữ nước và ăn các bữa ăn bổ dưỡng. Hãy lắng nghe cơ thể bạn và ưu tiên sự nhất quán thay vì cường độ — đôi khi, một ngày nghỉ ngơi sẽ có lợi hơn là vượt qua cơn mệt mỏi.
+
 
   utter_ans_exercise_while_down:
-  - text: "Exercise can help when you feel down by releasing endorphins that improve mood, reducing stress hormones, and promoting relaxation. Physical activity also boosts energy levels, improves sleep, and provides a sense of accomplishment, helping to lift your spirits and enhance overall mental well-being."
+  - text: |-
+      Tập thể dục có thể giúp ích khi bạn cảm thấy chán nản bằng cách giải phóng endorphin giúp cải thiện tâm trạng, giảm hormone gây căng thẳng và thúc đẩy thư giãn. Hoạt động thể chất cũng làm tăng mức năng lượng, cải thiện giấc ngủ và mang lại cảm giác thành tựu, giúp nâng cao tinh thần của bạn và nâng cao sức khỏe tinh thần tổng thể.
+
 
   utter_ans_motivation_during_struggles:
-  - text: "Stay motivated during mental health struggles by setting small, achievable goals, focusing on activities you enjoy, and reminding yourself of the positive effects exercise has on your mood. Be kind to yourself, allow flexibility, and prioritize consistency over intensity. Seek support from friends, family, or a workout buddy, and celebrate small wins to maintain momentum."
+  - text: |-
+      Duy trì động lực trong các cuộc đấu tranh về sức khỏe tâm thần bằng cách đặt ra các mục tiêu nhỏ, có thể đạt được, tập trung vào các hoạt động bạn yêu thích và nhắc nhở bản thân về những tác động tích cực của việc tập thể dục đối với tâm trạng của bạn. Hãy tử tế với bản thân, cho phép sự linh hoạt và ưu tiên sự nhất quán hơn là cường độ. Tìm kiếm sự hỗ trợ từ bạn bè, gia đình hoặc một người bạn tập luyện và ăn mừng những chiến thắng nhỏ để duy trì động lực.
+
 
   utter_ans_anxiety_relief_workouts:
-  - text: "Good workouts for anxiety relief include activities that promote both physical and mental relaxation, such as yoga for deep breathing and mindfulness, walking or jogging for steady cardio, swimming for its soothing effect, and strength training for focus and tension release. High-intensity interval training (HIIT) or dancing can also help by releasing endorphins, while tai chi offers gentle, calming movements to reduce stress."
+  - text: |-
+      Các bài tập tốt để giảm lo âu bao gồm các hoạt động thúc đẩy thư giãn cả về thể chất và tinh thần, chẳng hạn như yoga để thở sâu và chánh niệm, đi bộ hoặc chạy bộ để tim mạch ổn định, bơi lội để có tác dụng làm dịu và rèn luyện sức mạnh để tập trung và giải phóng căng thẳng. Luyện tập cường độ cao ngắt quãng (HIIT) hoặc khiêu vũ cũng có thể giúp giải phóng endorphin, trong khi thái cực quyền mang lại những động tác nhẹ nhàng, êm dịu để giảm căng thẳng.
+
 
   utter_ans_exercise_mood_boost:
-  - text: "Regular exercise boosts mood by releasing endorphins and other feel-good chemicals in the brain, reducing stress hormones, and promoting relaxation. It also enhances self-esteem, improves sleep, and provides a sense of accomplishment, all of which contribute to a more positive mindset."
+  - text: |-
+      Tập thể dục thường xuyên giúp cải thiện tâm trạng bằng cách giải phóng endorphin và các chất hóa học tạo cảm giác dễ chịu khác trong não, giảm hormone gây căng thẳng và thúc đẩy thư giãn. Nó cũng nâng cao lòng tự trọng, cải thiện giấc ngủ và mang lại cảm giác thành tựu, tất cả đều góp phần tạo nên tư duy tích cực hơn.
+
 
   utter_ans_fitness_mental_wellbeing:
-  - text: "Fitness and mental well-being are closely connected as regular exercise releases endorphins, which improve mood and reduce stress. It also helps lower anxiety and depression, enhances sleep quality, boosts self-confidence, and provides a sense of accomplishment. Physical activity promotes brain health by improving blood flow and reducing inflammation, supporting overall emotional resilience and mental clarity."
+  - text: |-
+      Thể chất và sức khỏe tinh thần có mối liên hệ chặt chẽ với nhau khi tập thể dục thường xuyên sẽ giải phóng endorphin, giúp cải thiện tâm trạng và giảm căng thẳng. Nó cũng giúp giảm lo lắng và trầm cảm, nâng cao chất lượng giấc ngủ, tăng cường sự tự tin và mang lại cảm giác thành tựu. Hoạt động thể chất tăng cường sức khỏe não bộ bằng cách cải thiện lưu lượng máu và giảm viêm, hỗ trợ khả năng phục hồi cảm xúc tổng thể và tinh thần minh mẫn.
+
 
   utter_ans_exercise_mental_health:
-  - text: "Exercise improves mental health by releasing endorphins, which enhance mood and reduce stress. It lowers levels of anxiety and depression, improves sleep quality, and boosts self-esteem. Physical activity also promotes brain health by increasing blood flow and stimulating the release of growth factors that support brain function and reduce inflammation. Regular exercise helps manage emotions and provides a healthy outlet for stress."
+  - text: |-
+      Tập thể dục cải thiện sức khỏe tâm thần bằng cách giải phóng endorphin, giúp cải thiện tâm trạng và giảm căng thẳng. Nó làm giảm mức độ lo lắng và trầm cảm, cải thiện chất lượng giấc ngủ và nâng cao lòng tự trọng. Hoạt động thể chất cũng thúc đẩy sức khỏe não bộ bằng cách tăng lưu lượng máu và kích thích giải phóng các yếu tố tăng trưởng hỗ trợ chức năng não và giảm viêm. Tập thể dục thường xuyên giúp quản lý cảm xúc và cung cấp một lối thoát lành mạnh cho căng thẳng.
+
 
   utter_ans_importance_reracking:
-  - text: "Re-racking weights is important in gyms because it ensures equipment is organized and accessible for everyone, prevents safety hazards like tripping or strain injuries, and maintains a respectful and efficient workout environment. It's a basic part of gym etiquette that helps create a positive experience for all members."
+  - text: |-
+      Việc sắp xếp lại tạ rất quan trọng trong phòng tập thể dục vì nó đảm bảo mọi người đều có thể sắp xếp và sử dụng thiết bị, ngăn ngừa các mối nguy hiểm về an toàn như vấp ngã hoặc chấn thương do căng cơ, đồng thời duy trì một môi trường tập luyện tôn trọng và hiệu quả. Đó là một phần cơ bản của nghi thức tập thể dục giúp tạo ra trải nghiệm tích cực cho tất cả các thành viên.
+
 
   utter_ans_reracking_etiquette:
-  - text: "The proper etiquette for re-racking weights is to return them to their designated spots on the rack after use, matching the correct weight labels. Avoid leaving plates on machines or bars, and stack dumbbells neatly in their place. Be mindful of others by not blocking pathways while re-racking and handle weights quietly to maintain a respectful environment."
+  - text: |-
+      Quy tắc thích hợp khi xếp lại các quả cân là trả chúng về vị trí được chỉ định trên giá sau khi sử dụng, khớp với nhãn quả cân chính xác. Tránh để đĩa trên máy hoặc thanh tập mà hãy xếp các quả tạ ngay ngắn vào đúng vị trí. Hãy quan tâm đến người khác bằng cách không chặn đường khi lên giá lại và xử lý tạ một cách lặng lẽ để duy trì môi trường tôn trọng.
+
 
   utter_ans_weights_on_bar:
-  - text: "Yes, it is considered rude to leave weights on the bar. It creates extra work for the next person and can be inconvenient or unsafe, especially if they are unable to lift the weight. Always re-rack your weights after use as a courtesy to others and to maintain a clean, organized gym environment."
+  - text: |-
+      Đúng, việc để tạ trên thanh được coi là thô lỗ. Nó tạo thêm công việc cho người tiếp theo và có thể gây bất tiện hoặc không an toàn, đặc biệt nếu họ không thể nâng tạ. Luôn đặt lại tạ sau khi sử dụng như một phép lịch sự với người khác và để duy trì môi trường phòng tập sạch sẽ, ngăn nắp.
+
 
   utter_ans_rerack_weights:
-  - text: "Yes, you should always re-rack weights after use. This is important for gym etiquette and safety. Leaving weights on machines or the floor can create a hazard for others, and it helps maintain an organized and efficient workout environment. Re-racking your weights also shows respect for other gym-goers and ensures the equipment is ready for the next person."
+  - text: |-
+      Có, bạn phải luôn đặt lại tạ sau khi sử dụng. Điều này rất quan trọng đối với nghi thức tập thể dục và sự an toàn. Để tạ trên máy hoặc sàn có thể gây nguy hiểm cho người khác và giúp duy trì môi trường tập luyện có tổ chức và hiệu quả. Việc kê lại tạ cũng thể hiện sự tôn trọng đối với những người tập gym khác và đảm bảo thiết bị luôn sẵn sàng cho người tiếp theo.
+
 
   utter_ans_share_gym_equipment:
-  - text: "The best way to share gym equipment is to communicate clearly and respectfully with the other person. Ask if they're open to sharing and agree on how to take turns, such as alternating sets or resting while the other person works. Be mindful of their rest times and adjust your workout accordingly. Always clean the equipment after use, and if the gym is busy, try to be efficient with your time on the machine to avoid long waits for others."
+  - text: |-
+      Cách tốt nhất để chia sẻ thiết bị tập thể dục là giao tiếp rõ ràng và tôn trọng với người khác. Hỏi xem họ có sẵn sàng chia sẻ và đồng ý về cách thay phiên nhau làm việc hay không, chẳng hạn như xen kẽ các hiệp hoặc nghỉ ngơi trong khi người khác làm việc. Hãy chú ý đến thời gian nghỉ ngơi của họ và điều chỉnh việc tập luyện của bạn cho phù hợp. Luôn vệ sinh thiết bị sau khi sử dụng và nếu phòng tập đông người, hãy cố gắng sử dụng máy hiệu quả để tránh người khác phải chờ đợi lâu.
+
 
   utter_ans_work_in_equipment:
-  - text: "Yes, working in with someone on the same machine is generally fine as long as you're both respectful of each other's time. Politely ask if they're okay with sharing, and agree on the number of sets or rest times. It's important to stay courteous and communicate clearly to ensure both of you can complete your workouts efficiently. If the person prefers not to share, simply respect their decision and wait for the machine to become available."
+  - text: |-
+      Có, làm việc với ai đó trên cùng một máy nói chung là ổn miễn là cả hai bạn đều tôn trọng thời gian của nhau. Lịch sự hỏi xem họ có đồng ý chia sẻ không và thống nhất về số hiệp hoặc thời gian nghỉ. Điều quan trọng là phải lịch sự và giao tiếp rõ ràng để đảm bảo cả hai bạn có thể hoàn thành bài tập của mình một cách hiệu quả. Nếu người đó không muốn chia sẻ, chỉ cần tôn trọng quyết định của họ và đợi máy sẵn sàng.
+
 
   utter_ans_share_equipment:
-  - text: "Yes, it's okay to ask someone to share equipment, especially during busy times. To do so politely, approach them with respect and patience. You can say, 'Hey, would you mind if we share this machine? I can take turns between sets.' Make sure to ask when they're between sets and be flexible with your timing. If they prefer not to share, respect their decision and wait for the machine to become available."
+  - text: |-
+      Có, bạn có thể nhờ ai đó chia sẻ thiết bị, đặc biệt là trong thời gian bận rộn. Để làm điều đó một cách lịch sự, hãy tiếp cận họ với sự tôn trọng và kiên nhẫn. Bạn có thể nói, 'Này, bạn có phiền nếu chúng ta dùng chung chiếc máy này không? Tôi có thể thay phiên nhau giữa các hiệp.” Đảm bảo hỏi khi nào chúng ở giữa các hiệp và linh hoạt với thời gian của bạn. Nếu họ không muốn chia sẻ, hãy tôn trọng quyết định của họ và đợi máy sẵn sàng.
+
 
   utter_ans_wipe_down_machines:
-  - text: "Yes, you should wipe down machines after using them to maintain cleanliness and hygiene. This helps remove sweat, oils, and bacteria that may accumulate on the equipment, ensuring it's sanitary for the next person. Most gyms provide disinfectant wipes or sprays for this purpose, so make it a habit to clean up after your workout."
+  - text: |-
+      Có, bạn nên lau chùi máy sau khi sử dụng để giữ sạch sẽ và vệ sinh. Điều này giúp loại bỏ mồ hôi, dầu và vi khuẩn có thể tích tụ trên thiết bị, đảm bảo vệ sinh cho người tiếp theo. Hầu hết các phòng tập thể dục đều cung cấp khăn lau hoặc bình xịt khử trùng cho mục đích này, vì vậy hãy tạo thói quen dọn dẹp sau khi tập luyện.
+
 
   utter_ans_clean_gym_equipment:
-  - text: "To clean gym equipment properly, start by wiping down surfaces with a disinfectant wipe or spray after each use, focusing on handles, seats, and any areas you touched. For machines, clean both the upholstery and any areas where sweat may accumulate. Always use a clean cloth or disposable wipe to avoid spreading germs. If equipment is heavily used, consider using a more thorough cleaner, such as a mild soap and water solution. Don't forget to clean your own gear, like mats and resistance bands, regularly."
+  - text: |-
+      Để làm sạch thiết bị tập thể dục đúng cách, hãy bắt đầu bằng cách lau các bề mặt bằng khăn lau hoặc xịt khử trùng sau mỗi lần sử dụng, tập trung vào tay cầm, ghế ngồi và bất kỳ khu vực nào bạn chạm vào. Đối với máy móc, hãy làm sạch cả vải bọc và bất kỳ khu vực nào có thể tích tụ mồ hôi. Luôn sử dụng vải sạch hoặc khăn lau dùng một lần để tránh lây lan vi trùng. Nếu thiết bị được sử dụng nhiều, hãy cân nhắc sử dụng chất tẩy rửa kỹ lưỡng hơn, chẳng hạn như dung dịch nước và xà phòng nhẹ. Đừng quên vệ sinh thiết bị của riêng bạn, như thảm và dây kháng lực, thường xuyên.
+
 
   utter_ans_overcome_gym_anxiety:
-  - text: "To overcome gym anxiety, start by setting small, achievable goals to build confidence. Visit the gym during quieter times to avoid feeling overwhelmed, and focus on your workout rather than comparing yourself to others. Familiarize yourself with the gym layout and equipment beforehand, and consider hiring a trainer for guidance. Remember, everyone is there to improve themselves, so focus on your own progress. Over time, as you gain more experience, your anxiety is likely to decrease."
+  - text: |-
+      Để vượt qua nỗi lo lắng khi tập gym, hãy bắt đầu bằng cách đặt ra những mục tiêu nhỏ, có thể đạt được để tạo dựng sự tự tin. Hãy đến phòng tập thể dục vào thời gian yên tĩnh hơn để tránh cảm giác choáng ngợp và tập trung vào việc tập luyện thay vì so sánh bản thân với người khác. Hãy làm quen với cách bố trí và trang thiết bị của phòng tập trước, đồng thời cân nhắc việc thuê huấn luyện viên để được hướng dẫn. Hãy nhớ rằng, mọi người đều ở đó để cải thiện bản thân, vì vậy hãy tập trung vào sự tiến bộ của chính bạn. Theo thời gian, khi bạn có thêm kinh nghiệm, sự lo lắng của bạn sẽ giảm đi.
+
 
   utter_ans_fitness_apps_tracking:
-  - text: "Fitness apps can be very helpful for tracking results. They allow you to log workouts, monitor progress, track key metrics like weight, calories burned, and workout duration, and set goals. Many apps also provide personalized plans, progress reports, and reminders, helping you stay consistent and motivated. Popular apps often include features for tracking nutrition and sleep, giving you a comprehensive view of your overall fitness."
+  - text: |-
+      Ứng dụng thể dục có thể rất hữu ích để theo dõi kết quả. Chúng cho phép bạn ghi lại quá trình tập luyện, theo dõi tiến độ, theo dõi các số liệu chính như cân nặng, lượng calo đốt cháy và thời gian tập luyện cũng như đặt mục tiêu. Nhiều ứng dụng còn cung cấp các kế hoạch, báo cáo tiến độ và lời nhắc được cá nhân hóa, giúp bạn luôn kiên định và có động lực. Các ứng dụng phổ biến thường bao gồm các tính năng theo dõi dinh dưỡng và giấc ngủ, mang đến cho bạn cái nhìn toàn diện về thể lực tổng thể của mình.
+
 
   utter_ans_workout_journal:
-  - text: "Keeping a workout journal is a great way to track progress, stay motivated, and identify patterns in your training. It helps you monitor your exercises, sets, reps, weights, and how you feel during and after workouts. This allows you to adjust your routine as needed, stay accountable, and celebrate improvements over time."
+  - text: |-
+      Viết nhật ký tập luyện là một cách tuyệt vời để theo dõi tiến độ, duy trì động lực và xác định các khuôn mẫu trong quá trình tập luyện của bạn. Nó giúp bạn theo dõi các bài tập, hiệp, số lần lặp, mức tạ và cảm giác của bạn trong và sau khi tập luyện. Điều này cho phép bạn điều chỉnh thói quen của mình khi cần thiết, luôn có trách nhiệm và tôn vinh những cải tiến theo thời gian.
+
 
   utter_ans_fitness_improvement:
-  - text: "To measure fitness improvement, track key indicators such as strength (e.g., lifting heavier weights), endurance (e.g., running faster or longer), flexibility (e.g., range of motion), and body composition (e.g., fat loss or muscle gain). You can also monitor performance on specific exercises or activities, track recovery times, and observe changes in energy levels or physical appearance. Consistency in tracking over time helps you see trends and improvements in your fitness journey."
+  - text: |-
+      Để đo lường mức độ cải thiện thể lực, hãy theo dõi các chỉ số chính như sức mạnh (ví dụ: nâng tạ nặng hơn), sức bền (ví dụ: chạy nhanh hơn hoặc lâu hơn), tính linh hoạt (ví dụ: phạm vi chuyển động) và thành phần cơ thể (ví dụ: giảm mỡ hoặc tăng cơ). Bạn cũng có thể theo dõi hiệu suất của các bài tập hoặc hoạt động cụ thể, theo dõi thời gian phục hồi và quan sát những thay đổi về mức năng lượng hoặc ngoại hình. Tính nhất quán trong việc theo dõi theo thời gian giúp bạn thấy được xu hướng và sự cải thiện trong hành trình tập thể dục của mình.
+
 
   utter_ans_track_progress:
-  - text: "The best way to track progress is by setting specific goals and monitoring key metrics such as weight, body measurements, strength (e.g., max lifts), endurance (e.g., running distance or time), and body composition (e.g., body fat percentage). Keep a workout journal, use fitness apps, or take progress photos regularly. Tracking consistency, recovery, and how you feel physically and mentally also provides valuable insights into your overall progress."
+  - text: |-
+      Cách tốt nhất để theo dõi tiến độ là đặt ra các mục tiêu cụ thể và theo dõi các số liệu chính như cân nặng, số đo cơ thể, sức mạnh (ví dụ: số lần nâng tối đa), sức bền (ví dụ: khoảng cách chạy hoặc thời gian) và thành phần cơ thể (ví dụ: tỷ lệ phần trăm mỡ cơ thể). Viết nhật ký tập luyện, sử dụng các ứng dụng thể dục hoặc chụp ảnh tiến trình thường xuyên. Theo dõi tính nhất quán, quá trình phục hồi và cảm giác của bạn về thể chất và tinh thần cũng cung cấp những hiểu biết sâu sắc có giá trị về tiến trình chung của bạn.
+
 
   utter_ans_workout_motivation:
-  - text: "Stay motivated by setting clear, achievable goals, tracking progress, and celebrating milestones. Mix up your routine to keep things interesting, find a workout buddy or join classes for social support, and focus on the benefits like improved health and energy. Keep a positive mindset, remind yourself of why you started, and stay consistent even on days when motivation is low."
+  - text: |-
+      Duy trì động lực bằng cách đặt ra các mục tiêu rõ ràng, có thể đạt được, theo dõi tiến độ và tôn vinh các cột mốc quan trọng. Hãy kết hợp thói quen của bạn để khiến mọi thứ trở nên thú vị, tìm một người bạn tập luyện hoặc tham gia các lớp học để được hỗ trợ xã hội và tập trung vào những lợi ích như cải thiện sức khỏe và năng lượng. Giữ một suy nghĩ tích cực, nhắc nhở bản thân về lý do tại sao bạn bắt đầu và kiên định ngay cả trong những ngày mà động lực thấp.
+
 
   utter_ans_improve_running_pace:
-  - text: "To increase your pace for long-distance runs, gradually increase mileage, incorporate interval and tempo runs, and focus on long, steady runs for stamina. Strengthen your core and legs with cross-training, improve running form, and fuel properly before and during runs. Ensure rest and recovery to avoid burnout and improve performance."
+  - text: |-
+      Để tăng tốc độ khi chạy đường dài, hãy tăng dần quãng đường, kết hợp chạy ngắt quãng và chạy theo nhịp độ, đồng thời tập trung vào các bài chạy dài, ổn định để tăng sức chịu đựng. Tăng cường sức mạnh cốt lõi và đôi chân của bạn bằng cách tập luyện chéo, cải thiện hình thức chạy và cung cấp năng lượng hợp lý trước và trong khi chạy. Đảm bảo nghỉ ngơi và phục hồi để tránh kiệt sức và cải thiện hiệu suất.
+
 
   utter_ans_running_speed:
-  - text: "To improve your running speed, focus on interval training to boost speed and stamina, incorporate strength training (especially for legs and core), improve running form (upright posture, proper foot strike), add strides or sprints during your runs, increase your cadence (steps per minute), and ensure adequate rest and recovery. Additionally, gradually increasing your weekly mileage can help build endurance while allowing time for recovery to avoid overtraining"
+  - text: |-
+      Để cải thiện tốc độ chạy của bạn, hãy tập trung vào luyện tập xen kẽ để tăng tốc độ và sức chịu đựng, kết hợp rèn luyện sức mạnh (đặc biệt là cho chân và cơ lõi), cải thiện hình thức chạy (tư thế thẳng đứng, tấn công bằng chân thích hợp), thêm bước tiến hoặc chạy nước rút trong khi chạy, tăng nhịp (số bước mỗi phút) và đảm bảo nghỉ ngơi và phục hồi đầy đủ. Ngoài ra, tăng dần quãng đường đi hàng tuần của bạn có thể giúp xây dựng sức bền đồng thời cho phép thời gian phục hồi để tránh tập luyện quá sức.
+
 
   utter_ans_cardio_fat_burning:
-  - text: "HIIT burns more fat in less time due to its high intensity, which boosts metabolism and leads to a higher afterburn effect. However, steady-state cardio can also effectively burn fat over longer periods. The key is consistency and intensity—HIIT is more efficient for quick fat loss, while steady-state can be better for longer endurance sessions."
+  - text: |-
+      HIIT đốt cháy nhiều chất béo hơn trong thời gian ngắn hơn do cường độ cao, giúp tăng cường trao đổi chất và dẫn đến hiệu quả đốt cháy sau cao hơn. Tuy nhiên, tập cardio ở trạng thái ổn định cũng có thể đốt cháy chất béo hiệu quả trong thời gian dài hơn. Điều quan trọng là tính nhất quán và cường độ — HIIT hiệu quả hơn để giảm mỡ nhanh chóng, trong khi trạng thái ổn định có thể tốt hơn cho các buổi tập sức bền lâu hơn.
+
 
   utter_ans_hiit_pros_cons:
-  - text: "HIIT: Pros: Efficient fat burning, boosts metabolism, improves fitness in less time (20-30 minutes). Cons: Higher injury risk, may not suit beginners or those with joint issues, requires recovery. Steady-State Cardio: Pros: Easier on the body, good for endurance, less taxing. Cons: Time-consuming (30-60 minutes), less efficient for fat loss, can lead to muscle loss if overdone. Both serve different goals: HIIT for fat loss and conditioning, steady-state for endurance."
+  - text: |-
+      HIIT: Ưu điểm: Đốt cháy mỡ thừa hiệu quả, tăng cường trao đổi chất, cải thiện thể lực trong thời gian ngắn hơn (20-30 phút). Nhược điểm: Nguy cơ chấn thương cao hơn, có thể không phù hợp với người mới bắt đầu hoặc những người có vấn đề về khớp, cần phục hồi. Cardio ở trạng thái ổn định: Ưu điểm: Cơ thể dễ dàng hơn, tốt cho sức bền, ít mệt mỏi hơn. Nhược điểm: Tốn thời gian (30-60 phút), giảm mỡ kém hiệu quả, có thể dẫn đến mất cơ nếu tập quá mức. Cả hai đều phục vụ các mục tiêu khác nhau: HIIT để giảm mỡ và điều hòa, trạng thái ổn định để tăng sức bền.
+
 
   utter_ans_hiit_vs_steady_state:
-  - text: "HIIT (High-Intensity Interval Training) involves alternating between short bursts of intense activity and periods of low-intensity recovery or rest, typically lasting 20-30 minutes. It boosts metabolism, improves cardiovascular fitness, and can burn fat efficiently. Steady-state cardio, on the other hand, involves maintaining a consistent moderate intensity (e.g., jogging or cycling) for a longer duration (usually 30-60 minutes). It's less intense but can be sustained for longer periods, focusing on endurance and fat burning. Both types offer unique benefits depending on your fitness goals."
+  - text: |-
+      HIIT (Tập luyện cường độ cao ngắt quãng) bao gồm xen kẽ giữa các đợt hoạt động cường độ ngắn và thời gian phục hồi hoặc nghỉ ngơi cường độ thấp, thường kéo dài 20-30 phút. Nó tăng cường trao đổi chất, cải thiện thể lực tim mạch và có thể đốt cháy chất béo hiệu quả. Mặt khác, tim mạch ở trạng thái ổn định liên quan đến việc duy trì cường độ vừa phải nhất quán (ví dụ: chạy bộ hoặc đạp xe) trong thời gian dài hơn (thường là 30-60 phút). Nó ít mãnh liệt hơn nhưng có thể duy trì trong thời gian dài hơn, tập trung vào sức bền và đốt cháy chất béo. Cả hai loại đều mang lại những lợi ích riêng tùy thuộc vào mục tiêu tập thể dục của bạn.
+
 
   utter_ans_cardio_alternatives:
-  - text: "Certainly! Some great alternatives to running for cardio include cycling, swimming, rowing, jumping rope, hiking, and using machines like the elliptical or stair climber. You could also try dance-based workouts (e.g., Zumba or hip-hop), kickboxing, or circuit training to keep things fun and engaging. These options provide excellent cardiovascular benefits while being easier on the joints compared to running."
+  - text: |-
+      Chắc chắn! Một số lựa chọn thay thế tuyệt vời để chạy bộ cho tim mạch bao gồm đạp xe, bơi lội, chèo thuyền, nhảy dây, đi bộ đường dài và sử dụng các máy như máy tập hình elip hoặc máy leo cầu thang. Bạn cũng có thể thử các bài tập dựa trên khiêu vũ (ví dụ: Zumba hoặc hip-hop), kickboxing hoặc luyện tập theo vòng để giữ cho mọi thứ trở nên vui vẻ và hấp dẫn. Những lựa chọn này mang lại lợi ích tuyệt vời cho tim mạch đồng thời giúp các khớp dễ dàng hơn so với chạy bộ.
+
 
   utter_ans_enjoyable_cardio:
-  - text: "To make cardio more enjoyable, try mixing up your routine with different activities like cycling, swimming, or dancing to keep things interesting. Listening to music, podcasts, or audiobooks can also make the time go by faster. Set small, achievable goals and track your progress to stay motivated. Exercising with a friend or joining group fitness classes can add a social element. Lastly, try incorporating outdoor cardio, like running in a park, to change the scenery and improve your overall experience."
+  - text: |-
+      Để làm cho bài tập cardio trở nên thú vị hơn, hãy thử kết hợp thói quen của bạn với các hoạt động khác nhau như đạp xe, bơi lội hoặc khiêu vũ để khiến mọi thứ trở nên thú vị. Nghe nhạc, podcast hoặc sách nói cũng có thể khiến thời gian trôi qua nhanh hơn. Đặt các mục tiêu nhỏ, có thể đạt được và theo dõi tiến trình của bạn để duy trì động lực. Tập thể dục với một người bạn hoặc tham gia các lớp thể dục nhóm có thể tạo thêm yếu tố xã hội. Cuối cùng, hãy thử kết hợp tập cardio ngoài trời, chẳng hạn như chạy trong công viên, để thay đổi khung cảnh và cải thiện trải nghiệm tổng thể của bạn.
+
 
   utter_ans_supersets:
-  - text: "Supersets involve performing two exercises back-to-back with minimal rest in between. They can target the same muscle group (e.g., bicep curls followed by hammer curls) for increased intensity or different muscle groups (e.g., bench press followed by squats) for a full-body workout. To perform supersets, choose exercises, perform the first one to failure or a set number of reps, then immediately move to the second exercise, resting only after completing both exercises. Supersets help save time, increase intensity, and improve muscular endurance."
+  - text: |-
+      Supersets bao gồm việc thực hiện hai bài tập liên tiếp với thời gian nghỉ tối thiểu ở giữa. Họ có thể nhắm mục tiêu vào cùng một nhóm cơ (ví dụ: uốn cong bắp tay, sau đó là uốn cong hình búa) để tăng cường độ hoặc các nhóm cơ khác nhau (ví dụ: ép tạ sau đó là squat) để tập luyện toàn thân. Để thực hiện supersets, hãy chọn bài tập, thực hiện bài đầu tiên đến thất bại hoặc một số lần lặp nhất định, sau đó chuyển ngay sang bài thứ hai, chỉ nghỉ sau khi hoàn thành cả hai bài. Supersets giúp tiết kiệm thời gian, tăng cường độ và cải thiện sức bền cơ bắp.
+
 
   utter_ans_drop_sets:
-  - text: "Drop sets can be effective for muscle growth as they push muscles to fatigue by reducing the weight after reaching failure, allowing for more reps and increasing time under tension. This technique can help stimulate muscle fibers and promote hypertrophy, but it should be used in moderation to avoid overtraining and ensure proper recovery."
+  - text: |-
+      Drop set có thể có hiệu quả cho sự phát triển cơ bắp vì chúng đẩy cơ đến mức mệt mỏi bằng cách giảm trọng lượng sau khi đạt đến thất bại, cho phép thực hiện nhiều lần lặp lại hơn và tăng thời gian căng thẳng. Kỹ thuật này có thể giúp kích thích các sợi cơ và thúc đẩy quá trình phì đại, nhưng nên sử dụng ở mức độ vừa phải để tránh tập luyện quá sức và đảm bảo phục hồi thích hợp.
+
 
   utter_ans_increase_strength:
-  - text: "To increase strength over time, focus on progressive overload by gradually increasing the weight or intensity of your exercises. Incorporate compound lifts like squats, deadlifts, and bench presses, prioritize proper form, ensure sufficient recovery and nutrition (especially protein), and follow a consistent training program that includes both strength training and accessory exercises to target all muscle groups."
+  - text: |-
+      Để tăng sức mạnh theo thời gian, hãy tập trung vào mức độ quá tải tăng dần bằng cách tăng dần trọng lượng hoặc cường độ bài tập của bạn. Kết hợp các bài tập kết hợp như squats, deadlifts và bench press, ưu tiên hình thức phù hợp, đảm bảo phục hồi và dinh dưỡng đầy đủ (đặc biệt là protein) và tuân theo một chương trình tập luyện nhất quán bao gồm cả bài tập sức mạnh và bài tập phụ kiện để nhắm vào tất cả các nhóm cơ.
+
 
   utter_ans_importance_rest_days:
-  - text: "Rest days are crucial for progress as they allow your muscles to recover, repair, and grow. Overtraining without sufficient rest can lead to fatigue, decreased performance, and increased risk of injury. Rest days help maintain long-term consistency, improve strength, and prevent burnout."
+  - text: |-
+      Những ngày nghỉ ngơi rất quan trọng cho sự tiến bộ vì chúng cho phép cơ bắp của bạn phục hồi, sửa chữa và phát triển. Tập luyện quá sức mà không nghỉ ngơi đầy đủ có thể dẫn đến mệt mỏi, giảm hiệu suất và tăng nguy cơ chấn thương. Những ngày nghỉ ngơi giúp duy trì tính nhất quán lâu dài, cải thiện sức mạnh và ngăn ngừa kiệt sức.
+
 
   utter_ans_injury_prevention:
-  - text: "To prevent injuries at the gym, always warm up before starting, use proper form, start with lighter weights and gradually increase, avoid overtraining by allowing adequate rest, listen to your body, stay hydrated, and incorporate flexibility exercises like stretching or foam rolling to improve mobility and reduce strain."
+  - text: |-
+      Để ngăn ngừa chấn thương khi tập gym, hãy luôn khởi động trước khi bắt đầu, tập đúng tư thế, bắt đầu với mức tạ nhẹ hơn và tăng dần, tránh tập luyện quá sức bằng cách cho phép nghỉ ngơi đầy đủ, lắng nghe cơ thể, giữ nước và kết hợp các bài tập linh hoạt như giãn cơ hoặc lăn xốp để cải thiện khả năng vận động và giảm căng thẳng.
+
 
   utter_ans_workout_recovery:
-  - text: "Recover from a tough workout by staying hydrated, eating nutrient-rich meals with protein and carbs, stretching or doing light activity to reduce soreness, prioritizing quality sleep, and considering active recovery like yoga or walking while listening to your body to avoid overtraining,taking supplements for recovery depends on your diet and goals; common options include protein powder for muscle repair, creatine for performance, and omega-3s for reducing inflammation, but it's best to focus on a balanced diet first and consult a healthcare professional before starting any supplements."
+  - text: |-
+      Phục hồi sau một buổi tập luyện vất vả bằng cách bổ sung nước, ăn các bữa ăn giàu chất dinh dưỡng với protein và carbs, giãn cơ hoặc hoạt động nhẹ để giảm đau nhức, ưu tiên giấc ngủ chất lượng và cân nhắc việc phục hồi tích cực như yoga hoặc đi bộ trong khi lắng nghe cơ thể để tránh tập luyện quá sức, dùng thực phẩm bổ sung để phục hồi tùy thuộc vào chế độ ăn uống và mục tiêu của bạn; Các lựa chọn phổ biến bao gồm bột protein để phục hồi cơ bắp, creatine để tăng hiệu suất và omega-3 để giảm viêm, nhưng tốt nhất trước tiên bạn nên tập trung vào một chế độ ăn uống cân bằng và tham khảo ý kiến ​​​​chuyên gia chăm sóc sức khỏe trước khi bắt đầu bất kỳ chất bổ sung nào.
+
 
   utter_ans_progressive_overload:
-  - text: "The best approach for progressive overload in the gym involves gradually increasing the intensity of your workouts over time by adding weight, increasing reps, improving form, reducing rest time, or varying exercises while ensuring proper recovery and nutrition to prevent injury and support growth."
+  - text: |-
+      Cách tiếp cận tốt nhất đối với tình trạng quá tải tăng dần trong phòng tập thể dục bao gồm việc tăng dần cường độ tập luyện của bạn theo thời gian bằng cách tăng trọng lượng, tăng số lần tập, cải thiện hình thức, giảm thời gian nghỉ ngơi hoặc thay đổi các bài tập trong khi vẫn đảm bảo phục hồi và dinh dưỡng thích hợp để ngăn ngừa chấn thương và hỗ trợ tăng trưởng.
+
 
   utter_ans_train_to_failure:
-  - text: "Training to failure every set is not necessary for muscle growth and may increase the risk of injury or overtraining. While training to failure can help maximize muscle recruitment, it should be used strategically and not for every set, especially in compound movements or for beginners. Most training programs recommend training close to failure (within 1-2 reps) for hypertrophy, as this is sufficient to stimulate muscle growth while minimizing fatigue and recovery issues. Research suggests that a mix of training to failure on some sets and leaving a couple of reps in reserve on others may be the most effective and sustainable approach for long-term progress"
+  - text: |-
+      Tập đến thất bại mỗi hiệp là không cần thiết cho sự phát triển cơ bắp và có thể làm tăng nguy cơ chấn thương hoặc tập luyện quá sức. Mặc dù tập đến thất bại có thể giúp tối đa hóa việc huy động cơ bắp, nhưng nó nên được sử dụng một cách chiến lược và không phải cho mọi hiệp, đặc biệt là trong các động tác kết hợp hoặc cho người mới bắt đầu. Hầu hết các chương trình tập luyện đều khuyến nghị tập luyện gần thất bại (trong vòng 1-2 lần lặp lại) để điều trị chứng phì đại, vì điều này đủ để kích thích tăng trưởng cơ bắp đồng thời giảm thiểu các vấn đề mệt mỏi và phục hồi. Nghiên cứu cho thấy rằng việc kết hợp tập luyện đến thất bại trong một số hiệp và để lại một vài lần dự bị cho những hiệp khác có thể là cách tiếp cận hiệu quả và bền vững nhất để đạt được tiến bộ lâu dài.
+
 
   utter_ans_reps_vs_weights:
-  - text: "For muscle growth, a balance of both high reps and heavy weights can be effective, but the focus depends on your goals. Heavy weights (low reps, around 1-5 reps per set) are best for building strength and increasing muscle size through mechanical tension. High reps (around 12-20 reps per set) are better for muscular endurance and can help induce metabolic stress, promoting hypertrophy (muscle growth) when combined with moderate weights. For optimal hypertrophy, most experts recommend focusing on moderate weights with 6-12 reps, which combines both mechanical tension and metabolic stress"
+  - text: |-
+      Để phát triển cơ bắp, sự cân bằng giữa số lần tập cao và mức tạ nặng có thể có hiệu quả, nhưng mức độ tập trung phụ thuộc vào mục tiêu của bạn. Trọng lượng nặng (số lần lặp lại thấp, khoảng 1-5 lần mỗi hiệp) là tốt nhất để xây dựng sức mạnh và tăng kích thước cơ thông qua sức căng cơ học. Số lần lặp cao (khoảng 12-20 lần mỗi hiệp) sẽ tốt hơn cho sức bền cơ bắp và có thể giúp tạo ra căng thẳng trao đổi chất, thúc đẩy chứng phì đại (tăng trưởng cơ) khi kết hợp với mức tạ vừa phải. Để đạt được mức độ phì đại tối ưu, hầu hết các chuyên gia khuyên bạn nên tập trung vào mức tạ vừa phải với 6-12 lần lặp lại, kết hợp cả sức căng cơ học và căng thẳng trao đổi chất.
+
 
   utter_ans_hypertrophy_reps_sets:
-  - text: "For hypertrophy, aim for 3-5 sets of 6-12 reps per exercise, using a weight that's 70-85% of your 1RM. This rep range effectively promotes muscle growth by inducing enough tension and fatigue in the muscles. Rest periods should be around 60-90 seconds between sets to maximize metabolic stress and muscle recovery."
+  - text: |-
+      Để tăng cơ, hãy đặt mục tiêu thực hiện 3-5 hiệp, mỗi hiệp 6-12 lần, sử dụng mức tạ bằng 70-85% 1RM của bạn. Phạm vi số lần tập này thúc đẩy sự phát triển cơ bắp một cách hiệu quả bằng cách tạo ra đủ sức căng và mệt mỏi cho cơ. Thời gian nghỉ giữa các hiệp nên khoảng 60-90 giây để tối đa hóa căng thẳng trao đổi chất và phục hồi cơ bắp.
+
 
   utter_ans_build_muscle:
-  - text: "To build muscle quickly, focus on progressive overload by gradually increasing weight, reps, or sets to challenge your muscles. Include compound exercises like squats, deadlifts, and bench presses, which work multiple muscle groups and stimulate growth. Ensure you consume enough protein, aiming for 1.6-2.2 grams per kilogram of body weight daily, to support muscle repair and growth. Prioritize rest and recovery, aiming for 7-9 hours of sleep and at least 48 hours of rest between intense workouts for the same muscle group. Consistency in training, proper nutrition, and recovery are key to building muscle quickly."
+  - text: |-
+      Để xây dựng cơ bắp nhanh chóng, hãy tập trung vào việc tăng dần mức độ quá tải bằng cách tăng dần mức tạ, số lần lặp hoặc số hiệp để thử thách cơ bắp của bạn. Bao gồm các bài tập tổng hợp như squats, deadlifts và bench press, những bài tập này tác động lên nhiều nhóm cơ và kích thích tăng trưởng. Đảm bảo bạn tiêu thụ đủ chất đạm, mục tiêu là 1,6-2,2 gam cho mỗi kg trọng lượng cơ thể hàng ngày, để hỗ trợ quá trình phục hồi và phát triển cơ bắp. Ưu tiên nghỉ ngơi và phục hồi, hướng tới mục tiêu ngủ 7-9 tiếng và nghỉ ít nhất 48 tiếng giữa các buổi tập cường độ cao cho cùng một nhóm cơ. Kiên trì tập luyện, dinh dưỡng hợp lý và phục hồi là chìa khóa để xây dựng cơ bắp nhanh chóng.
+
 
   utter_ans_fat_loss_weightlifting:
-  - text: "Weightlifting can contribute to fat loss by building muscle mass, which increases your resting metabolic rate (RMR), allowing you to burn more calories even at rest. As muscle tissue burns more calories than fat, this process can help reduce body fat over time. However, weightlifting alone may not be as effective for fat loss as a combination of strength training and cardio. Cardio exercises, such as running, cycling, or HIIT, promote additional calorie burning during the workout, creating a greater calorie deficit, which is essential for fat loss. For the best results, a combination of weightlifting, cardio, and a balanced diet is typically recommended, as this will maximize calorie burn, boost metabolism, and help preserve muscle mass during weight loss"
+  - text: |-
+      Tập tạ có thể góp phần giảm mỡ bằng cách xây dựng khối lượng cơ, làm tăng tỷ lệ trao đổi chất khi nghỉ ngơi (RMR), cho phép bạn đốt cháy nhiều calo hơn ngay cả khi nghỉ ngơi. Vì mô cơ đốt cháy nhiều calo hơn chất béo nên quá trình này có thể giúp giảm lượng mỡ trong cơ thể theo thời gian. Tuy nhiên, chỉ tập tạ có thể không hiệu quả trong việc giảm mỡ bằng sự kết hợp giữa tập luyện sức mạnh và tim mạch. Các bài tập tim mạch, chẳng hạn như chạy, đạp xe hoặc HIIT, thúc đẩy quá trình đốt cháy thêm calo trong quá trình tập luyện, tạo ra mức thâm hụt calo lớn hơn, điều này rất cần thiết cho việc giảm mỡ. Để có kết quả tốt nhất, bạn nên kết hợp tập tạ, tập tim mạch và chế độ ăn uống cân bằng, vì điều này sẽ tối đa hóa việc đốt cháy calo, tăng cường trao đổi chất và giúp duy trì khối lượng cơ bắp trong quá trình giảm cân.
+
 
   utter_ans_cardio_duration_weight_loss:
-  - text: "To lose weight effectively, aim for at least 150 minutes of moderate-intensity cardio (like brisk walking, cycling, or swimming) or 75 minutes of vigorous-intensity cardio (such as running or HIIT) per week, as recommended by health experts. This can be spread out across the week in shorter sessions. Increasing the frequency or intensity of your cardio workouts can further accelerate weight loss. In addition to cardio, incorporating strength training into your routine helps build muscle mass, boosts metabolism, and supports fat loss, leading to better long-term results"
+  - text: |-
+      Để giảm cân hiệu quả, hãy tập ít nhất 150 phút tập tim mạch cường độ vừa phải (như đi bộ nhanh, đạp xe hoặc bơi lội) hoặc 75 phút tập tim mạch cường độ mạnh (chẳng hạn như chạy hoặc HIIT) mỗi tuần, theo khuyến nghị của các chuyên gia y tế. Điều này có thể được trải đều trong tuần trong các phiên ngắn hơn. Tăng tần suất hoặc cường độ tập luyện tim mạch của bạn có thể đẩy nhanh quá trình giảm cân hơn nữa. Ngoài cardio, việc kết hợp rèn luyện sức mạnh vào thói quen của bạn sẽ giúp xây dựng khối lượng cơ bắp, tăng cường trao đổi chất và hỗ trợ giảm mỡ, mang lại kết quả lâu dài tốt hơn
+
 
   utter_ans_lose_midsection_fat:
-  - text: "To lose weight around your midsection, focus on a balanced diet, regular cardio, strength training, core workouts, and proper rest for optimal fat loss"
+  - text: |-
+      Để giảm cân quanh vùng bụng, hãy tập trung vào chế độ ăn uống cân bằng, tập tim mạch thường xuyên, rèn luyện sức mạnh, tập luyện cốt lõi và nghỉ ngơi hợp lý để giảm mỡ tối ưu
+
 
   utter_ans_cardio_vs_weights:
-  - text: "Both cardio burns immediate calories, while strength training builds muscle to boost metabolism, making a combination of both the best approach for fat loss"
+  - text: |-
+      Cả hai phương pháp tim mạch đều đốt cháy calo ngay lập tức, trong khi tập luyện sức mạnh sẽ xây dựng cơ bắp để tăng cường trao đổi chất, tạo nên sự kết hợp của cả hai phương pháp tốt nhất để giảm mỡ
+
 
   utter_ans_burn_belly_fat:
-  - text: "To reduce belly fat, focus on cardio (running, cycling), strength training (squats, push-ups), core exercises (planks, crunches), and HIIT for maximum fat burning"
+  - text: |-
+      Để giảm mỡ bụng, hãy tập trung vào các bài tập tim mạch (chạy, đạp xe), rèn luyện sức mạnh (squat, chống đẩy), các bài tập cốt lõi (plank, gập bụng) và HIIT để đốt cháy mỡ tối đa
+
 
   utter_ans_water_timing:
-  - text: "Drink water before (500-600 ml), during (200-300 ml every 10-20 minutes), and after (500-700 ml) exercise to stay hydrated and optimize performance"
+  - text: |-
+      Uống nước trước (500-600 ml), trong (200-300 ml cứ sau 10-20 phút) và sau khi tập thể dục (500-700 ml) để giữ nước và tối ưu hóa hiệu suất
+
 
   utter_ans_water_intake_workout:
-  - text: "During a workout, it's important to stay hydrated. A good guideline is to drink 7-10 ounces (200-300 ml) of water every 10-20 minutes during exercise. The exact amount can vary based on factors like intensity, duration, and climate. After your workout, aim to replenish with an additional 16-24 ounces (500-700 ml) of water to compensate for fluid lost through sweat"
+  - text: |-
+      Trong quá trình tập luyện, điều quan trọng là phải giữ nước. Một hướng dẫn tốt là uống 7-10 ounce (200-300 ml) nước cứ sau 10-20 phút trong khi tập thể dục. Số lượng chính xác có thể thay đổi dựa trên các yếu tố như cường độ, thời gian và khí hậu. Sau khi tập luyện, hãy cố gắng bổ sung thêm 16-24 ounce (500-700 ml) nước để bù đắp lượng chất lỏng bị mất qua mồ hôi
+
 
   utter_ans_protein_powder:
-  - text: "Protein powder can be beneficial if you're struggling to meet your daily protein needs through food alone, but it's not necessary if you can get enough protein from whole foods."
+  - text: |-
+      Bột protein có thể có lợi nếu bạn đang gặp khó khăn trong việc đáp ứng nhu cầu protein hàng ngày chỉ thông qua thực phẩm, nhưng điều đó là không cần thiết nếu bạn có thể nhận đủ protein từ thực phẩm nguyên chất.
+
 
   utter_ans_protein_shakes:
-  - text: "Protein shakes are not essential for muscle growth but can help meet daily protein needs, especially if you struggle to get enough from food. As long as you consume enough protein throughout the day, whole foods can also support muscle growth effectively. Protein shakes are a convenient option, particularly post-workout, but they're optional"
+  - text: |-
+      Protein lắc không cần thiết cho sự phát triển cơ bắp nhưng có thể giúp đáp ứng nhu cầu protein hàng ngày, đặc biệt nếu bạn gặp khó khăn trong việc nạp đủ từ thức ăn. Miễn là bạn tiêu thụ đủ chất đạm trong ngày, thực phẩm nguyên chất cũng có thể hỗ trợ tăng trưởng cơ bắp một cách hiệu quả. Protein lắc là một lựa chọn tiện lợi, đặc biệt là sau khi tập luyện, nhưng chúng không bắt buộc
+
 
   utter_ans_pre_workout_food:
-  - text: "Before the gym, it's best to eat a light meal that includes carbohydrates for energy, protein for muscle support, and a small amount of healthy fats. Examples include a banana with peanut butter, a small smoothie with fruit and protein powder, or whole-grain toast with eggs. Aim to eat about 30-60 minutes before your workout for optimal performance. Avoid heavy meals that may cause discomfort during exercise."
+  - text: |-
+      Trước khi tập gym, tốt nhất bạn nên ăn một bữa ăn nhẹ bao gồm carbohydrate để cung cấp năng lượng, protein để hỗ trợ cơ bắp và một lượng nhỏ chất béo lành mạnh. Ví dụ như một quả chuối với bơ đậu phộng, một ly sinh tố nhỏ với trái cây và bột protein hoặc bánh mì nướng ngũ cốc nguyên hạt với trứng. Cố gắng ăn khoảng 30-60 phút trước khi tập luyện để đạt hiệu quả tối ưu. Tránh những bữa ăn nặng có thể gây khó chịu khi tập luyện.
+
 
   utter_ans_improve_stamina:
-  - text: "To improve stamina, engage in regular cardio exercises (like running, cycling, or swimming), gradually increase intensity, and ensure adequate rest and nutrition."
+  - text: |-
+      Để cải thiện sức chịu đựng, hãy tham gia các bài tập tim mạch thường xuyên (như chạy, đạp xe hoặc bơi lội), tăng dần cường độ và đảm bảo nghỉ ngơi và dinh dưỡng đầy đủ.
+
 
   utter_ans_beginner_gym_plan:
-  - text: "A beginner-friendly gym plan includes full-body workouts (squats, push-ups, lat pulldowns) on Day 1, cardio and core exercises (treadmill, leg raises) on Day 2, with rest days in between."
+  - text: |-
+      Kế hoạch tập thể dục thân thiện với người mới bắt đầu bao gồm các bài tập toàn thân (squat, chống đẩy, kéo tạ) vào Ngày 1, các bài tập tim mạch và cốt lõi (máy chạy bộ, nâng chân) vào Ngày 2, với những ngày nghỉ ngơi ở giữa.
+
 
   utter_ans_create_workout_plan:
-  - text: "To create a workout plan, set clear goals, choose a mix of cardio, strength, and flexibility exercises, determine frequency, increase intensity gradually, schedule rest days, and track your progress."
+  - text: |-
+      Để lập kế hoạch tập luyện, hãy đặt mục tiêu rõ ràng, chọn kết hợp các bài tập tim mạch, sức mạnh và sự linh hoạt, xác định tần suất, tăng cường độ dần dần, lên lịch những ngày nghỉ ngơi và theo dõi tiến trình của bạn.
+
 
   utter_ans_kettlebell_usage:
-  - text: "Kettlebells are versatile tools that can be used for full-body workouts, targeting multiple muscle groups with exercises like the kettlebell swing, goblet squat, kettlebell press, kettlebell deadlift, and kettlebell rows. The swing primarily works the hips, glutes, and lower back, generating power from the hips. The goblet squat helps build lower body strength while improving squat form by holding the kettlebell close to the chest. The press targets the shoulders and upper body, while the deadlift focuses on the posterior chain, including hamstrings and lower back. Rows strengthen the upper back and lats. For beginners, start with a lighter kettlebell and focus on mastering the form before progressing to heavier weights. Ensure your core is engaged to avoid back strain, especially during dynamic moves like the swing."
+  - text: |-
+      Kettlebells là công cụ linh hoạt có thể được sử dụng để tập luyện toàn cơ thể, nhắm vào nhiều nhóm cơ bằng các bài tập như lắc chuông ấm, squat cốc, ép tạ ấm, nâng tạ ấm và hàng tạ ấm. Động tác xoay chủ yếu tác động lên hông, cơ mông và lưng dưới, tạo ra lực từ hông. Goblet squat giúp xây dựng sức mạnh phần thân dưới đồng thời cải thiện tư thế squat bằng cách giữ chuông ấm gần ngực. Press nhắm vào vai và phần trên cơ thể, trong khi deadlift tập trung vào chuỗi sau, bao gồm gân kheo và lưng dưới. Hàng tăng cường sức mạnh cho lưng trên và cơ xô. Đối với người mới bắt đầu, hãy bắt đầu với tạ ấm nhẹ hơn và tập trung vào việc nắm vững hình thức trước khi chuyển sang mức tạ nặng hơn. Đảm bảo cơ lõi của bạn hoạt động tốt để tránh căng cơ lưng, đặc biệt là trong các động tác năng động như xoay người.
+
 
   utter_ans_dumbbell_usage:
-  - text: "To properly use dumbbells, maintain a controlled motion, keep your core engaged, and use appropriate weights to avoid strain or injury."
+  - text: |-
+      Để sử dụng tạ đúng cách, hãy duy trì chuyển động có kiểm soát, giữ chặt cơ lõi và sử dụng tạ phù hợp để tránh bị căng hoặc chấn thương.
+
 
   utter_ans_adjust_weights:
-  - text: "To adjust weights on a machine, pull the pin, move it to your desired weight, and ensure it's securely locked in place"
+  - text: |-
+      Để điều chỉnh trọng lượng trên máy, hãy kéo chốt, di chuyển trọng lượng đến mức bạn mong muốn và đảm bảo nó được khóa chắc chắn tại chỗ
+
 
   utter_ans_treadmill_usage:
-  - text: "To use a treadmill, start with a slow warm-up, gradually increase speed and incline, maintain good posture, and finish with a cool-down."
+  - text: |-
+      Để sử dụng máy chạy bộ, hãy bắt đầu với việc khởi động chậm, tăng dần tốc độ và độ nghiêng, duy trì tư thế tốt và kết thúc bằng việc thư giãn.
+
 
   utter_ans_warm_up:
-  - text: "To warm up, do dynamic stretches (e.g., leg swings), light cardio (5-10 minutes), and mobility exercises (e.g., hip circles) to prepare your body and prevent injury"
+  - text: |-
+      Để khởi động, hãy thực hiện các bài tập giãn cơ năng động (ví dụ: xoay chân), tập tim mạch nhẹ (5-10 phút) và các bài tập vận động (ví dụ: xoay hông) để chuẩn bị cho cơ thể và ngăn ngừa chấn thương
+
 
   utter_ans_personal_trainer:
-  - text: "A personal trainer can be helpful, especially for beginners needing guidance on form and a tailored plan. For intermediate or advanced levels, trainers can assist with refining techniques or pushing limits, but they're not always necessary"
+  - text: |-
+      Huấn luyện viên cá nhân có thể hữu ích, đặc biệt đối với những người mới bắt đầu cần hướng dẫn về hình thức và kế hoạch phù hợp. Đối với trình độ trung cấp hoặc cao cấp, huấn luyện viên có thể hỗ trợ tinh chỉnh kỹ thuật hoặc đẩy giới hạn, nhưng không phải lúc nào cũng cần thiết
+
 
   utter_ans_workout_time:
-  - text: "Morning workouts boost energy and metabolism, while evening workouts are better for strength due to higher body temperature. The best time depends on when you feel most energetic and can stick to a consistent routine"
+  - text: |-
+      Tập luyện buổi sáng giúp tăng cường năng lượng và trao đổi chất, trong khi tập luyện buổi tối tốt hơn cho sức mạnh do nhiệt độ cơ thể cao hơn. Thời gian tốt nhất phụ thuộc vào thời điểm bạn cảm thấy tràn đầy năng lượng nhất và có thể duy trì một thói quen nhất quán
+
 
   utter_ans_workout_frequency:
-  - text: "For gym workouts: Beginners should go 2-3 times a week, intermediates 3-4 times, and advanced 5-6 times with rest days, adjusting based on goals and fitness level."
+  - text: |-
+      For gym workouts: Beginners should go 2-3 times a week, intermediates 3-4 times, and advanced 5-6 times with rest days, adjusting based on goals and fitness level.
+
 
   utter_ans_gym_frequency:
-  - text: "The best time to go to the gym depends on your schedule-morning workouts boost energy, while afternoon/evening workouts can be better for strength. Aim for 3-5 times a week, adjusting for your fitness level and goals."
+  - text: |-
+      Thời gian tốt nhất để đến phòng tập thể dục phụ thuộc vào lịch trình của bạn - tập luyện buổi sáng giúp tăng cường năng lượng, trong khi tập luyện buổi chiều/buổi tối có thể tốt hơn cho sức mạnh. Hãy đặt mục tiêu 3-5 lần một tuần, điều chỉnh mức độ thể lực và mục tiêu của bạn.
+
 
   utter_ans_gym_essentials:
-  - text: "Wear workout clothes, and pack water, a towel, gym shoes, headphones, and any personal items like a lock or fitness tracker."
+  - text: |-
+      Mặc quần áo tập luyện, mang theo nước, khăn tắm, giày tập thể dục, tai nghe và bất kỳ vật dụng cá nhân nào như ổ khóa hoặc thiết bị theo dõi thể dục.
+
 
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: |-
+      Chào! Bạn có khỏe không?
+
 
   utter_cheer_up:
-  - text: "Here is something to cheer you up:"
+  - text: |-
+      Đây là một cái gì đó để cổ vũ bạn:
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-  - text: "Did that help you?"
+  - text: |-
+      Điều đó có giúp ích gì cho bạn không?
+
 
   utter_happy:
-  - text: "Great, carry on!"
+  - text: |-
+      Tuyệt vời, tiếp tục!
+
 
   utter_goodbye:
-  - text: "Bye"
+  - text: |-
+      Tạm biệt
+
 
   utter_iamabot:
-  - text: "I am a Hoang Sang, powered by Thang Huu."
+  - text: |-
+      Tôi là Hoàng Sang, do Thắng Hữu làm chủ.
+
 
 entities:
-  - muscle_group
+- muscle_group
 
 slots:
   muscle_group:
     type: text
     influence_conversation: true
     mappings:
-      - type: from_entity
-        entity: muscle_group
+    - type: from_entity
+      entity: muscle_group
 
 actions:
-  - action_low_confidence_fallback
-  - action_recommend_exercise
+- action_low_confidence_fallback
+- action_recommend_exercise
 
 session_config:
   session_expiration_time: 60

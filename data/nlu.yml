@@ -4,167 +4,167 @@ nlu:
 
 - intent: intensity_vs_recovery
   examples: |
-    - How do I balance workout intensity and recovery?
+    - Làm cách nào để cân bằng cường độ tập luyện và khả năng phục hồi?
 
 - intent: rest_days_when_tired
   examples: |
-    - Should I take more rest days if I feel tired?
+    - Tôi có nên nghỉ ngơi nhiều hơn nếu cảm thấy mệt mỏi?
 
 - intent: signs_of_overtraining
   examples: |
-    - What are the signs that I'm working out too much?
+    - Dấu hiệu nào cho thấy tôi đang tập luyện quá nhiều?
 
 - intent: avoid_overtraining
   examples: |
-    - How do I avoid overtraining?
+    - Làm thế nào để tránh tập luyện quá sức?
 
 - intent: achievable_fitness_targets
   examples: |
-    - Can you help me set achievable fitness targets?
+    - Bạn có thể giúp tôi đặt mục tiêu tập thể dục có thể đạt được không?
 
 - intent: create_gym_milestones
   examples: |
-    - How do I create realistic gym milestones?
+    - Làm cách nào để tạo các mốc quan trọng trong phòng tập thể dục thực tế?
 
 - intent: short_term_vs_long_term_goals
   examples: |
-    - Should I aim for short-term or long-term goals?
+    - Tôi nên nhắm đến mục tiêu ngắn hạn hay dài hạn?
 
 - intent: set_fitness_goals
   examples: |
-    - What's the best way to set fitness goals?
+    - Cách tốt nhất để đặt mục tiêu tập thể dục là gì?
 
 - intent: change_workout_routine
   examples: |
-    - How often should I change my routine?
+    - Tôi nên thay đổi thói quen của mình bao lâu một lần?
 
 - intent: mix_exercises_session
   examples: |
-    - Can I mix different exercises in one session?
+    - Tôi có thể kết hợp các bài tập khác nhau trong một buổi tập không?
 
 - intent: avoid_workout_boredom
   examples: |
-    - What's the best way to avoid workout boredom?
-    - How do I keep my workouts exciting?
+    - Cách tốt nhất để tránh sự nhàm chán khi tập luyện là gì?
+    - Làm cách nào để giữ cho việc tập luyện của tôi trở nên thú vị?
 
 - intent: add_spin_to_cardio
   examples: |
-    - Should I add spin classes to my cardio routine?
+    - Tôi có nên thêm các lớp học xoay tròn vào thói quen tập luyện tim mạch của mình không?
 
 - intent: spin_class_calorie_burn
   examples: |
-    - What's the calorie burn potential of spin classes?
+    - Khả năng đốt cháy calo của các lớp học xoay tròn là gì?
 
 - intent: cycling_vs_running
   examples: |
-    - Is cycling better than running for losing weight?
-    
+    - Đạp xe có tốt hơn chạy bộ để giảm cân không?
+
 
 - intent: spin_classes_weight_loss
   examples: |
-    - Are spin classes effective for fat loss?
+    - Các lớp học xoay tròn có hiệu quả để giảm béo không?
 
 - intent: first_fitness_class
   examples: |
-    - How do I join my first fitness class?
+    - Làm cách nào để tham gia lớp thể dục đầu tiên của tôi?
 
 - intent: zumba_vs_yoga
   examples: |
-    - Should I try Zumba or yoga as a beginner?
+    - Tôi nên thử Zumba hay yoga khi mới bắt đầu?
 
 - intent: group_classes_beginners
   examples: |
-    - What's the best group class for beginners?
+    - Lớp học nhóm tốt nhất cho người mới bắt đầu là gì?
 
 - intent: body_composition_tracking
   examples: |
-    - How do I track changes in body composition?
+    - Làm cách nào để theo dõi những thay đổi trong thành phần cơ thể?
 
 - intent: prioritize_fat_over_weight
   examples: |
-    - Should I prioritize body fat over weight?
+    - Tôi có nên ưu tiên mỡ cơ thể hơn cân nặng?
 
 - intent: measure_body_fat
   examples: |
-    - What's the most accurate way to measure body fat?
+    - Cách chính xác nhất để đo lượng mỡ trong cơ thể là gì?
 
 - intent: check_body_fat
   examples: |
-    - How often should I check my body fat percentage?
+    - Tôi nên kiểm tra tỷ lệ phần trăm mỡ cơ thể của mình bao lâu một lần?
 
 - intent: record_progress
   examples: |
-    - How do I record my progress over time?
+    - Làm cách nào để ghi lại sự tiến bộ của tôi theo thời gian?
 
 - intent: apps_for_exercises
   examples: |
-    - Are digital apps better for tracking exercises?
+    - Các ứng dụng kỹ thuật số có tốt hơn cho việc theo dõi các bài tập không?
 
 - intent: log_workouts
   examples: |
-    - What's the best way to log my workouts?
+    - Cách tốt nhất để ghi lại quá trình tập luyện của tôi là gì?
 
 - intent: measure_muscle_gain
   examples: |
-    - How do I measure muscle gain?
+    - Làm thế nào để đo mức tăng cơ?
 
 - intent: track_weight_changes
   examples: |
-    - Should I track my weight changes weekly?
+    - Tôi có nên theo dõi sự thay đổi cân nặng của mình hàng tuần không?
 
 - intent: progress_assessment
   examples: |
-    - How do I know if I'm making progress?
+    - Làm sao để biết liệu tôi có đang tiến bộ hay không?
 
 - intent: weightlifting_belt_purpose
   examples: |
-    - What's the purpose of a weightlifting belt?
+    - Mục đích của đai cử tạ là gì?
 
 - intent: dumbbell_gloves
   examples: |
-    - Should I wear gloves while using dumbbells?
+    - Có nên đeo găng tay khi tập tạ không?
 
 - intent: lifting_gloves
   examples: |
-    - What are alternatives to lifting gloves?
-    - Are lifting gloves helpful for grip?
-    - Do I need gloves for weightlifting?
+    - Các lựa chọn thay thế cho găng tay nâng là gì?
+    - Găng tay nâng có hữu ích cho việc cầm nắm không?
+    - Tôi có cần găng tay để tập tạ không?
 
 - intent: weightlifting_shoes
   examples: |
-    - What's the best footwear for cardio exercises?
-    - Are there specific shoes for weightlifting?
+    - Giày dép tốt nhất cho các bài tập tim mạch là gì?
+    - Có giày dành riêng cho cử tạ không?
 
 - intent: gym_shoes
   examples: |
-    - How do I choose gym-appropriate shoes?
-    - What shoes should I wear to the gym?
+    - Làm thế nào để chọn giày tập gym phù hợp?
+    - Nên mang giày gì khi tập gym?
 
 - intent: cutting_bulking
   examples: |
-    - Can you explain the concept of cutting and bulking?
+    - Bạn có thể giải thích khái niệm cắt và tạo khối không?
 
 - intent: tone_or_bulk
   examples: |
-    - How do I know if I need to tone or bulk?
-    - Should I focus on toning or bulking first?
+    - Làm thế nào để tôi biết liệu tôi có cần tăng âm hay số lượng lớn không?
+    - Tôi nên tập trung vào việc săn chắc da hay tăng cơ trước?
 
 - intent: toning_vs_bulking
   examples: |
-    - What's the difference between toning and bulking?
+    - Sự khác biệt giữa toning và Bulking là gì?
 
 - intent: core_exercises
   examples: |
-    - What are the most effective core exercises?
+    - Các bài tập cốt lõi hiệu quả nhất là gì?
 
 - intent: abs_through_diet
   examples: |
-    - Can I achieve visible abs through diet alone?
+    - Tôi có thể đạt được cơ bụng rõ ràng chỉ bằng chế độ ăn kiêng không?
 
 - intent: six_pack_abs
   examples: |
-    - How do I train my abs effectively?
-    - What's the best way to get a six-pack?
+    - Làm thế nào để tập cơ bụng hiệu quả?
+    - Cách tốt nhất để có được cơ bụng sáu múi là gì?
 
 - intent: target_weaker_muscles
   examples: |
@@ -172,7 +172,7 @@ nlu:
 
 - intent: unilateral_exercises
   examples: |
-    - Can unilateral exercises help with asymmetry?
+    - Các bài tập đơn phương có thể giúp giải quyết tình trạng bất đối xứng không?
 
 - intent: even_out_strength
   examples: |
@@ -180,19 +180,19 @@ nlu:
 
 - intent: fix_muscle_imbalance
   examples: |
-    - How do I fix muscle imbalances?
+    - Làm cách nào để khắc phục sự mất cân bằng cơ bắp?
 
 - intent: resistance_exercise_weight_loss
   examples: |
-    - What's the role of resistance exercises in losing weight?
+    - Vai trò của các bài tập sức đề kháng trong việc giảm cân là gì?
 
 - intent: weight_stuck
   examples: |
-    - Why is my weight stuck even with exercise?
+    - Tại sao cân nặng của tôi vẫn bị kẹt ngay cả khi tập thể dục?
 
 - intent: overcome_weight_loss_plateau
   examples: |
-    - What changes can I make to keep losing fat?
+    - Tôi có thể thực hiện những thay đổi nào để tiếp tục giảm mỡ?
     - How do I overcome a weight-loss plateau?
 
 - intent: stop_weight_loss
@@ -201,19 +201,19 @@ nlu:
 
 - intent: fats_in_fitness_diet
   examples: |
-    - What's the role of fats in a fitness diet?
+    - Vai trò của chất béo trong chế độ ăn uống tập thể dục là gì?
 
 - intent: carbs_for_workout
   examples: |
-    - Are carbs necessary for working out?
+    - Carb có cần thiết cho việc tập luyện không?
 
 - intent: high_protein_diet
   examples: |
-    - Should I follow a high-protein diet for fitness?
+    - Tôi có nên tuân theo chế độ ăn giàu protein để tập thể dục không?
 
 - intent: gym_goers_diet
   examples: |
-    - What's the best diet for gym-goers?
+    - Chế độ ăn uống tốt nhất cho người tập gym là gì?
 
 - intent: calories_muscle_building
   examples: |
@@ -225,54 +225,54 @@ nlu:
 
 - intent: calculate_calories
   examples: |
-    - Can you guide me on calorie counting?
-    - How do I calculate my calorie needs?
+    - Bạn có thể hướng dẫn mình cách tính lượng calo được không?
+    - Làm cách nào để tính toán nhu cầu calo của tôi?
 
 - intent: refuel_after_gym
   examples: |
-    - How do I refuel after the gym?
+    - Làm thế nào để nạp lại năng lượng sau khi tập gym?
 
 - intent: post_workout_protein
   examples: |
-    - Is protein necessary right after a workout?
+    - Protein có cần thiết ngay sau khi tập luyện không?
 
 - intent: post_workout_food
   examples: |
     - Can you recommend good post-exercise meals?
-    - What should I eat after a workout?
+    - Tôi nên ăn gì sau khi tập luyện?
 
 - intent: runner_training_plan
   examples: |
-    - What's the ideal training plan for runners?
+    - Kế hoạch tập luyện lý tưởng cho người chạy bộ là gì?
 
 - intent: running_strength_training
   examples: |
-    - Should I combine running with strength training?
+    - Có nên kết hợp chạy bộ với rèn luyện sức bền?
 
 - intent: marathon_training
   examples: |
-    - How do I prepare for a long-distance race?
+    - Làm thế nào để tôi chuẩn bị cho một cuộc đua đường dài?
     - What's the best way to train for a marathon?
 
 - intent: endurance_training
   examples: |
-    - Can lifting weights help with endurance?
+    - Nâng tạ có giúp tăng sức bền không?
     - How do I last longer during cardio sessions?
-    - How do I build endurance for long workouts?
+    - Làm cách nào để xây dựng sức bền cho các bài tập dài?
 
 - intent: combine_strength_hypertrophy
   examples: |
-    - Can I combine strength and hypertrophy in one routine?
+    - Tôi có thể kết hợp sức mạnh và phì đại trong một thói quen không?
 
 - intent: strength_vs_hypertrophy
   examples: |
-    - Should I prioritize strength or size?
-    - How does strength training compare to muscle growth workouts?
-    - What's the difference between strength and hypertrophy training?
+    - Tôi nên ưu tiên sức mạnh hay kích thước?
+    - Tập luyện sức mạnh so với tập luyện tăng trưởng cơ bắp như thế nào?
+    - Sự khác biệt giữa rèn luyện sức mạnh và phì đại là gì?
 
 - intent: strength_low_reps
   examples: |
-    - Should I focus on low reps for strength training?
+    - Tôi có nên tập trung vào số lần lặp lại thấp để rèn luyện sức mạnh không?
 
 - intent: strength_training
   examples: |
@@ -284,22 +284,22 @@ nlu:
 
 - intent: sleep_muscle_recovery
   examples: |
-    - How many hours of sleep do I need for recovery?
-    - Does lack of sleep affect gym performance?
-    - How important is sleep for muscle recovery?
+    - Tôi cần ngủ bao nhiêu giờ để phục hồi?
+    - Thiếu ngủ có ảnh hưởng đến hiệu suất tập gym không?
+    - Giấc ngủ quan trọng như thế nào đối với việc phục hồi cơ bắp?
 
 - intent: stop_exercise_pain
   examples: |
-    - Should I stop exercising if something hurts?
+    - Tôi có nên ngừng tập thể dục nếu có gì đó đau?
 
 - intent: poor_form_injuries
   examples: |
-    - Can poor form lead to injuries?
+    - Hình thức kém có thể dẫn đến chấn thương?
 
 - intent: post_workout_rest
   examples: |
-    - Can stretching reduce soreness?
-    - How long should I rest after a tough session?
+    - Kéo dài có thể làm giảm đau nhức?
+    - Tôi nên nghỉ ngơi bao lâu sau một buổi tập khó khăn?
 
 - intent: sore_muscles_treatment
   examples: |
@@ -307,23 +307,23 @@ nlu:
 
 - intent: back_arch_bench_press
   examples: |
-    - Should I arch my back during bench presses?
+    - Tôi có nên cong lưng khi ép ghế không?
 
 - intent: bench_press_shoulder_pain
   examples: |
-    - How do I avoid shoulder pain while bench pressing?
+    - Làm thế nào để tránh đau vai khi ép ghế?
 
 - intent: bench_press_strength
   examples: |
-    - What are tips for improving my bench press?
-    - How do I increase my bench press strength?
+    - Lời khuyên để cải thiện máy ép ghế của tôi là gì?
+    - Làm cách nào để tăng sức mạnh của Bench Press?
 
 - intent: deadlift_belt
   examples: |
     - Is a belt necessary for deadlifts?
-    - How do I properly wear a lifting belt?
-    - Should I use a belt for heavy lifting?
-    - Should I use a belt for deadlifts?
+    - Làm thế nào để đeo đai nâng đúng cách?
+    - Có nên sử dụng đai khi nâng vật nặng?
+    - Có nên dùng đai khi tập deadlift không?
 
 - intent: proper_deadlift
   examples: |
@@ -333,156 +333,156 @@ nlu:
 
 - intent: squat_mistakes
   examples: |
-    - How do I squat without hurting my knees?
-    - What are common mistakes when squatting?
+    - Làm thế nào để ngồi xổm mà không bị đau đầu gối?
+    - Những lỗi thường gặp khi squat là gì?
 
 - intent: proper_squat
   examples: |
-    - Can you explain the correct squat form?
-    - How do I perform a proper squat?
+    - Bạn có thể giải thích hình thức squat chính xác?
+    - Làm thế nào để thực hiện squat đúng cách?
 
 - intent: correct_slouching
   examples: |
-    - How do I correct slouching through workouts?
+    - Làm cách nào để khắc phục tình trạng thõng vai thông qua tập luyện?
 
 - intent: improve_posture
   examples: |
-    - Can poor posture affect my gym performance?
-    - What exercises help with better posture?
-    - How do I improve my posture?
+    - Tư thế xấu có thể ảnh hưởng đến hiệu suất tập thể dục của tôi không?
+    - Những bài tập nào giúp có tư thế tốt hơn?
+    - Làm thế nào để cải thiện tư thế của tôi?
 
 - intent: yoga_recovery
   examples: |
-    - Is yoga good for recovery days?
+    - Yoga có tốt cho những ngày phục hồi không?
 
 - intent: yoga_benefits
   examples: |
-    - Can yoga improve my lifting performance?
-    - What are the benefits of yoga for gym-goers?
-    - Should I include yoga in my workout routine?
+    - Yoga có thể cải thiện hiệu suất nâng của tôi không?
+    - Tập yoga mang lại lợi ích gì cho người tập gym?
+    - Tôi có nên đưa yoga vào thói quen tập luyện của mình không?
 
 - intent: improve_flexibility
   examples: |
-    - How do I get more flexible?
-    - Can you recommend stretches for tight muscles?
-    - How do I improve my range of motion?
-    - What are the best stretches for flexibility?
+    - Làm thế nào để tôi trở nên linh hoạt hơn?
+    - Bạn có thể giới thiệu các bài tập giãn cơ cho cơ bắp săn chắc không?
+    - Làm cách nào để cải thiện phạm vi chuyển động của tôi?
+    - Sự kéo dài tốt nhất cho sự linh hoạt là gì?
 
 - intent: mental_health_fitness_balance
   examples: |
-    - How do I balance mental health and fitness goals?
+    - Làm cách nào để cân bằng các mục tiêu về sức khỏe tinh thần và thể chất?
 
 - intent: tired_to_workout
   examples: |
-    - What should I do if I'm too tired to work out?
+    - Tôi nên làm gì nếu quá mệt mỏi để tập thể dục?
 
 - intent: exercise_while_down
   examples: |
-    - Can exercise help when I feel down?
+    - Tập thể dục có giúp ích được gì khi tôi cảm thấy chán nản không?
 
 - intent: motivation_during_struggles
   examples: |
-    - How do I stay motivated during mental health struggles?
+    - Làm thế nào để tôi duy trì động lực trong những cuộc đấu tranh về sức khỏe tâm thần?
 
 - intent: anxiety_relief_workouts
   examples: |
-    - What's the best way to use fitness to manage anxiety?
-    - Are there specific exercises to calm the mind?
-    - What are good workouts for anxiety relief?
+    - Cách tốt nhất để sử dụng thể dục để kiểm soát sự lo lắng là gì?
+    - Có bài tập cụ thể nào để tĩnh tâm không?
+    - Tập luyện tốt để giảm lo âu là gì?
 
 - intent: exercise_mood_boost
   examples: |
-    - Does regular exercise boost mood?
+    - Tập thể dục thường xuyên có làm tăng tâm trạng không?
 
 - intent: fitness_mental_wellbeing
   examples: |
-    - What's the connection between fitness and mental well-being?
+    - Mối liên hệ giữa thể dục và sức khỏe tinh thần là gì?
 
 - intent: exercise_mental_health
   examples: |
-    - Can working out help reduce stress?
-    - How does exercise improve mental health?
+    - Tập thể dục có thể giúp giảm căng thẳng?
+    - Tập thể dục cải thiện sức khỏe tinh thần như thế nào?
 
 - intent: importance_reracking
   examples: |
-    - Why is re-racking important in gyms?
+    - Tại sao việc tập lại lại quan trọng trong phòng gym?
 
 - intent: reracking_etiquette
   examples: |
-    - What's the proper etiquette for re-racking weights?
+    - Nghi thức thích hợp để cân lại trọng lượng là gì?
 
 - intent: weights_on_bar
   examples: |
-    - Is it rude to leave weights on the bar?
+    - Để tạ trên thanh có phải là bất lịch sự không?
 
 - intent: rerack_weights
   examples: |
-    - Should I re-rack weights after use?
+    - Tôi có nên treo lại tạ sau khi sử dụng không?
 
 - intent: share_gym_equipment
   examples: |
-    - What's the best way to share gym equipment?
+    - Cách tốt nhất để chia sẻ thiết bị tập thể dục là gì?
 
 - intent: work_in_equipment
   examples: |
-    - Can I work in with someone on the same machine?
+    - Tôi có thể làm việc với ai đó trên cùng một máy không?
 
 - intent: share_equipment
   examples: |
-    - How do I politely request to use a machine someone's using?
-    - Is it okay to ask someone to share equipment?
+    - Làm cách nào để lịch sự yêu cầu sử dụng máy của người khác?
+    - Có thể nhờ ai đó chia sẻ thiết bị không?
 
 - intent: wipe_down_machines
   examples: |
-    - Should I wipe down machines after using them?
+    - Tôi có nên lau chùi máy sau khi sử dụng không?
 
 - intent: clean_gym_equipment
   examples: |
-    - How do I sanitize equipment in the gym?
-    - Is cleaning gym equipment necessary?
-    - What's the proper way to clean gym equipment?
+    - Làm thế nào để vệ sinh thiết bị trong phòng tập thể dục?
+    - Vệ sinh dụng cụ tập gym có cần thiết không?
+    - Cách vệ sinh dụng cụ tập gym đúng cách là gì?
 
 - intent: overcome_gym_anxiety
   examples: |
-    - Can you help me feel more comfortable at the gym?
-    - How do I deal with self-consciousness while working out?
-    - What should I do if I feel intimidated at the gym?
+    - Bạn có thể giúp tôi cảm thấy thoải mái hơn khi tập gym không?
+    - Làm thế nào để đối phó với sự tự ti khi tập luyện?
+    - Tôi nên làm gì nếu cảm thấy sợ hãi khi tập gym?
     - How do I overcome gym anxiety?
 
 - intent: fitness_apps_tracking
   examples: |
-    - Can fitness apps help with tracking results?
-    - Are fitness apps useful for tracking progress?
+    - Ứng dụng thể dục có thể giúp theo dõi kết quả không?
+    - Các ứng dụng thể dục có hữu ích để theo dõi tiến trình không?
 
 - intent: workout_journal
   examples: |
     - Should I keep a journal of my gym sessions?
-    - Should I keep a workout journal?
+    - Tôi có nên ghi nhật ký tập luyện không?
 
 - intent: fitness_improvement
   examples: |
-    - How do I measure my fitness improvement?
+    - Làm cách nào để đo lường mức độ cải thiện thể chất của tôi?
 
 - intent: track_progress
   examples: |
-    - What's the best way to track my progress?
+    - Cách tốt nhất để theo dõi tiến trình của tôi là gì?
 
 - intent: workout_motivation
   examples: |
-    - Can you give me tips to stay consistent?
-    - How do I keep pushing myself to exercise?
+    - Bạn có thể cho tôi lời khuyên để luôn nhất quán không?
+    - Làm thế nào để tôi tiếp tục thúc đẩy bản thân tập thể dục?
     - What should I do if I lose motivation to go to the gym?
-    - How do I stay motivated to work out?
+    - Làm thế nào để tôi duy trì động lực tập luyện?
 
 - intent: improve_running_pace
   examples: |
-    - Can you suggest tips to boost running speed?
-    - How do I increase my pace for long-distance runs?
+    - Bạn có thể gợi ý mẹo để tăng tốc độ chạy không?
+    - Làm cách nào để tăng tốc độ khi chạy đường dài?
 
 - intent: running_speed
   examples: |
-    - What exercises can help me run faster?
-    - How do I improve my running speed?
+    - Những bài tập nào có thể giúp tôi chạy nhanh hơn?
+    - Làm cách nào để cải thiện tốc độ chạy của tôi?
 
 - intent: cardio_fat_burning
   examples: |
@@ -490,78 +490,78 @@ nlu:
 
 - intent: hiit_pros_cons
   examples: |
-    - What are the pros and cons of HIIT vs. steady-state?
+    - Ưu và nhược điểm của HIIT so với trạng thái ổn định là gì?
 
 - intent: hiit_vs_steady_state
   examples: |
-    - Should I do HIIT or long cardio sessions?
-    - What's the difference between HIIT and steady-state cardio?
+    - Tôi nên tập HIIT hay tập cardio kéo dài?
+    - Sự khác biệt giữa HIIT và cardio trạng thái ổn định là gì?
 
 - intent: cardio_alternatives
   examples: |
-    - Can you suggest alternatives to running for cardio?
+    - Bạn có thể đề xuất các lựa chọn thay thế cho việc chạy bộ tim mạch không?
 
 - intent: enjoyable_cardio
   examples: |
-    - What are fun ways to do cardio?
-    - How do I keep cardio interesting?
-    - How do I make cardio more enjoyable?
+    - Những cách thú vị để tập cardio là gì?
+    - Làm thế nào để tôi giữ cho tim mạch thú vị?
+    - Làm cách nào để khiến việc tập cardio trở nên thú vị hơn?
 
 - intent: supersets
   examples: |
-    - Should I try supersets for muscle definition?
-    - How do I pair exercises for supersets?
-    - Can supersets help me save time at the gym?
-    - What are supersets, and how do I perform them?
+    - Tôi có nên thử supersets để định hình cơ bắp không?
+    - Làm cách nào để kết hợp các bài tập cho supersets?
+    - Superset có thể giúp tôi tiết kiệm thời gian tập gym không?
+    - Superset là gì và làm cách nào để thực hiện chúng?
 
 - intent: drop_sets
   examples: |
-    - Should I add drop sets to my routine?
-    - How do drop sets work in strength training?
-    - Are drop sets effective for building muscle?
-    - Should I use drop sets for muscle growth?
+    - Tôi có nên thêm Drop Set vào thói quen của mình không?
+    - Drop sets hoạt động như thế nào trong việc rèn luyện sức mạnh?
+    - Drop sets có hiệu quả trong việc xây dựng cơ bắp không?
+    - Tôi có nên sử dụng Drop Set để phát triển cơ bắp không?
 
 - intent: increase_strength
   examples: |
-    - How can I lift heavier weights over time?
-    - How do I gradually lift heavier weights?
-    - How do I increase my strength?
+    - Làm thế nào tôi có thể nâng tạ nặng hơn theo thời gian?
+    - Làm thế nào để tôi nâng dần mức tạ nặng hơn?
+    - Làm cách nào để tăng sức mạnh của tôi?
     - How can I increase strength over time?
 
 - intent: importance_rest_days
   examples: |
-    - What happens if I skip rest days?
+    - Điều gì xảy ra nếu tôi bỏ qua ngày nghỉ?
     - Can I work out without taking breaks?
-    - How important are rest days for progress?
+    - Những ngày nghỉ ngơi quan trọng như thế nào đối với sự tiến bộ?
 
 - intent: injury_prevention
   examples: |
-    - Can you suggest injury prevention strategies?
-    - How do I avoid hurting myself during exercise?
-    - What are the best tips for safe workouts?
-    - What are the most common gym injuries and how to avoid them?
-    - How do I prevent gym injuries?
-    - How do I prevent injuries at the gym?
+    - Bạn có thể đề xuất các chiến lược phòng ngừa chấn thương không?
+    - Làm thế nào để tránh bị thương khi tập thể dục?
+    - Những lời khuyên tốt nhất để tập luyện an toàn là gì?
+    - Những chấn thương thường gặp nhất khi tập gym là gì và làm thế nào để tránh chúng?
+    - Làm thế nào để ngăn ngừa chấn thương khi tập gym?
+    - Làm thế nào để ngăn ngừa chấn thương khi tập gym?
 
 - intent: workout_recovery
   examples: |
     - Should I take supplements for recovery?
-    - How do I speed up recovery after exercise?
-    - What's the best way to deal with muscle soreness?
-    - What's the best way to recover after a workout?
-    - How do I recover from a tough workout?
+    - Làm cách nào để tăng tốc độ phục hồi sau khi tập thể dục?
+    - Cách tốt nhất để đối phó với đau nhức cơ bắp là gì?
+    - Cách tốt nhất để phục hồi sau khi tập luyện là gì?
+    - Làm thế nào để tôi phục hồi sau một buổi tập luyện vất vả?
 
 - intent: progressive_overload
   examples: |
-    - What's the principle of progressive overload?
-    - What is progressive overload, and how do I apply it?
-    - What's the best approach for progressive overload?
+    - Nguyên tắc quá tải lũy tiến là gì?
+    - Quá tải lũy tiến là gì và làm cách nào để áp dụng nó?
+    - Cách tiếp cận tốt nhất cho tình trạng quá tải lũy tiến là gì?
 
 - intent: train_to_failure
   examples: |
-    - How often should I push myself to my limits?
+    - Tôi nên đẩy bản thân đến giới hạn của mình thường xuyên như thế nào?
     - Is training to failure necessary for muscle growth?
-    - Should I train to failure every set?
+    - Tôi có nên tập đến thất bại mỗi hiệp không?
 
 - intent: reps_vs_weights
   examples: |
@@ -570,24 +570,24 @@ nlu:
 - intent: hypertrophy_reps_sets
   examples: |
     - How many sets are ideal for gaining mass?
-    - What's the optimal range of reps for muscle building?
-    - How many reps and sets should I do for hypertrophy?
+    - Phạm vi đại diện tối ưu để xây dựng cơ bắp là gì?
+    - Tôi nên tập bao nhiêu lần và hiệp để tăng cơ?
 
 - intent: build_muscle
   examples: |
-    - Can you recommend exercises for gaining muscle?
-    - How do I bulk up efficiently?
-    - What are the best tips for fast muscle growth?
+    - Bạn có thể giới thiệu các bài tập để tăng cơ bắp không?
+    - Làm cách nào để tăng số lượng lớn một cách hiệu quả?
+    - Lời khuyên tốt nhất để tăng trưởng cơ bắp nhanh chóng là gì?
     - How do I build muscle quickly?
 
 - intent: fat_loss_weightlifting
   examples: |
-    - Can I lose fat with just weightlifting?
+    - Tôi có thể giảm béo chỉ bằng cử tạ không?
 
 - intent: cardio_duration_weight_loss
   examples: |
-    - What's more effective for burning fat?
-    - How much cardio should I do to lose weight?
+    - Điều gì hiệu quả hơn để đốt cháy chất béo?
+    - Tôi nên tập cardio bao nhiêu để giảm cân?
 
 - intent: lose_midsection_fat
   examples: |
@@ -595,246 +595,255 @@ nlu:
 
 - intent: cardio_vs_weights
   examples: |
-    - Is lifting weights better than cardio for losing fat?
-    - Should I include strength training for fat loss?
-    - Can weight training help with weight loss?
-    - Should I prioritize cardio over weights for fat loss?
-    - What's better for fat loss: cardio or strength training?
-    - What's the ideal duration of cardio for weight loss?
-    - How long should my cardio sessions be for fat loss?
-    - Is cardio enough for weight loss?
+    - Nâng tạ có tốt hơn cardio để giảm mỡ không?
+    - Tôi có nên kết hợp tập luyện sức mạnh để giảm mỡ không?
+    - Tập tạ có thể giúp giảm cân?
+    - Tôi có nên ưu tiên tập cardio hơn tập tạ để giảm mỡ?
+    - Điều gì tốt hơn cho việc giảm béo: tập luyện tim mạch hay sức mạnh?
+    - Thời gian tập cardio lý tưởng để giảm cân là bao lâu?
+    - Tôi nên tập cardio trong bao lâu để giảm mỡ?
+    - Cardio có đủ để giảm cân không?
 
 - intent: burn_belly_fat
   examples: |
-    - What are the best exercises to reduce belly fat?
-    - Can you suggest workouts for fat loss?
-    - How do I burn belly fat?
+    - Các bài tập tốt nhất để giảm mỡ bụng là gì?
+    - Bạn có thể đề xuất các bài tập để giảm béo không?
+    - Làm thế nào để đốt cháy mỡ bụng?
 
 - intent: water_timing
   examples: |
-    - Should I drink water before, during, or after exercise?
+    - Nên uống nước trước, trong hay sau khi tập thể dục?
 
 - intent: water_intake_workout
   examples: |
-    - How do I stay hydrated while working out?
-    - What's the recommended water intake for exercising?
-    - How much water should I drink during a workout?
+    - Làm thế nào để tôi giữ nước trong khi tập thể dục?
+    - Lượng nước khuyến nghị cho việc tập thể dục là bao nhiêu?
+    - Tôi nên uống bao nhiêu nước trong khi tập luyện?
 
 - intent: protein_powder
   examples: |
-    - Should I include protein powder in my diet?
+    - Tôi có nên bổ sung bột protein vào chế độ ăn uống của mình không?
 
 - intent: protein_shakes
   examples: |
-    - Are protein shakes worth it for gym-goers?
-    - Are protein shakes necessary for muscle growth?
-    - Do I need protein shakes?
+    - Protein lắc có đáng cho người tập gym không?
+    - Protein lắc có cần thiết cho sự phát triển cơ bắp không?
+    - Tôi có cần lắc protein không?
 
 - intent: pre_workout_food
   examples: |
-    - What foods are ideal before exercising?
-    - Can you recommend a good pre-workout food?
-    - Should I eat before going to the gym?
-    - What should I eat before the gym?
+    - Những thực phẩm lý tưởng trước khi tập thể dục?
+    - Bạn có thể giới thiệu một loại thực phẩm tốt trước khi tập luyện không?
+    - Có nên ăn trước khi tập gym?
+    - Nên ăn gì trước khi tập gym?
 
 - intent: improve_stamina
   examples: |
-    - Can you recommend tips to increase my energy levels?
-    - What exercises can help boost endurance?
-    - What are good exercises to improve stamina?
-    - How do I train for better stamina?
-    - How do I improve my stamina?
+    - Bạn có thể giới thiệu các mẹo để tăng mức năng lượng của tôi không?
+    - Những bài tập nào có thể giúp tăng cường sức bền?
+    - Các bài tập tốt để cải thiện sức chịu đựng là gì?
+    - Làm thế nào để rèn luyện sức chịu đựng tốt hơn?
+    - Làm cách nào để cải thiện sức chịu đựng của tôi?
 
 - intent: beginner_gym_plan
   examples: |
-    - How should a newbie structure their workout?
-    - What exercises should a beginner do?
-    - Can you recommend a beginner-friendly gym class?
-    - Can you suggest a beginner-friendly gym plan?
+    - Người mới nên cấu trúc quá trình tập luyện của họ như thế nào?
+    - Người mới bắt đầu nên tập những bài tập nào?
+    - Bạn có thể giới thiệu một lớp thể dục thân thiện với người mới bắt đầu không?
+    - Bạn có thể đề xuất một kế hoạch tập thể dục thân thiện với người mới bắt đầu không?
 
 - intent: create_workout_plan
   examples: |
-    - What's the best workout routine for beginners?
-    - What's the best way to organize my gym sessions?
-    - How should I plan my weekly workouts?
-    - Can you help me design a workout routine?
-    - How do I create a workout plan?
+    - Thói quen tập luyện tốt nhất cho người mới bắt đầu là gì?
+    - Cách tốt nhất để tổ chức các buổi tập thể dục của tôi là gì?
+    - Tôi nên lập kế hoạch tập luyện hàng tuần như thế nào?
+    - Bạn có thể giúp tôi thiết kế một thói quen tập luyện?
+    - Làm cách nào để tạo một kế hoạch tập luyện?
 
 - intent: kettlebell_usage
   examples: |
-    - Can you show me kettlebell exercises?
-    - How do I lift kettlebells properly?
-    - What's the best way to work out with kettlebells?
-    - How do I use kettlebells?
+    - Bạn có thể chỉ cho tôi bài tập tạ tay được không?
+    - Làm thế nào để nâng tạ ấm đúng cách?
+    - Cách tốt nhất để tập luyện với tạ ấm là gì?
+    - Làm cách nào để sử dụng chuông ấm?
 
 - intent: dumbbell_usage
   examples: |
-    - Can you explain proper dumbbell usage?
-    - How do I lift dumbbells correctly?
-    - What's the right technique for dumbbell exercises?
-    - What's the proper way to use dumbbells?
+    - Bạn có thể giải thích cách sử dụng quả tạ đúng cách không?
+    - Làm thế nào để nâng tạ đúng cách?
+    - Kỹ thuật phù hợp cho các bài tập tạ là gì?
+    - Cách sử dụng tạ đúng cách là gì?
 
 - intent: adjust_weights
   examples: |
-    - Can you guide me on adjusting gym machines?
-    - How can I set the weight on gym equipment?
-    - How do I change the weights on a workout machine?
-    - How do I adjust weights on a machine?
+    - Bạn có thể hướng dẫn mình cách điều chỉnh máy tập gym được không?
+    - Làm cách nào tôi có thể đặt trọng lượng trên thiết bị tập thể dục?
+    - Làm cách nào để thay đổi trọng lượng trên máy tập luyện?
+    - Làm cách nào để điều chỉnh trọng lượng trên máy?
 
 - intent: treadmill_usage
   examples: |
-    - How do I safely use the treadmill?
-    - Can you explain how to run on a treadmill?
-    - What's the correct way to use a treadmill?
-    - How do I use the treadmill?
+    - Làm thế nào để sử dụng máy chạy bộ một cách an toàn?
+    - Bạn có thể giải thích cách chạy trên máy chạy bộ không?
+    - Cách chính xác để sử dụng máy chạy bộ là gì?
+    - Làm cách nào để sử dụng máy chạy bộ?
 
 - intent: warm_up
   examples: |
-    - What's the proper way to warm up?
-    - How do I prepare my body for a workout?
-    - What are the best warm-up exercises?
-    - How do I warm up before exercising?
+    - Cách thích hợp để làm ấm là gì?
+    - Làm thế nào để tôi chuẩn bị cơ thể cho việc tập luyện?
+    - Các bài tập khởi động tốt nhất là gì?
+    - Làm thế nào để khởi động trước khi tập thể dục?
 
 - intent: personal_trainer
   examples: |
-    - Should I consider a gym coach?
-    - Can I work out without a trainer?
-    - Is it worth hiring a personal trainer?
-    - Do I need a personal trainer?
+    - Tôi có nên xem xét một huấn luyện viên thể dục?
+    - Tôi có thể tập luyện mà không cần huấn luyện viên không?
+    - Có đáng để thuê một huấn luyện viên cá nhân?
+    - Tôi có cần huấn luyện viên cá nhân không?
 
 - intent: workout_time
   examples: |
-    - Is there an ideal time for workouts?
-    - Should I exercise in the morning or evening?
+    - Có thời gian lý tưởng để tập luyện không?
+    - Nên tập thể dục vào buổi sáng hay buổi tối?
 
 - intent: workout_frequency
   examples: |
-    - How often should I work out in a week?
-    - What's the recommended frequency for gym workouts?
+    - Tôi nên tập thể dục bao lâu một lần trong một tuần?
+    - Tần suất khuyến nghị cho việc tập gym là bao nhiêu?
 
 - intent: gym_frequency
   examples: |
-    - What's the best time to work out?
-    - When is the best time to go to the gym?
-    - How many times a week should I go to the gym?
+    - Thời gian tốt nhất để làm việc là gì?
+    - Khi nào là thời điểm tốt nhất để đi đến phòng tập thể dục?
+    - Tôi nên đến phòng tập thể dục bao nhiêu lần một tuần?
 
 - intent: gym_essentials
   examples: |
-    - How should I start my gym journey?
-    - What's the first thing to do at the gym as a beginner?
-    - I'm new to the gym, where should I begin?
-    - How do I get started at the gym?
-    - What should I carry when I go to the gym?
-    - What essentials should I pack for the gym?
-    - What do I need for a gym session?
-    - What should I bring to the gym?
+    - Tôi nên bắt đầu hành trình tập gym của mình như thế nào?
+    - Điều đầu tiên cần làm khi tập gym khi mới bắt đầu là gì?
+    - Tôi mới tập gym, tôi nên bắt đầu từ đâu?
+    - Làm thế nào để tôi bắt đầu ở phòng tập thể dục?
+    - Nên mang theo những gì khi đến phòng tập gym?
+    - Đi tập gym cần mang theo những vật dụng gì?
+    - Tôi cần gì cho một buổi tập gym?
+    - Tôi nên mang theo những gì đến phòng tập thể dục?
 
 - intent: greet
   examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
+    - Chào
+    - Xin chào
+    - CHÀO
+    - xin chào ở đó
+    - Chào buổi sáng
+    - Chào buổi tối
+    - đồng xu
+    - này này
+    - đi thôi
+    - này anh bạn
+    - Chào buổi sáng
+    - Chào buổi tối
     - good afternoon
 
 - intent: goodbye
   examples: |
     - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
+    - tạm biệt
+    - gặp bạn sau nhé
+    - Chúc ngủ ngon
+    - tạm biệt
+    - tạm biệt
     - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+    - hẹn gặp lại bạn
+    - tạm biệt
+    - gặp lại bạn sau
 
 - intent: affirm
   examples: |
-    - yes
+    - Đúng
     - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - thực vậy
+    - tất nhiên rồi
+    - điều đó nghe có vẻ tốt
+    - Chính xác
 
 - intent: deny
   examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - KHÔNG
+    - N
+    - không bao giờ
+    - Tôi không nghĩ vậy
+    - không thích điều đó
+    - không đời nào
+    - không thực sự
 
 - intent: mood_great
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - hoàn hảo
+    - Tuyệt
+    - tuyệt vời
+    - cảm giác như một vị vua
+    - tuyệt vời
+    - Tôi đang cảm thấy rất tốt
+    - tôi thật tuyệt
+    - tôi thật tuyệt vời
+    - Tôi sẽ cứu thế giới
+    - siêu hấp dẫn
+    - cực kỳ tốt
+    - quá hoàn hảo
+    - rất tốt
+    - thật hoàn hảo
 
 - intent: mood_unhappy
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
+    - ngày của tôi thật kinh khủng
+    - tôi buồn
+    - Tôi cảm thấy không khỏe lắm
+    - tôi thất vọng
+    - siêu buồn
+    - tôi rất buồn
+    - buồn
+    - rất buồn
+    - không vui
+    - không tốt
+    - không tốt lắm
+    - vô cùng buồn
+    - buồn quá
     - so sad
 
 - intent: recommend_muscle_group_exercise
-  examples: |
-    - I want to train my [chest](muscle_group)
-    - I want to train my [core](muscle_group)
-    - I want to train my [abs](muscle_group)
+  examples: |-
+    - Tôi muốn tập luyện [ngực](muscle_group) của mình
+    - Tôi muốn rèn luyện [cốt lõi](nhóm_cơ) của mình
+    - Tôi muốn rèn luyện [cơ bụng](muscle_group) của mình
     - I want to train my [leg](muscle_group)
-    - I want to train my [back](muscle_group)
-    - I want to train my [shoulder](muscle_group)
-    - Which exercise should I do to train my [chest](muscle_group)
-    - Which exercise should I do to train my [core](muscle_group)
-    - Which exercise should I do to train my [abs](muscle_group)
-    - Which exercise should I do to train my [leg](muscle_group)
-    - Which exercise should I do to train my [back](muscle_group)
-    - Which exercise should I do to train my [shoulder](muscle_group)
-    - What can I do to train my [chest](muscle_group)
-    - What can I do to train my [core](muscle_group)
+    - Tôi muốn rèn luyện [lưng](nhóm cơ) của mình
+    - Tôi muốn tập luyện [vai](nhóm cơ) của mình
+    - Tôi nên tập bài tập nào để rèn luyện [ngực](nhóm cơ)
+    - Tôi nên tập bài tập nào để rèn luyện [cốt lõi](nhóm cơ) của mình
+    - Tôi nên tập bài tập nào để rèn luyện [cơ bụng](nhóm cơ)
+    - Tôi nên tập bài tập nào để rèn luyện [chân](nhóm cơ) của mình
+    - Tôi nên tập bài tập nào để rèn luyện [lưng](nhóm cơ)
+    - Tôi nên tập bài tập nào để rèn luyện [vai](nhóm cơ)
+    - Tôi có thể làm gì để rèn luyện [ngực](nhóm cơ) của mình
+    - Tôi có thể làm gì để rèn luyện [cốt lõi](nhóm cơ) của mình
     - What can I do to train my [abs](muscle_group)
-    - What can I do to train my [leg](muscle_group)
+    - Tôi có thể làm gì để rèn luyện [chân](muscle_group) của mình
     - What can I do to train my [back](muscle_group)
-    - What can I do to train my [shoulder](muscle_group)
-    - What's a good exercise for my [chest](muscle_group)?
-    - What's a good exercise for my [core](muscle_group)?
-    - What's a good exercise for my [core](muscle_group)?
-    - What's a good exercise for my [abs](muscle_group)?
-    - What's a good exercise for my [leg](muscle_group)?
-    - What's a good exercise for my [back](muscle_group)?
-    - What's a good exercise for my [shoulder](muscle_group)?
+    - Tôi có thể làm gì để rèn luyện [vai](nhóm cơ) của mình
+    - Bài tập nào tốt cho [ngực](nhóm cơ) của tôi?
+    - Bài tập nào tốt cho [cốt lõi](nhóm cơ) của tôi?
+    - Bài tập nào tốt cho [cốt lõi](nhóm cơ) của tôi?
+    - Bài tập nào tốt cho [cơ bụng](nhóm cơ) của tôi?
+    - Bài tập nào tốt cho [chân](nhóm cơ) của tôi?
+    - Bài tập nào tốt cho [lưng](nhóm cơ) của tôi?
+    - Bài tập nào tốt cho [vai](nhóm cơ) của tôi?
+
+- intent: weightlifting_benefits
+  examples: |
+    - tập tạ có lợi ích gì
+    - nâng tạ có tác dụng gì
+    - tập tạ giúp ích gì cho cơ thể
+    - tại sao nên tập tạ
+    - lợi ích của việc tập tạ
+
