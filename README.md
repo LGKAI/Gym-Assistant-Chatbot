@@ -1,12 +1,12 @@
 # Gym Assistant Chatbot 🏋️‍♀️💪
 
-> Đồ án môn Giới thiệu ngành AI — Chatbot tư vấn hỗ trợ tập Gym (Hoàn toàn bằng Tiếng Việt)
+Đồ án Giới thiệu ngành AI
 
 Đây là một trợ lý ảo thông minh chuyên tư vấn về thể hình, dinh dưỡng, và phương pháp tập luyện. Chatbot được huấn luyện hoàn toàn bằng tiếng Việt và đi kèm với một giao diện Web hiện đại, đẹp mắt.
 
 ---
 
-## 🛠 Công nghệ & Kiến thức sử dụng
+## 🛠 Công nghệ và Kiến thức sử dụng
 
 Dự án áp dụng nhiều công nghệ từ xây dựng mô hình Học Máy (Machine Learning) đến Phát triển Web (Web Development):
 
