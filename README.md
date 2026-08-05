@@ -1,4 +1,4 @@
-# Gym Assistant Chatbot 🏋️‍♀️💪
+# Gym Assistant Chatbot
 
 Đồ án Giới thiệu ngành AI
 
