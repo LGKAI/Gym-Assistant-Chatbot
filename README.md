@@ -31,7 +31,6 @@ source/
 ├── README.md
 ├── requirements.txt
 ├── translate_bot.py        # Script tự động dịch dữ liệu NLU & Domain sang tiếng Việt
-├── fix_rules.py            # Script hỗ trợ chuẩn hóa cú pháp file rules.yml
 │
 ├── # ── Rasa (bắt buộc ở root) ──────────────────
 ├── config.yml              # Cấu hình Pipeline NLU và policies (Bộ não của Rasa)
