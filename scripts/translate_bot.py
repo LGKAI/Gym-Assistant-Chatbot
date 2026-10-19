@@ -16,12 +16,14 @@ def translate_text(text):
         print(f"Error translating: {text[:30]}... - {e}")
         return text
 
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+
 def translate_nlu():
     yaml = YAML()
     yaml.preserve_quotes = True
     yaml.width = 4096
     
-    nlu_path = 'data/nlu.yml'
+    nlu_path = os.path.join(PROJECT_ROOT, 'data', 'nlu.yml')
     if not os.path.exists(nlu_path):
         print(f"{nlu_path} not found.")
         return
@@ -58,7 +60,7 @@ def translate_domain():
     yaml.preserve_quotes = True
     yaml.width = 4096
     
-    domain_path = 'domain.yml'
+    domain_path = os.path.join(PROJECT_ROOT, 'domain.yml')
     if not os.path.exists(domain_path):
         print(f"{domain_path} not found.")
         return
